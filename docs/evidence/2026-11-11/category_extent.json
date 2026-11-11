@@ -1,0 +1,17 @@
+{
+  "retrieved_at_utc": "2026-11-11T21:26:11.864434+00:00",
+  "source_url": "https://data.edmonton.ca/resource/q7ua-agfg.json?%24select=count%28%2A%29+as+rows%2Ccount%28row_id%29+as+with_row_id%2Ccount%28distinct+row_id%29+as+distinct_row_ids%2Ccount%28neighbourhood_id%29+as+with_neighbourhood_id%2Ccount%28neighbourhood%29+as+with_neighbourhood_name%2Cmin%28date_created%29+as+earliest%2Cmax%28date_created%29+as+latest&%24where=service_category+%3D+%27Potholes%27",
+  "response_sha256": "97ce73fb0e886ff5ee253f2705ca2fb6c9856b258807a498320485a1b0bfe6cd",
+  "metadata_projection": false,
+  "data": [
+    {
+      "rows": "44762",
+      "with_row_id": "44762",
+      "distinct_row_ids": "44762",
+      "with_neighbourhood_id": "42890",
+      "with_neighbourhood_name": "42914",
+      "earliest": "2023-01-01T11:13:14.000",
+      "latest": "2026-11-10T22:21:18.000"
+    }
+  ]
+}

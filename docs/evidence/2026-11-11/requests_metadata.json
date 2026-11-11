@@ -1,0 +1,199 @@
+{
+  "retrieved_at_utc": "2026-11-11T21:26:08.363375+00:00",
+  "source_url": "https://data.edmonton.ca/api/views/q7ua-agfg.json",
+  "response_sha256": "639dfe896e6e16b2fefd0249b490e329a1fef2b4b99e17914a9f00c9431589c8",
+  "metadata_projection": true,
+  "data": {
+    "id": "q7ua-agfg",
+    "name": "311 Requests",
+    "description": "Listing of all requests raised to 311, details of each call/transaction and update on the status.\n\nThis is anonymized data intended for reporting on trends; if you have a specific reference number for which you would like to check the status, please see the \"check your status\" search box at https://www.edmonton.ca/programs_services/311-city-services.\n\nDue to the volume of data, this dataset contains 311 requests created within the current calendar year and the previous two calendar years.  In January of a given year it will contain 2 years and 1 month of requests; in December of that year it will contain 3 years of requests. For historical data please search for \"311 Requests (YEAR)\" where \"YEAR\" is a year value, e.g. 2018. These will exist for years that no longer exist in this dataset, i.e. \"current year minus three\" will be the greatest year value that has its own single-year dataset.",
+    "attribution": "City of Edmonton",
+    "license": {
+      "name": "See Terms of Use"
+    },
+    "licenseId": "SEE_TERMS_OF_USE",
+    "rowsUpdatedAt": 1794385805,
+    "viewLastModified": 1794385799,
+    "metadata": {
+      "custom_fields": {
+        "Time Frame": {
+          "Date Made Public": "Jan 24, 2018",
+          "Update Frequency": "X times per day",
+          "Period of Coverage": "From Jan 1, 2016 onward",
+          "Automated or Manual": "Automated"
+        },
+        "Spatial": {
+          "Coordinate System": "LL-WGS84"
+        },
+        "General Information": {
+          "Purpose": "To share 311 Ticket Information with the public and to use the data for some basic reporting for the public to refer to.",
+          "Internal or External": "Internally Sourced Data ",
+          "Primary Dataset or View": "Primary"
+        },
+        "Quality Indicators": {
+          "Duplicates Removed": "Yes",
+          "Verified for Accuracy": "Yes"
+        }
+      },
+      "rowIdentifier": 328424526
+    },
+    "columns": [
+      {
+        "fieldName": "row_id",
+        "name": "Row ID",
+        "dataTypeName": "text",
+        "description": "System generated value for each 311 request created in the system"
+      },
+      {
+        "fieldName": "date_closed",
+        "name": "Date Closed",
+        "dataTypeName": "calendar_date",
+        "description": "The date the appropriate City department has investigated the concern and identified steps to resolve your request. Action for resolving the issue may be dependent on priority and weather conditions or your issue has been closed due to lack of information including contact details."
+      },
+      {
+        "fieldName": "date_created",
+        "name": "Date Created",
+        "dataTypeName": "calendar_date",
+        "description": "The date the service request ticket was created "
+      },
+      {
+        "fieldName": "year",
+        "name": "Year",
+        "dataTypeName": "number",
+        "description": "The Year in which the 311 ticket was created."
+      },
+      {
+        "fieldName": "month_number",
+        "name": "Month Number",
+        "dataTypeName": "number",
+        "description": "The numeric Month in which the 311 ticket was created."
+      },
+      {
+        "fieldName": "month",
+        "name": "Month",
+        "dataTypeName": "text",
+        "description": "The Month in which the 311 ticket was created."
+      },
+      {
+        "fieldName": "request_status",
+        "name": "Request Status",
+        "dataTypeName": "text",
+        "description": "The stage at which your request is at, Open or Closed. "
+      },
+      {
+        "fieldName": "status_detail",
+        "name": "Status Detail",
+        "dataTypeName": "text",
+        "description": "Certain request types may include additional details describing the progress or action associated with the request. The state of progress the request is at. "
+      },
+      {
+        "fieldName": "service_category",
+        "name": "Service Category",
+        "dataTypeName": "text",
+        "description": "The type of action or service request."
+      },
+      {
+        "fieldName": "service_description",
+        "name": "Service Description",
+        "dataTypeName": "text",
+        "description": "Provides a general description of the service request. "
+      },
+      {
+        "fieldName": "interaction_channel",
+        "name": "Interaction Channel",
+        "dataTypeName": "text",
+        "description": "The channel or method in which the request was initiated"
+      },
+      {
+        "fieldName": "service_area",
+        "name": "Service Area",
+        "dataTypeName": "text",
+        "description": "The business area that is responsible for the service. "
+      },
+      {
+        "fieldName": "referral_type",
+        "name": "Referral Type",
+        "dataTypeName": "text",
+        "description": "The action associated with  how the request was handled either information provided or transferred to a business area. "
+      },
+      {
+        "fieldName": "neighbourhood_id",
+        "name": "Neighbourhood ID",
+        "dataTypeName": "number",
+        "description": "Unique number identifier given to Neighbourhoods throughout Edmonton"
+      },
+      {
+        "fieldName": "neighbourhood",
+        "name": "Neighbourhood",
+        "dataTypeName": "text",
+        "description": "The name given to a Neighbourhood"
+      },
+      {
+        "fieldName": "ward",
+        "name": "Ward",
+        "dataTypeName": "text",
+        "description": "A unique number give to a geographical area representing a electoral area"
+      },
+      {
+        "fieldName": "service_category_service_area",
+        "name": "Service Category (Service Area)",
+        "dataTypeName": "text",
+        "description": "A combination of Service Category and Service Area so visualizations can be created"
+      },
+      {
+        "fieldName": "service_area_service_category",
+        "name": "(Service Area) Service Category",
+        "dataTypeName": "text",
+        "description": "A combination of Service Area and Service Category so visualizations can be created"
+      },
+      {
+        "fieldName": "service_area_service_description",
+        "name": "(Service Area) Service Description",
+        "dataTypeName": "text",
+        "description": "A combination of Service Area and Service Description so visualizations can be created"
+      },
+      {
+        "fieldName": "nbhd_latitude",
+        "name": "Nbhd Latitude",
+        "dataTypeName": "number",
+        "description": "The latitude value for the centroid of the Neighbourbhood"
+      },
+      {
+        "fieldName": "nbhd_longitude",
+        "name": "Nbhd Longitude",
+        "dataTypeName": "number",
+        "description": "The longitude value for the centroid of the Neighbourhood"
+      },
+      {
+        "fieldName": "nbhd_location",
+        "name": "Nbhd Location",
+        "dataTypeName": "location",
+        "description": "The combination of latitude/longitude for the centroid of the Neighbourhood used for mapping purposes."
+      },
+      {
+        "fieldName": "ward_latitude",
+        "name": "Ward Latitude",
+        "dataTypeName": "number",
+        "description": "The latitude value for the centroid of the Ward"
+      },
+      {
+        "fieldName": "ward_longitude",
+        "name": "Ward Longitude",
+        "dataTypeName": "number",
+        "description": "The longitude value for the centroid of the Ward"
+      },
+      {
+        "fieldName": "ward_location",
+        "name": "Ward Location",
+        "dataTypeName": "location",
+        "description": "The combination of latitude/longitude for the centroid of the Ward used for mapping purposes."
+      },
+      {
+        "fieldName": "count",
+        "name": "Count",
+        "dataTypeName": "number",
+        "description": "A field created to do a sum function for charting purposes (Note: having this would be equivalent to doing a row count)."
+      }
+    ]
+  }
+}

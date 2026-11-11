@@ -1,0 +1,98 @@
+{
+  "retrieved_at_utc": "2026-11-11T21:26:34.077166+00:00",
+  "source_url": "https://data.edmonton.ca/resource/q7ua-agfg.json?%24select=date_extract_y%28date_created%29+as+year%2Cservice_description%2Ccount%28%2A%29+as+rows&%24where=%28service_category+%3D+%27Potholes%27+AND+service_description+IN+%28%27POTHOLE%3ARoad+Pothole%27%2C%27Road+Pothole%27%2C%27Pothole%3A+Arterial+Road%27%2C%27Pothole%3A+Residential+Road%27%2C%27Pothole%3A+Collector+Road%27%2C%27Pothole%3A+Industrial+Road%27%29%29+AND+date_created+%3E%3D+%272023-01-01T00%3A00%3A00%27+AND+date_created+%3C+%272026-01-01T00%3A00%3A00%27&%24group=year%2Cservice_description&%24order=year%2Cservice_description&%24limit=100",
+  "response_sha256": "2c22ed6503255fb6505f280141fd62b970047b92cb7c066f849395eb3da22704",
+  "metadata_projection": false,
+  "data": [
+    {
+      "year": "2023",
+      "service_description": "Pothole: Arterial Road",
+      "rows": "99"
+    },
+    {
+      "year": "2023",
+      "service_description": "Pothole: Collector Road",
+      "rows": "51"
+    },
+    {
+      "year": "2023",
+      "service_description": "Pothole: Industrial Road",
+      "rows": "17"
+    },
+    {
+      "year": "2023",
+      "service_description": "Pothole: Residential Road",
+      "rows": "157"
+    },
+    {
+      "year": "2023",
+      "service_description": "POTHOLE:Road Pothole",
+      "rows": "4561"
+    },
+    {
+      "year": "2023",
+      "service_description": "Road Pothole",
+      "rows": "1"
+    },
+    {
+      "year": "2024",
+      "service_description": "Pothole: Arterial Road",
+      "rows": "82"
+    },
+    {
+      "year": "2024",
+      "service_description": "Pothole: Collector Road",
+      "rows": "51"
+    },
+    {
+      "year": "2024",
+      "service_description": "Pothole: Industrial Road",
+      "rows": "16"
+    },
+    {
+      "year": "2024",
+      "service_description": "Pothole: Residential Road",
+      "rows": "110"
+    },
+    {
+      "year": "2024",
+      "service_description": "POTHOLE:Road Pothole",
+      "rows": "4326"
+    },
+    {
+      "year": "2024",
+      "service_description": "Road Pothole",
+      "rows": "20"
+    },
+    {
+      "year": "2025",
+      "service_description": "Pothole: Arterial Road",
+      "rows": "1172"
+    },
+    {
+      "year": "2025",
+      "service_description": "Pothole: Collector Road",
+      "rows": "346"
+    },
+    {
+      "year": "2025",
+      "service_description": "Pothole: Industrial Road",
+      "rows": "71"
+    },
+    {
+      "year": "2025",
+      "service_description": "Pothole: Residential Road",
+      "rows": "415"
+    },
+    {
+      "year": "2025",
+      "service_description": "POTHOLE:Road Pothole",
+      "rows": "11310"
+    },
+    {
+      "year": "2025",
+      "service_description": "Road Pothole",
+      "rows": "142"
+    }
+  ]
+}

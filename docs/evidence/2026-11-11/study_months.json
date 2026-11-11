@@ -1,0 +1,188 @@
+{
+  "retrieved_at_utc": "2026-11-11T21:26:12.459008+00:00",
+  "source_url": "https://data.edmonton.ca/resource/q7ua-agfg.json?%24select=date_trunc_ym%28date_created%29+as+month%2Ccount%28%2A%29+as+rows%2Ccount%28neighbourhood_id%29+as+with_neighbourhood_id&%24where=%28service_category+%3D+%27Potholes%27+AND+service_description+IN+%28%27POTHOLE%3ARoad+Pothole%27%2C%27Road+Pothole%27%2C%27Pothole%3A+Arterial+Road%27%2C%27Pothole%3A+Residential+Road%27%2C%27Pothole%3A+Collector+Road%27%2C%27Pothole%3A+Industrial+Road%27%29%29+AND+date_created+%3E%3D+%272023-01-01T00%3A00%3A00%27+AND+date_created+%3C+%272026-01-01T00%3A00%3A00%27&%24group=month&%24order=month&%24limit=100",
+  "response_sha256": "22c8eb42163a64914e69c18bf41f57d8bdcd428b5ae4af3877a9f9bf75e23a81",
+  "metadata_projection": false,
+  "data": [
+    {
+      "month": "2023-01-01T00:00:00.000",
+      "rows": "173",
+      "with_neighbourhood_id": "169"
+    },
+    {
+      "month": "2023-02-01T00:00:00.000",
+      "rows": "322",
+      "with_neighbourhood_id": "320"
+    },
+    {
+      "month": "2023-03-01T00:00:00.000",
+      "rows": "430",
+      "with_neighbourhood_id": "428"
+    },
+    {
+      "month": "2023-04-01T00:00:00.000",
+      "rows": "805",
+      "with_neighbourhood_id": "774"
+    },
+    {
+      "month": "2023-05-01T00:00:00.000",
+      "rows": "633",
+      "with_neighbourhood_id": "531"
+    },
+    {
+      "month": "2023-06-01T00:00:00.000",
+      "rows": "702",
+      "with_neighbourhood_id": "681"
+    },
+    {
+      "month": "2023-07-01T00:00:00.000",
+      "rows": "476",
+      "with_neighbourhood_id": "459"
+    },
+    {
+      "month": "2023-08-01T00:00:00.000",
+      "rows": "474",
+      "with_neighbourhood_id": "460"
+    },
+    {
+      "month": "2023-09-01T00:00:00.000",
+      "rows": "351",
+      "with_neighbourhood_id": "343"
+    },
+    {
+      "month": "2023-10-01T00:00:00.000",
+      "rows": "240",
+      "with_neighbourhood_id": "235"
+    },
+    {
+      "month": "2023-11-01T00:00:00.000",
+      "rows": "175",
+      "with_neighbourhood_id": "171"
+    },
+    {
+      "month": "2023-12-01T00:00:00.000",
+      "rows": "105",
+      "with_neighbourhood_id": "105"
+    },
+    {
+      "month": "2024-01-01T00:00:00.000",
+      "rows": "60",
+      "with_neighbourhood_id": "59"
+    },
+    {
+      "month": "2024-02-01T00:00:00.000",
+      "rows": "117",
+      "with_neighbourhood_id": "117"
+    },
+    {
+      "month": "2024-03-01T00:00:00.000",
+      "rows": "417",
+      "with_neighbourhood_id": "402"
+    },
+    {
+      "month": "2024-04-01T00:00:00.000",
+      "rows": "619",
+      "with_neighbourhood_id": "607"
+    },
+    {
+      "month": "2024-05-01T00:00:00.000",
+      "rows": "966",
+      "with_neighbourhood_id": "949"
+    },
+    {
+      "month": "2024-06-01T00:00:00.000",
+      "rows": "716",
+      "with_neighbourhood_id": "698"
+    },
+    {
+      "month": "2024-07-01T00:00:00.000",
+      "rows": "513",
+      "with_neighbourhood_id": "498"
+    },
+    {
+      "month": "2024-08-01T00:00:00.000",
+      "rows": "382",
+      "with_neighbourhood_id": "365"
+    },
+    {
+      "month": "2024-09-01T00:00:00.000",
+      "rows": "316",
+      "with_neighbourhood_id": "308"
+    },
+    {
+      "month": "2024-10-01T00:00:00.000",
+      "rows": "255",
+      "with_neighbourhood_id": "250"
+    },
+    {
+      "month": "2024-11-01T00:00:00.000",
+      "rows": "117",
+      "with_neighbourhood_id": "117"
+    },
+    {
+      "month": "2024-12-01T00:00:00.000",
+      "rows": "127",
+      "with_neighbourhood_id": "126"
+    },
+    {
+      "month": "2025-01-01T00:00:00.000",
+      "rows": "1173",
+      "with_neighbourhood_id": "1156"
+    },
+    {
+      "month": "2025-02-01T00:00:00.000",
+      "rows": "1595",
+      "with_neighbourhood_id": "1549"
+    },
+    {
+      "month": "2025-03-01T00:00:00.000",
+      "rows": "2793",
+      "with_neighbourhood_id": "2747"
+    },
+    {
+      "month": "2025-04-01T00:00:00.000",
+      "rows": "2819",
+      "with_neighbourhood_id": "2759"
+    },
+    {
+      "month": "2025-05-01T00:00:00.000",
+      "rows": "1464",
+      "with_neighbourhood_id": "1438"
+    },
+    {
+      "month": "2025-06-01T00:00:00.000",
+      "rows": "1053",
+      "with_neighbourhood_id": "1036"
+    },
+    {
+      "month": "2025-07-01T00:00:00.000",
+      "rows": "844",
+      "with_neighbourhood_id": "833"
+    },
+    {
+      "month": "2025-08-01T00:00:00.000",
+      "rows": "660",
+      "with_neighbourhood_id": "646"
+    },
+    {
+      "month": "2025-09-01T00:00:00.000",
+      "rows": "451",
+      "with_neighbourhood_id": "444"
+    },
+    {
+      "month": "2025-10-01T00:00:00.000",
+      "rows": "341",
+      "with_neighbourhood_id": "333"
+    },
+    {
+      "month": "2025-11-01T00:00:00.000",
+      "rows": "193",
+      "with_neighbourhood_id": "190"
+    },
+    {
+      "month": "2025-12-01T00:00:00.000",
+      "rows": "70",
+      "with_neighbourhood_id": "68"
+    }
+  ]
+}

@@ -1,0 +1,2043 @@
+{
+  "retrieved_at_utc": "2026-11-11T21:26:15.534518+00:00",
+  "source_url": "https://data.edmonton.ca/resource/65fr-66s6.json?%24select=neighbourhood_number%2Cname%2Ceffective_start_date%2Ceffective_end_date&%24order=neighbourhood_number&%24limit=1000",
+  "response_sha256": "0a2034f2501dd22ec0b00bc013b28b15cd1e0005f996b72898ca26810c167910",
+  "metadata_projection": false,
+  "data": [
+    {
+      "neighbourhood_number": "1010",
+      "name": "ALBERTA AVENUE",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "1020",
+      "name": "BOYLE STREET",
+      "effective_start_date": "1996-01-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "1030",
+      "name": "CENTRAL MCDOUGALL",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "1070",
+      "name": "CROMDALE",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "1080",
+      "name": "DELTON",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "1090",
+      "name": "DOWNTOWN",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "1100",
+      "name": "EASTWOOD",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "1111",
+      "name": "BLATCHFORD AREA",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "1120",
+      "name": "EDMONTON NORTHLANDS",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "1130",
+      "name": "ELMWOOD PARK",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "1140",
+      "name": "MCCAULEY",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "1151",
+      "name": "WÎHKWÊNTÔWIN",
+      "effective_start_date": "2024-10-30T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "1160",
+      "name": "PARKDALE",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "1170",
+      "name": "PRINCE RUPERT",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "1180",
+      "name": "QUEEN MARY PARK",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "1190",
+      "name": "RIVER VALLEY KINNAIRD",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "1200",
+      "name": "RIVER VALLEY VICTORIA",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "1210",
+      "name": "RIVERDALE",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "1220",
+      "name": "ROSSDALE",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "1230",
+      "name": "SPRUCE AVENUE",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "1240",
+      "name": "VIRGINIA PARK",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "1250",
+      "name": "WESTWOOD",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "1270",
+      "name": "YELLOWHEAD CORRIDOR EAST",
+      "effective_start_date": "2009-07-14T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "1280",
+      "name": "YELLOWHEAD CORRIDOR WEST",
+      "effective_start_date": "2009-07-14T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "2010",
+      "name": "ABBOTTSFIELD",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "2020",
+      "name": "BALWIN",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "2030",
+      "name": "BANNERMAN",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "2040",
+      "name": "BEACON HEIGHTS",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "2050",
+      "name": "BELLE RIVE",
+      "effective_start_date": "2002-08-29T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "2060",
+      "name": "BELLEVUE",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "2070",
+      "name": "BELMONT",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "2080",
+      "name": "BELVEDERE",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "2090",
+      "name": "BERGMAN",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "2100",
+      "name": "BEVERLY HEIGHTS",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "2110",
+      "name": "BRINTNELL",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "2120",
+      "name": "CANON RIDGE",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "2130",
+      "name": "CASSELMAN",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "2145",
+      "name": "CLAREVIEW TOWN CENTRE",
+      "effective_start_date": "2011-10-05T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "2160",
+      "name": "CLOVER BAR AREA",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "2230",
+      "name": "DELWOOD",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "2241",
+      "name": "EAUX CLAIRES",
+      "effective_start_date": "2002-08-29T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "2251",
+      "name": "EBBERS",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "2260",
+      "name": "EVANSDALE",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "2270",
+      "name": "EVERGREEN",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "2280",
+      "name": "FRASER",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "2290",
+      "name": "GLENGARRY",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "2311",
+      "name": "GORMAN",
+      "effective_start_date": "2011-07-18T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "2320",
+      "name": "HAIRSINE",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "2330",
+      "name": "HIGHLANDS",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "2340",
+      "name": "HOLLICK-KENYON",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "2350",
+      "name": "HOMESTEADER",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "2360",
+      "name": "INDUSTRIAL HEIGHTS",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "2380",
+      "name": "KENNEDALE INDUSTRIAL",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "2390",
+      "name": "KERNOHAN",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "2400",
+      "name": "KILDARE",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "2410",
+      "name": "KILKENNY",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "2420",
+      "name": "KILLARNEY",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "2430",
+      "name": "KIRKNESS",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "2440",
+      "name": "KLARVATTEN",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "2450",
+      "name": "LAGO LINDO",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "2462",
+      "name": "CRYSTALLINA NERA EAST",
+      "effective_start_date": "2012-10-09T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "2463",
+      "name": "CRYSTALLINA NERA WEST",
+      "effective_start_date": "2011-05-25T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "2500",
+      "name": "MATT BERRY",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "2511",
+      "name": "MAYLIEWAN",
+      "effective_start_date": "2002-09-26T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "2522",
+      "name": "MCCONACHIE",
+      "effective_start_date": "2006-07-20T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "2530",
+      "name": "MCLEOD",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "2541",
+      "name": "MILLER",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "2550",
+      "name": "MONTROSE",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "2560",
+      "name": "NEWTON",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "2580",
+      "name": "NORTHMOUNT",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "2590",
+      "name": "OVERLANDERS",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "2600",
+      "name": "OZERNA",
+      "effective_start_date": "2002-09-26T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "2611",
+      "name": "CY BECKER",
+      "effective_start_date": "2012-10-09T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "2630",
+      "name": "RIVER VALLEY HERMITAGE",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "2640",
+      "name": "RIVER VALLEY HIGHLANDS",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "2650",
+      "name": "RIVER VALLEY RUNDLE",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "2660",
+      "name": "RUNDLE HEIGHTS",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "2670",
+      "name": "RURAL NORTH EAST HORSE HILL",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "2671",
+      "name": "MARQUIS",
+      "effective_start_date": "2018-03-05T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "2681",
+      "name": "EDMONTON ENERGY AND TECHNOLOGY PARK",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "2690",
+      "name": "RURAL NORTH EAST SOUTH STURGEON",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "2692",
+      "name": "QUARRY RIDGE",
+      "effective_start_date": "2021-08-26T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "2700",
+      "name": "SCHONSEE",
+      "effective_start_date": "2007-10-02T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "2710",
+      "name": "SIFTON PARK",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "2720",
+      "name": "YORK",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "3010",
+      "name": "ATHLONE",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "3020",
+      "name": "BARANOW",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "3030",
+      "name": "BATURYN",
+      "effective_start_date": "2005-01-13T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "3040",
+      "name": "BEAUMARIS",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "3050",
+      "name": "BROWN INDUSTRIAL",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "3060",
+      "name": "CAERNARVON",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "3070",
+      "name": "CALDER",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "3080",
+      "name": "CANOSSA",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "3090",
+      "name": "CARLISLE",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "3111",
+      "name": "GRIESBACH",
+      "effective_start_date": "2004-06-02T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "3120",
+      "name": "CHAMBERY",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "3140",
+      "name": "CRESTWOOD",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "3150",
+      "name": "CUMBERLAND",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "3160",
+      "name": "DOMINION INDUSTRIAL",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "3170",
+      "name": "DOVERCOURT",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "3180",
+      "name": "DUNLUCE",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "3190",
+      "name": "ELSINORE",
+      "effective_start_date": "2005-07-11T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "3200",
+      "name": "GLENORA",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "3210",
+      "name": "GROVENOR",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "3220",
+      "name": "HAGMANN ESTATE INDUSTRIAL",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "3230",
+      "name": "HUFF BREMNER ESTATE INDUSTRIAL",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "3240",
+      "name": "INGLEWOOD",
+      "effective_start_date": "2003-12-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "3250",
+      "name": "KENSINGTON",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "3260",
+      "name": "LAUDERDALE",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "3270",
+      "name": "LAURIER HEIGHTS",
+      "effective_start_date": "2003-11-27T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "3280",
+      "name": "LORELEI",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "3290",
+      "name": "MCARTHUR INDUSTRIAL",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "3300",
+      "name": "MCQUEEN",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "3310",
+      "name": "NORTH GLENORA",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "3320",
+      "name": "OXFORD",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "3330",
+      "name": "PARKVIEW",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "3340",
+      "name": "PEMBINA",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "3350",
+      "name": "PRINCE CHARLES",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "3360",
+      "name": "RAMPART INDUSTRIAL",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "3370",
+      "name": "RAPPERSWILL",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "3380",
+      "name": "RIVER VALLEY CAPITOL HILL",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "3381",
+      "name": "RIVER VALLEY GLENORA",
+      "effective_start_date": "2010-02-19T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "3382",
+      "name": "RIVER VALLEY LAURIER",
+      "effective_start_date": "2010-02-19T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "3390",
+      "name": "ROSSLYN",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "3410",
+      "name": "SHERBROOKE",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "3430",
+      "name": "WELLINGTON",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "3440",
+      "name": "WESTMOUNT",
+      "effective_start_date": "2004-01-14T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "3450",
+      "name": "WOODCROFT",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "3460",
+      "name": "ALBANY",
+      "effective_start_date": "2011-06-13T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "3470",
+      "name": "CARLTON",
+      "effective_start_date": "2002-08-30T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "3480",
+      "name": "HUDSON",
+      "effective_start_date": "2003-02-12T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "3490",
+      "name": "GOODRIDGE CORNERS",
+      "effective_start_date": "2012-10-12T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "4010",
+      "name": "ALBERTA PARK INDUSTRIAL",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "4011",
+      "name": "ANTHONY HENDAY",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "4012",
+      "name": "ANTHONY HENDAY SOUTH WEST",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "4013",
+      "name": "ANTHONY HENDAY TERWILLEGAR",
+      "effective_start_date": "2007-07-19T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "4014",
+      "name": "ANTHONY HENDAY SOUTH",
+      "effective_start_date": "2007-07-19T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "4015",
+      "name": "ANTHONY HENDAY MISTATIM",
+      "effective_start_date": "2010-02-19T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "4016",
+      "name": "ANTHONY HENDAY CASTLEDOWNS",
+      "effective_start_date": "2010-02-19T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "4017",
+      "name": "ANTHONY HENDAY LAKE DISTRICT",
+      "effective_start_date": "2010-02-19T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "4018",
+      "name": "ANTHONY HENDAY BIG LAKE",
+      "effective_start_date": "2012-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "4019",
+      "name": "ANTHONY HENDAY ENERGY PARK",
+      "effective_start_date": "2012-10-10T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "4020",
+      "name": "ALDERGROVE",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "4021",
+      "name": "ANTHONY HENDAY HORSE HILL",
+      "effective_start_date": "2012-10-11T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "4022",
+      "name": "ANTHONY HENDAY CLAREVIEW",
+      "effective_start_date": "2012-10-12T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "4023",
+      "name": "ANTHONY HENDAY RAMPART",
+      "effective_start_date": "2012-11-02T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "4024",
+      "name": "ANTHONY HENDAY SOUTH BLACKBURNE",
+      "effective_start_date": "2018-01-04T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "4030",
+      "name": "ARMSTRONG INDUSTRIAL",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "4040",
+      "name": "BELMEAD",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "4050",
+      "name": "BONAVENTURE INDUSTRIAL",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "4060",
+      "name": "BRITANNIA YOUNGSTOWN",
+      "effective_start_date": "1996-01-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "4070",
+      "name": "CALLINGWOOD NORTH",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "4080",
+      "name": "CALLINGWOOD SOUTH",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "4090",
+      "name": "CANORA",
+      "effective_start_date": "2004-04-14T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "4100",
+      "name": "CARLETON SQUARE INDUSTRIAL",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "4110",
+      "name": "DECHENE",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "4120",
+      "name": "DONSDALE",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "4130",
+      "name": "EDMISTON INDUSTRIAL",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "4140",
+      "name": "ELMWOOD",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "4150",
+      "name": "GAGNON ESTATE INDUSTRIAL",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "4160",
+      "name": "GARIEPY",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "4170",
+      "name": "GARSIDE INDUSTRIAL",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "4180",
+      "name": "GLENWOOD",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "4190",
+      "name": "HAWIN PARK ESTATE INDUSTRIAL",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "4200",
+      "name": "HIGH PARK",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "4210",
+      "name": "HIGH PARK INDUSTRIAL",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "4220",
+      "name": "JAMIESON PLACE",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "4230",
+      "name": "JASPER PARK",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "4240",
+      "name": "LA PERLE",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "4260",
+      "name": "LEWIS FARMS",
+      "effective_start_date": "2026-01-15T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "4261",
+      "name": "LEWIS FARMS BUSINESS EMPLOYMENT",
+      "effective_start_date": "2026-01-15T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "4270",
+      "name": "LYMBURN",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "4280",
+      "name": "LYNNWOOD",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "4290",
+      "name": "MAYFIELD",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "4300",
+      "name": "MCNAMARA INDUSTRIAL",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "4310",
+      "name": "MEADOWLARK PARK",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "4320",
+      "name": "MISTATIM INDUSTRIAL",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "4330",
+      "name": "MITCHELL INDUSTRIAL",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "4340",
+      "name": "MORIN INDUSTRIAL",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "4350",
+      "name": "NORWESTER INDUSTRIAL",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "4360",
+      "name": "OLESKIW",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "4380",
+      "name": "ORMSBY PLACE",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "4390",
+      "name": "PATRICIA HEIGHTS",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "4400",
+      "name": "PLACE LARUE",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "4410",
+      "name": "POUNDMAKER INDUSTRIAL",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "4420",
+      "name": "QUESNELL HEIGHTS",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "4430",
+      "name": "RIO TERRACE",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "4440",
+      "name": "RIVER VALLEY LESSARD NORTH",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "4451",
+      "name": "RIVER VALLEY OLESKIW",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "4461",
+      "name": "THE HAMPTONS",
+      "effective_start_date": "2001-12-13T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "4462",
+      "name": "EDGEMONT",
+      "effective_start_date": "2012-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "4463",
+      "name": "RIVERVIEW AREA",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "4464",
+      "name": "THE UPLANDS",
+      "effective_start_date": "2016-06-21T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "4466",
+      "name": "CAMERON HEIGHTS",
+      "effective_start_date": "2003-09-16T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "4467",
+      "name": "RIVER VALLEY CAMERON",
+      "effective_start_date": "2006-01-09T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "4468",
+      "name": "STILLWATER",
+      "effective_start_date": "2017-10-25T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "4469",
+      "name": "RIVER'S EDGE",
+      "effective_start_date": "2016-06-23T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "4471",
+      "name": "TRUMPETER AREA",
+      "effective_start_date": "2011-05-25T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "4473",
+      "name": "HAWKS RIDGE",
+      "effective_start_date": "2011-05-25T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "4474",
+      "name": "STARLING",
+      "effective_start_date": "2012-09-28T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "4475",
+      "name": "KINOKAMAU PLAINS AREA",
+      "effective_start_date": "2006-07-24T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "4477",
+      "name": "KINGLET GARDENS",
+      "effective_start_date": "2017-09-13T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "4478",
+      "name": "PINTAIL LANDING",
+      "effective_start_date": "2019-10-08T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "4486",
+      "name": "STEWART GREENS",
+      "effective_start_date": "2007-10-02T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "4487",
+      "name": "SECORD",
+      "effective_start_date": "2007-11-06T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "4490",
+      "name": "SHEFFIELD INDUSTRIAL",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "4500",
+      "name": "SHERWOOD",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "4510",
+      "name": "STONE INDUSTRIAL",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "4520",
+      "name": "SUMMERLEA",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "4530",
+      "name": "SUNWAPTA INDUSTRIAL",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "4540",
+      "name": "TERRA LOSA",
+      "effective_start_date": "2005-04-26T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "4551",
+      "name": "GRANVILLE",
+      "effective_start_date": "2007-10-02T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "4560",
+      "name": "THORNCLIFF",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "4570",
+      "name": "WEDGEWOOD HEIGHTS",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "4580",
+      "name": "WEST JASPER PLACE",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "4590",
+      "name": "WEST MEADOWLARK PARK",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "4600",
+      "name": "WEST SHEFFIELD INDUSTRIAL",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "4610",
+      "name": "WESTRIDGE",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "4620",
+      "name": "WESTVIEW VILLAGE",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "4630",
+      "name": "WHITE INDUSTRIAL",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "4640",
+      "name": "WILSON INDUSTRIAL",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "4650",
+      "name": "WINTERBURN INDUSTRIAL AREA EAST",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "4660",
+      "name": "YOUNGSTOWN INDUSTRIAL",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "4670",
+      "name": "WINTERBURN INDUSTRIAL AREA WEST",
+      "effective_start_date": "2006-01-05T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "4700",
+      "name": "BRECKENRIDGE GREENS",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "4710",
+      "name": "POTTER GREENS",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "4720",
+      "name": "GLASTONBURY",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "4730",
+      "name": "SUDER GREENS",
+      "effective_start_date": "2005-05-02T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "4740",
+      "name": "WEBBER GREENS",
+      "effective_start_date": "2007-11-06T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "4750",
+      "name": "ROSENTHAL",
+      "effective_start_date": "2012-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "5010",
+      "name": "ALLENDALE",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "5020",
+      "name": "ASPEN GARDENS",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "5030",
+      "name": "BEARSPAW",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "5040",
+      "name": "BELGRAVIA",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "5050",
+      "name": "BLACKMUD CREEK RAVINE",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "5060",
+      "name": "BLUE QUILL",
+      "effective_start_date": "2005-06-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "5070",
+      "name": "BLUE QUILL ESTATES",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "5080",
+      "name": "BRANDER GARDENS",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "5090",
+      "name": "BROOKSIDE",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "5100",
+      "name": "BULYEA HEIGHTS",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "5110",
+      "name": "CALGARY TRAIL NORTH",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "5120",
+      "name": "CALGARY TRAIL SOUTH",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "5130",
+      "name": "CARTER CREST",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "5151",
+      "name": "STRATHCONA JUNCTION",
+      "effective_start_date": "2012-10-09T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "5160",
+      "name": "DUGGAN",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "5170",
+      "name": "EMPIRE PARK",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "5180",
+      "name": "ERMINESKIN",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "5190",
+      "name": "FALCONER HEIGHTS",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "5200",
+      "name": "GARNEAU",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "5210",
+      "name": "GRANDVIEW HEIGHTS",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "5220",
+      "name": "GREENFIELD",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "5230",
+      "name": "HENDERSON ESTATES",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "5250",
+      "name": "KEHEEWIN",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "5260",
+      "name": "LANSDOWNE",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "5270",
+      "name": "LENDRUM PLACE",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "5280",
+      "name": "MALMO PLAINS",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "5290",
+      "name": "MCKERNAN",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "5300",
+      "name": "OGILVIE RIDGE",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "5310",
+      "name": "PARKALLEN",
+      "effective_start_date": "2003-05-29T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "5320",
+      "name": "PLEASANTVIEW",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "5330",
+      "name": "QUEEN ALEXANDRA",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "5340",
+      "name": "RAMSAY HEIGHTS",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "5350",
+      "name": "RHATIGAN RIDGE",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "5360",
+      "name": "RIDEAU PARK",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "5370",
+      "name": "RIVER VALLEY MAYFAIR",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "5380",
+      "name": "RIVER VALLEY TERWILLEGAR",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "5390",
+      "name": "RIVER VALLEY WALTERDALE",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "5400",
+      "name": "RIVER VALLEY WHITEMUD",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "5401",
+      "name": "RIVER VALLEY FORT EDMONTON",
+      "effective_start_date": "2010-02-19T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "5405",
+      "name": "RIVER VALLEY WINDERMERE",
+      "effective_start_date": "2007-07-19T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "5430",
+      "name": "ROYAL GARDENS",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "5451",
+      "name": "RICHFORD",
+      "effective_start_date": "2001-01-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "5452",
+      "name": "MACEWAN",
+      "effective_start_date": "2002-09-26T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "5453",
+      "name": "BLACKMUD CREEK",
+      "effective_start_date": "2000-01-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "5454",
+      "name": "RUTHERFORD",
+      "effective_start_date": "2002-09-26T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "5456",
+      "name": "HERITAGE VALLEY AREA",
+      "effective_start_date": "2007-06-19T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "5457",
+      "name": "CALLAGHAN",
+      "effective_start_date": "2007-11-07T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "5458",
+      "name": "ALLARD",
+      "effective_start_date": "2011-07-18T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "5460",
+      "name": "SKYRATTLER",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "5463",
+      "name": "DESROCHERS AREA",
+      "effective_start_date": "2011-07-18T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "5465",
+      "name": "HAYS RIDGE AREA",
+      "effective_start_date": "2012-10-03T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "5466",
+      "name": "CASHMAN",
+      "effective_start_date": "2012-10-09T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "5467",
+      "name": "CAVANAGH",
+      "effective_start_date": "2011-07-18T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "5468",
+      "name": "GRAYDON HILL",
+      "effective_start_date": "2014-04-29T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "5469",
+      "name": "PAISLEY",
+      "effective_start_date": "2014-04-29T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "5470",
+      "name": "STEINHAUER",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "5471",
+      "name": "CHAPPELLE",
+      "effective_start_date": "2011-07-18T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "5472",
+      "name": "HERITAGE VALLEY TOWN CENTRE",
+      "effective_start_date": "2011-07-18T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "5476",
+      "name": "MAGRATH HEIGHTS",
+      "effective_start_date": "2005-06-03T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "5477",
+      "name": "MACTAGGART",
+      "effective_start_date": "2005-06-03T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "5480",
+      "name": "STRATHCONA",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "5490",
+      "name": "SWEET GRASS",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "5505",
+      "name": "AMBLESIDE",
+      "effective_start_date": "2007-07-19T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "5511",
+      "name": "TWIN BROOKS",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "5520",
+      "name": "UNIVERSITY OF ALBERTA",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "5530",
+      "name": "UNIVERSITY OF ALBERTA FARM",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "5540",
+      "name": "WESTBROOK ESTATES",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "5550",
+      "name": "WHITEMUD CREEK RAVINE NORTH",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "5560",
+      "name": "WHITEMUD CREEK RAVINE SOUTH",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "5565",
+      "name": "WHITEMUD CREEK RAVINE TWIN BROOKS",
+      "effective_start_date": "2009-01-15T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "5570",
+      "name": "WINDERMERE",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "5571",
+      "name": "RIVER VALLEY KENDAL",
+      "effective_start_date": "2025-04-28T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "5572",
+      "name": "RIVER VALLEY KESWICK",
+      "effective_start_date": "2025-04-28T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "5573",
+      "name": "KENDAL",
+      "effective_start_date": "2025-04-28T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "5574",
+      "name": "KESWICK",
+      "effective_start_date": "2012-10-02T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "5578",
+      "name": "GLENRIDDING HEIGHTS",
+      "effective_start_date": "2017-09-13T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "5579",
+      "name": "GLENRIDDING RAVINE",
+      "effective_start_date": "2012-10-03T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "5580",
+      "name": "WINDSOR PARK",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "5590",
+      "name": "BLACKBURNE",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "5610",
+      "name": "HADDOW",
+      "effective_start_date": "2003-06-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "5620",
+      "name": "HODGSON",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "5630",
+      "name": "LEGER",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "5640",
+      "name": "TERWILLEGAR TOWNE",
+      "effective_start_date": "1998-01-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "5642",
+      "name": "SOUTH TERWILLEGAR",
+      "effective_start_date": "2012-06-27T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "6010",
+      "name": "ARGYLL",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "6020",
+      "name": "AVONMORE",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "6030",
+      "name": "BISSET",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "6040",
+      "name": "BONNIE DOON",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "6061",
+      "name": "CAPILANO",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "6070",
+      "name": "CLOVERDALE",
+      "effective_start_date": "2003-07-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "6090",
+      "name": "CORONET ADDITION INDUSTRIAL",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "6100",
+      "name": "CORONET INDUSTRIAL",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "6110",
+      "name": "CPR IRVINE",
+      "effective_start_date": "2004-01-16T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "6140",
+      "name": "CRAWFORD PLAINS",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "6150",
+      "name": "DALY GROVE",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "6160",
+      "name": "DAVIES INDUSTRIAL EAST",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "6170",
+      "name": "DAVIES INDUSTRIAL WEST",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "6180",
+      "name": "EASTGATE BUSINESS PARK",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "6190",
+      "name": "EDMONTON RESEARCH AND DEVELOPMENT PARK",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "6195",
+      "name": "SOUTH EDMONTON COMMON",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "6200",
+      "name": "EKOTA",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "6211",
+      "name": "ELLERSLIE",
+      "effective_start_date": "2003-07-04T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "6213",
+      "name": "SUMMERSIDE",
+      "effective_start_date": "2000-01-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "6214",
+      "name": "ELLERSLIE INDUSTRIAL",
+      "effective_start_date": "2008-05-12T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "6216",
+      "name": "THE ORCHARDS AT ELLERSLIE",
+      "effective_start_date": "2008-05-12T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "6230",
+      "name": "FOREST HEIGHTS",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "6240",
+      "name": "FULTON PLACE",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "6250",
+      "name": "GAINER INDUSTRIAL",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "6260",
+      "name": "GIRARD INDUSTRIAL",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "6270",
+      "name": "GOLD BAR",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "6280",
+      "name": "GREENVIEW",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "6290",
+      "name": "HAZELDEAN",
+      "effective_start_date": "2004-01-14T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "6300",
+      "name": "HILLVIEW",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "6310",
+      "name": "HOLYROOD",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "6320",
+      "name": "IDYLWYLDE",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "6330",
+      "name": "JACKSON HEIGHTS",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "6340",
+      "name": "KAMEYOSEK",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "6350",
+      "name": "KENILWORTH",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "6360",
+      "name": "KING EDWARD PARK",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "6370",
+      "name": "KINISKI GARDENS",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "6380",
+      "name": "LAMBTON INDUSTRIAL",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "6390",
+      "name": "LARKSPUR",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "6400",
+      "name": "LEE RIDGE",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "6410",
+      "name": "MAPLE RIDGE",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "6420",
+      "name": "MAPLE RIDGE INDUSTRIAL",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "6430",
+      "name": "MCINTYRE INDUSTRIAL",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "6441",
+      "name": "MAPLE",
+      "effective_start_date": "2011-05-11T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "6442",
+      "name": "SILVER BERRY",
+      "effective_start_date": "2001-12-13T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "6443",
+      "name": "TAMARACK",
+      "effective_start_date": "2007-09-10T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "6444",
+      "name": "LAUREL",
+      "effective_start_date": "2011-05-11T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "6445",
+      "name": "ASTER",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "6450",
+      "name": "MENISA",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "6460",
+      "name": "MEYOKUMIN",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "6470",
+      "name": "MEYONOHK",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "6480",
+      "name": "MICHAELS PARK",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "6491",
+      "name": "MILL CREEK RAVINE NORTH",
+      "effective_start_date": "2010-02-19T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "6492",
+      "name": "MILL CREEK RAVINE SOUTH",
+      "effective_start_date": "2010-02-19T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "6500",
+      "name": "MILL WOODS GOLF COURSE",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "6510",
+      "name": "MILL WOODS PARK",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "6520",
+      "name": "MILL WOODS TOWN CENTRE",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "6530",
+      "name": "MINCHAU",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "6540",
+      "name": "MORRIS INDUSTRIAL",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "6550",
+      "name": "OTTEWELL",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "6560",
+      "name": "PAPASCHASE INDUSTRIAL",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "6570",
+      "name": "PARSONS INDUSTRIAL",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "6580",
+      "name": "POLLARD MEADOWS",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "6590",
+      "name": "PYLYPOW INDUSTRIAL",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "6600",
+      "name": "RICHFIELD",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "6610",
+      "name": "RITCHIE",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "6620",
+      "name": "RIVER VALLEY GOLD BAR",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "6630",
+      "name": "RIVER VALLEY RIVERSIDE",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "6640",
+      "name": "ROPER INDUSTRIAL",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "6650",
+      "name": "ROSEDALE INDUSTRIAL",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "6661",
+      "name": "CHARLESWORTH",
+      "effective_start_date": "2007-10-02T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "6662",
+      "name": "WALKER",
+      "effective_start_date": "2007-10-02T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "6663",
+      "name": "DECOTEAU",
+      "effective_start_date": "2016-06-16T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "6665",
+      "name": "ANTHONY HENDAY SOUTH EAST",
+      "effective_start_date": "2006-07-19T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "6667",
+      "name": "MATTSON",
+      "effective_start_date": "2019-10-21T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "6668",
+      "name": "MELTWATER",
+      "effective_start_date": "2021-02-23T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "6669",
+      "name": "ALCES",
+      "effective_start_date": "2019-07-25T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "6670",
+      "name": "SAKAW",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "6680",
+      "name": "SATOO",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "6690",
+      "name": "SOUTHEAST INDUSTRIAL",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "6700",
+      "name": "STRATHCONA INDUSTRIAL PARK",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "6710",
+      "name": "STRATHEARN",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "6720",
+      "name": "TAWA",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "6730",
+      "name": "TERRACE HEIGHTS",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "6750",
+      "name": "TIPASKAN",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "6760",
+      "name": "TWEDDLE PLACE",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "6770",
+      "name": "WEINLOS",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "6780",
+      "name": "WEIR INDUSTRIAL",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "6790",
+      "name": "WILD ROSE",
+      "effective_start_date": "1981-10-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "8885",
+      "name": "EDMONTON SOUTH CENTRAL EAST",
+      "effective_start_date": "2020-06-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "8886",
+      "name": "EDMONTON SOUTH EAST",
+      "effective_start_date": "2019-01-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "8887",
+      "name": "EDMONTON SOUTH CENTRAL",
+      "effective_start_date": "2018-01-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "8888",
+      "name": "EDMONTON SOUTH WEST",
+      "effective_start_date": "2019-01-01T00:00:00.000"
+    },
+    {
+      "neighbourhood_number": "8889",
+      "name": "CROSSROADS",
+      "effective_start_date": "2012-05-14T00:00:00.000"
+    }
+  ]
+}

@@ -6,7 +6,7 @@ DataBridge is a proposed interdisciplinary student organization at the **Univers
 
 Our goal is to give students experience with the full project lifecycle: defining a problem, working with data, evaluating results, and communicating findings clearly.
 
-> **Current status:** DataBridge is in development and has not yet received official student group recognition. Our first pilot project is in the planning stage. No datasets have been collected or analyzed, and no research findings or model performance results are available.
+> **Current status:** DataBridge is in development and has not yet received official student group recognition. Our first pilot project is in the planning stage. Preliminary metadata, a small sample, and source-quality aggregates have been inspected; the full study dataset has not been assembled, and no neighbourhood research findings or model performance results are available.
 
 ## What we do
 
@@ -24,6 +24,8 @@ Our first pilot belongs to **Independent Research**. External partnerships are a
 **Research area:** Spatial data analysis and urban infrastructure  
 **Status:** Planning; geographic data coverage must be verified  
 **Estimated duration:** 5–6 weeks from project kickoff
+
+Working drafts are available for the [research question and scope](docs/research-proposal.md), [data feasibility](docs/data-feasibility.md), and [analysis plan](docs/analysis-plan.md). They propose a 2023–2025 monthly study and require team review, literature and study-design input, and resolution of source-quality questions before finalization.
 
 We plan to investigate which Edmonton neighbourhoods tend to have the most pothole reports and whether these spatial patterns persist across seasons and years. The intended outputs are neighbourhood hotspot maps, comparisons of reporting levels, and an analysis of associated factors over a defined historical study period.
 
@@ -65,7 +67,7 @@ These are hypotheses to test, not established findings. The proposal will define
 | [Environment and Climate Change Canada — Historical Climate Data](https://climate.weather.gc.ca/) | Assess temperature and precipitation as optional variables for seasonal and temporal context. |
 | [City of Edmonton — Daily Weather Data](https://data.edmonton.ca/Environmental-Services/Weather-Data-Daily-Environment-Canada/s4ws-tdws) | Assess as an alternative source of historical weather observations. |
 
-Exact fields, study dates, boundaries, and weather stations have not yet been selected. The team will verify schemas, licences, access methods, geographic resolution, and coverage before implementing collection. Choose an aggregation period, such as month or season, based on coverage and sparsity. Document the choice and any design revisions in the proposal before testing hypotheses.
+Preliminary inspection has identified candidate fields and a proposed 2023–2025 monthly study window. Final inclusion rules, geographic harmonization, source coverage, and any weather extension require review. The team will confirm schemas, licences, access methods, geographic resolution, and coverage before implementing full collection. Document final choices and any design revisions in the proposal before testing hypotheses.
 
 ### Study design and planned analyses
 
@@ -81,9 +83,9 @@ Exact fields, study dates, boundaries, and weather stations have not yet been se
 
 Prediction is an optional extension: if pursued, define its target and time horizon separately, compare it with a historical baseline, and evaluate on held-out periods using only information available at prediction time. The core study concerns general spatial patterns rather than a next-week forecast. Observational associations cannot establish causes of potholes, and reporting hotspots must not be presented as confirmed road-damage hotspots.
 
-## Research process: following SCI 201
+## Research process: pilot framework adapted from SCI 201
 
-DataBridge will organize research around the **four phases described in the University of Alberta's SCI 201 — Scientific Process, Fall 2026 syllabus** (course description, p. 1; topic outline, p. 5). The steps below adapt that framework to this club project. They do not imply course affiliation or instructor endorsement.
+DataBridge is developing its research process through this pilot. As a starting framework, the pilot adapts the **four phases described in the University of Alberta's SCI 201 — Scientific Process, Fall 2026 syllabus** (course description, p. 1; topic outline, p. 5). The workflow, roles, review steps, and deliverables will be refined from the pilot's experience. This framework does not imply course affiliation or instructor endorsement.
 
 | SCI 201 phase | How we will apply it | Review output |
 | --- | --- | --- |
@@ -110,7 +112,7 @@ All three research roles contribute to planning before data collection begins.
 
 ## Proposed repository structure
 
-This layout is a plan for the pilot project. The files and folders below have not yet been implemented; this repository currently provides the project README.
+Most of this layout remains a plan for the pilot project. The repository currently includes this README, three working planning documents in `docs/`, dated feasibility evidence in `docs/evidence/`, and the bounded inspection script `scripts/inspect_data_sources.py`. The full collection, analysis and modelling pipeline below has not been implemented.
 
 ```text
 DataBridge/
@@ -120,6 +122,8 @@ DataBridge/
 ├── requirements.txt              # To be added with Python implementation
 ├── docs/
 │   ├── research-proposal.md
+│   ├── data-feasibility.md
+│   ├── analysis-plan.md
 │   ├── literature-review.md
 │   ├── methodology.md
 │   └── data-dictionary.md
@@ -128,6 +132,8 @@ DataBridge/
 │   └── processed/
 ├── notebooks/
 │   └── exploratory-analysis.ipynb
+├── scripts/
+│   └── inspect_data_sources.py    # Implemented: bounded planning inspection
 ├── src/
 │   ├── collect_data.py
 │   ├── clean_data.py
@@ -144,7 +150,13 @@ DataBridge/
 
 ## Getting started and collaboration
 
-There is no executable research code or dependency setup yet. No installation is required to read this README. Setup and execution instructions will be added when the implementation is available.
+No installation is required to read the planning documents. The preliminary source inspection uses only Python's standard library:
+
+```bash
+python scripts/inspect_data_sources.py --output docs/evidence/new-inspection
+```
+
+Use a new output directory on each run; existing evidence is not overwritten. This makes read-only requests to the official data API, saves metadata, at most 20 request records, a boundary index, one polygon and source-quality aggregates, and does not build the full study dataset or fit models. See the [feasibility notes](docs/data-feasibility.md) for interpretation and limitations. Full collection and analysis setup instructions will be added when those implementations are available.
 
 To work with a local copy, install Git and run:
 

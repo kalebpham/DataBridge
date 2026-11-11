@@ -1,0 +1,83 @@
+{
+  "retrieved_at_utc": "2026-11-11T21:26:32.950141+00:00",
+  "source_url": "https://data.edmonton.ca/resource/q7ua-agfg.json?%24select=service_category%2Cservice_description%2Ccount%28%2A%29+as+rows&%24where=upper%28service_category%29+like+%27%25POTHOLE%25%27+OR+upper%28service_description%29+like+%27%25POTHOLE%25%27&%24group=service_category%2Cservice_description&%24order=rows+DESC&%24limit=100",
+  "response_sha256": "113cbe477e3e174212f50f8620e888d7562e1cc2150b5f92516ace29e0696fd2",
+  "metadata_projection": false,
+  "data": [
+    {
+      "service_category": "Potholes",
+      "service_description": "POTHOLE:Road Pothole",
+      "rows": "22694"
+    },
+    {
+      "service_category": "Potholes",
+      "service_description": "Road Pothole",
+      "rows": "7114"
+    },
+    {
+      "service_category": "Potholes",
+      "service_description": "Pothole: Arterial Road",
+      "rows": "5225"
+    },
+    {
+      "service_category": "Potholes",
+      "service_description": "POTHOLE:Alley Pothole",
+      "rows": "4680"
+    },
+    {
+      "service_category": "Potholes",
+      "service_description": "Pothole: Residential Road",
+      "rows": "2246"
+    },
+    {
+      "service_category": "Potholes",
+      "service_description": "Pothole: Collector Road",
+      "rows": "1460"
+    },
+    {
+      "service_category": "Potholes",
+      "service_description": "Info Asphalt  and  Potholes",
+      "rows": "1064"
+    },
+    {
+      "service_category": "Maintenance - Road Services  and  Repairs",
+      "service_description": "Potholes/washboard - alley (gravel)",
+      "rows": "292"
+    },
+    {
+      "service_category": "Potholes",
+      "service_description": "Pothole: Industrial Road",
+      "rows": "256"
+    },
+    {
+      "service_category": "Maintenance - Road Services  and  Repairs",
+      "service_description": "Pothole/washboard - rural roadway-gravel",
+      "rows": "165"
+    },
+    {
+      "service_category": "Maintenance - Road Services  and  Repairs",
+      "service_description": "Pothole/washboard - rural highway gravel",
+      "rows": "73"
+    },
+    {
+      "service_category": "Maintenance - Road Services  and  Repairs",
+      "service_description": "Pothole/washboard - indust. road gravel",
+      "rows": "27"
+    },
+    {
+      "service_category": "Potholes",
+      "service_description": "Info Pothole Repair Timeline",
+      "rows": "12"
+    },
+    {
+      "service_category": "Potholes",
+      "service_description": "ETS Pothole",
+      "rows": "10"
+    },
+    {
+      "service_category": "Potholes",
+      "service_description": "VLSE-ETS Pothole",
+      "rows": "1"
+    }
+  ]
+}

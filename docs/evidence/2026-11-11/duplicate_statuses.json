@@ -1,0 +1,12 @@
+{
+  "retrieved_at_utc": "2026-11-11T21:26:14.825469+00:00",
+  "source_url": "https://data.edmonton.ca/resource/q7ua-agfg.json?%24select=status_detail%2Ccount%28%2A%29+as+rows&%24where=%28%28service_category+%3D+%27Potholes%27+AND+service_description+IN+%28%27POTHOLE%3ARoad+Pothole%27%2C%27Road+Pothole%27%2C%27Pothole%3A+Arterial+Road%27%2C%27Pothole%3A+Residential+Road%27%2C%27Pothole%3A+Collector+Road%27%2C%27Pothole%3A+Industrial+Road%27%29%29+AND+date_created+%3E%3D+%272023-01-01T00%3A00%3A00%27+AND+date_created+%3C+%272026-01-01T00%3A00%3A00%27%29+AND+upper%28status_detail%29+like+%27%25DUPLICAT%25%27&%24group=status_detail&%24order=rows+DESC&%24limit=100",
+  "response_sha256": "66dc3a86ff94460761b6656125131fa1b05e15c7e27f9f67638e5f8debfef8dc",
+  "metadata_projection": false,
+  "data": [
+    {
+      "status_detail": "Duplicate Request Exists",
+      "rows": "7701"
+    }
+  ]
+}

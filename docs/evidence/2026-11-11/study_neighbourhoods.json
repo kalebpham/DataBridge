@@ -1,0 +1,2047 @@
+{
+  "retrieved_at_utc": "2026-11-11T21:26:13.790115+00:00",
+  "source_url": "https://data.edmonton.ca/resource/q7ua-agfg.json?%24select=neighbourhood_id%2Cneighbourhood%2Ccount%28%2A%29+as+rows&%24where=%28service_category+%3D+%27Potholes%27+AND+service_description+IN+%28%27POTHOLE%3ARoad+Pothole%27%2C%27Road+Pothole%27%2C%27Pothole%3A+Arterial+Road%27%2C%27Pothole%3A+Residential+Road%27%2C%27Pothole%3A+Collector+Road%27%2C%27Pothole%3A+Industrial+Road%27%29%29+AND+date_created+%3E%3D+%272023-01-01T00%3A00%3A00%27+AND+date_created+%3C+%272026-01-01T00%3A00%3A00%27&%24group=neighbourhood_id%2Cneighbourhood&%24order=neighbourhood_id%2Cneighbourhood&%24limit=1000",
+  "response_sha256": "8a92194ae0682e106c096cddcc10520998b01be2c50ba939b16204dee814622b",
+  "metadata_projection": false,
+  "data": [
+    {
+      "neighbourhood_id": "1010",
+      "neighbourhood": "ALBERTA AVENUE",
+      "rows": "103"
+    },
+    {
+      "neighbourhood_id": "1020",
+      "neighbourhood": "BOYLE STREET",
+      "rows": "98"
+    },
+    {
+      "neighbourhood_id": "1030",
+      "neighbourhood": "CENTRAL MCDOUGALL",
+      "rows": "101"
+    },
+    {
+      "neighbourhood_id": "1070",
+      "neighbourhood": "CROMDALE",
+      "rows": "44"
+    },
+    {
+      "neighbourhood_id": "1080",
+      "neighbourhood": "DELTON",
+      "rows": "44"
+    },
+    {
+      "neighbourhood_id": "1090",
+      "neighbourhood": "DOWNTOWN",
+      "rows": "395"
+    },
+    {
+      "neighbourhood_id": "1100",
+      "neighbourhood": "EASTWOOD",
+      "rows": "34"
+    },
+    {
+      "neighbourhood_id": "1111",
+      "neighbourhood": "BLATCHFORD AREA",
+      "rows": "99"
+    },
+    {
+      "neighbourhood_id": "1120",
+      "neighbourhood": "EDMONTON NORTHLANDS",
+      "rows": "3"
+    },
+    {
+      "neighbourhood_id": "1130",
+      "neighbourhood": "ELMWOOD PARK",
+      "rows": "22"
+    },
+    {
+      "neighbourhood_id": "1140",
+      "neighbourhood": "MCCAULEY",
+      "rows": "159"
+    },
+    {
+      "neighbourhood_id": "1150",
+      "neighbourhood": "OLIVER",
+      "rows": "127"
+    },
+    {
+      "neighbourhood_id": "1151",
+      "neighbourhood": "WÎHKWÊNTÔWIN",
+      "rows": "172"
+    },
+    {
+      "neighbourhood_id": "1160",
+      "neighbourhood": "PARKDALE",
+      "rows": "70"
+    },
+    {
+      "neighbourhood_id": "1170",
+      "neighbourhood": "PRINCE RUPERT",
+      "rows": "86"
+    },
+    {
+      "neighbourhood_id": "1180",
+      "neighbourhood": "QUEEN MARY PARK",
+      "rows": "121"
+    },
+    {
+      "neighbourhood_id": "1190",
+      "neighbourhood": "RIVER VALLEY KINNAIRD",
+      "rows": "6"
+    },
+    {
+      "neighbourhood_id": "1200",
+      "neighbourhood": "RIVER VALLEY VICTORIA",
+      "rows": "33"
+    },
+    {
+      "neighbourhood_id": "1210",
+      "neighbourhood": "RIVERDALE",
+      "rows": "55"
+    },
+    {
+      "neighbourhood_id": "1220",
+      "neighbourhood": "ROSSDALE",
+      "rows": "184"
+    },
+    {
+      "neighbourhood_id": "1230",
+      "neighbourhood": "SPRUCE AVENUE",
+      "rows": "65"
+    },
+    {
+      "neighbourhood_id": "1240",
+      "neighbourhood": "VIRGINIA PARK",
+      "rows": "16"
+    },
+    {
+      "neighbourhood_id": "1250",
+      "neighbourhood": "WESTWOOD",
+      "rows": "41"
+    },
+    {
+      "neighbourhood_id": "1270",
+      "neighbourhood": "YELLOWHEAD CORRIDOR EAST",
+      "rows": "92"
+    },
+    {
+      "neighbourhood_id": "1280",
+      "neighbourhood": "YELLOWHEAD CORRIDOR WEST",
+      "rows": "52"
+    },
+    {
+      "neighbourhood_id": "2010",
+      "neighbourhood": "ABBOTTSFIELD",
+      "rows": "40"
+    },
+    {
+      "neighbourhood_id": "2020",
+      "neighbourhood": "BALWIN",
+      "rows": "81"
+    },
+    {
+      "neighbourhood_id": "2030",
+      "neighbourhood": "BANNERMAN",
+      "rows": "15"
+    },
+    {
+      "neighbourhood_id": "2040",
+      "neighbourhood": "BEACON HEIGHTS",
+      "rows": "51"
+    },
+    {
+      "neighbourhood_id": "2050",
+      "neighbourhood": "BELLE RIVE",
+      "rows": "54"
+    },
+    {
+      "neighbourhood_id": "2060",
+      "neighbourhood": "BELLEVUE",
+      "rows": "14"
+    },
+    {
+      "neighbourhood_id": "2070",
+      "neighbourhood": "BELMONT",
+      "rows": "116"
+    },
+    {
+      "neighbourhood_id": "2080",
+      "neighbourhood": "BELVEDERE",
+      "rows": "109"
+    },
+    {
+      "neighbourhood_id": "2090",
+      "neighbourhood": "BERGMAN",
+      "rows": "53"
+    },
+    {
+      "neighbourhood_id": "2100",
+      "neighbourhood": "BEVERLY HEIGHTS",
+      "rows": "99"
+    },
+    {
+      "neighbourhood_id": "2110",
+      "neighbourhood": "BRINTNELL",
+      "rows": "71"
+    },
+    {
+      "neighbourhood_id": "2120",
+      "neighbourhood": "CANON RIDGE",
+      "rows": "25"
+    },
+    {
+      "neighbourhood_id": "2130",
+      "neighbourhood": "CASSELMAN",
+      "rows": "62"
+    },
+    {
+      "neighbourhood_id": "2145",
+      "neighbourhood": "CLAREVIEW TOWN CENTRE",
+      "rows": "91"
+    },
+    {
+      "neighbourhood_id": "2160",
+      "neighbourhood": "CLOVER BAR AREA",
+      "rows": "38"
+    },
+    {
+      "neighbourhood_id": "2230",
+      "neighbourhood": "DELWOOD",
+      "rows": "148"
+    },
+    {
+      "neighbourhood_id": "2241",
+      "neighbourhood": "EAUX CLAIRES",
+      "rows": "69"
+    },
+    {
+      "neighbourhood_id": "2251",
+      "neighbourhood": "EBBERS",
+      "rows": "12"
+    },
+    {
+      "neighbourhood_id": "2260",
+      "neighbourhood": "EVANSDALE",
+      "rows": "134"
+    },
+    {
+      "neighbourhood_id": "2270",
+      "neighbourhood": "EVERGREEN",
+      "rows": "11"
+    },
+    {
+      "neighbourhood_id": "2280",
+      "neighbourhood": "FRASER",
+      "rows": "44"
+    },
+    {
+      "neighbourhood_id": "2290",
+      "neighbourhood": "GLENGARRY",
+      "rows": "135"
+    },
+    {
+      "neighbourhood_id": "2311",
+      "neighbourhood": "GORMAN",
+      "rows": "37"
+    },
+    {
+      "neighbourhood_id": "2320",
+      "neighbourhood": "HAIRSINE",
+      "rows": "50"
+    },
+    {
+      "neighbourhood_id": "2330",
+      "neighbourhood": "HIGHLANDS",
+      "rows": "37"
+    },
+    {
+      "neighbourhood_id": "2340",
+      "neighbourhood": "HOLLICK-KENYON",
+      "rows": "28"
+    },
+    {
+      "neighbourhood_id": "2350",
+      "neighbourhood": "HOMESTEADER",
+      "rows": "58"
+    },
+    {
+      "neighbourhood_id": "2360",
+      "neighbourhood": "INDUSTRIAL HEIGHTS",
+      "rows": "37"
+    },
+    {
+      "neighbourhood_id": "2380",
+      "neighbourhood": "KENNEDALE INDUSTRIAL",
+      "rows": "81"
+    },
+    {
+      "neighbourhood_id": "2390",
+      "neighbourhood": "KERNOHAN",
+      "rows": "83"
+    },
+    {
+      "neighbourhood_id": "2400",
+      "neighbourhood": "KILDARE",
+      "rows": "83"
+    },
+    {
+      "neighbourhood_id": "2410",
+      "neighbourhood": "KILKENNY",
+      "rows": "66"
+    },
+    {
+      "neighbourhood_id": "2420",
+      "neighbourhood": "KILLARNEY",
+      "rows": "68"
+    },
+    {
+      "neighbourhood_id": "2430",
+      "neighbourhood": "KIRKNESS",
+      "rows": "10"
+    },
+    {
+      "neighbourhood_id": "2440",
+      "neighbourhood": "KLARVATTEN",
+      "rows": "103"
+    },
+    {
+      "neighbourhood_id": "2450",
+      "neighbourhood": "LAGO LINDO",
+      "rows": "51"
+    },
+    {
+      "neighbourhood_id": "2462",
+      "neighbourhood": "CRYSTALLINA NERA EAST",
+      "rows": "1"
+    },
+    {
+      "neighbourhood_id": "2463",
+      "neighbourhood": "CRYSTALLINA NERA WEST",
+      "rows": "11"
+    },
+    {
+      "neighbourhood_id": "2500",
+      "neighbourhood": "MATT BERRY",
+      "rows": "40"
+    },
+    {
+      "neighbourhood_id": "2511",
+      "neighbourhood": "MAYLIEWAN",
+      "rows": "14"
+    },
+    {
+      "neighbourhood_id": "2522",
+      "neighbourhood": "MCCONACHIE",
+      "rows": "32"
+    },
+    {
+      "neighbourhood_id": "2530",
+      "neighbourhood": "MCLEOD",
+      "rows": "87"
+    },
+    {
+      "neighbourhood_id": "2541",
+      "neighbourhood": "MILLER",
+      "rows": "119"
+    },
+    {
+      "neighbourhood_id": "2550",
+      "neighbourhood": "MONTROSE",
+      "rows": "48"
+    },
+    {
+      "neighbourhood_id": "2560",
+      "neighbourhood": "NEWTON",
+      "rows": "85"
+    },
+    {
+      "neighbourhood_id": "2580",
+      "neighbourhood": "NORTHMOUNT",
+      "rows": "118"
+    },
+    {
+      "neighbourhood_id": "2590",
+      "neighbourhood": "OVERLANDERS",
+      "rows": "49"
+    },
+    {
+      "neighbourhood_id": "2600",
+      "neighbourhood": "OZERNA",
+      "rows": "22"
+    },
+    {
+      "neighbourhood_id": "2611",
+      "neighbourhood": "CY BECKER",
+      "rows": "11"
+    },
+    {
+      "neighbourhood_id": "2630",
+      "neighbourhood": "RIVER VALLEY HERMITAGE",
+      "rows": "8"
+    },
+    {
+      "neighbourhood_id": "2640",
+      "neighbourhood": "RIVER VALLEY HIGHLANDS",
+      "rows": "4"
+    },
+    {
+      "neighbourhood_id": "2650",
+      "neighbourhood": "RIVER VALLEY RUNDLE",
+      "rows": "12"
+    },
+    {
+      "neighbourhood_id": "2660",
+      "neighbourhood": "RUNDLE HEIGHTS",
+      "rows": "17"
+    },
+    {
+      "neighbourhood_id": "2670",
+      "neighbourhood": "RURAL NORTH EAST HORSE HILL",
+      "rows": "30"
+    },
+    {
+      "neighbourhood_id": "2671",
+      "neighbourhood": "MARQUIS",
+      "rows": "21"
+    },
+    {
+      "neighbourhood_id": "2681",
+      "neighbourhood": "EDMONTON ENERGY AND TECHNOLOGY PARK",
+      "rows": "26"
+    },
+    {
+      "neighbourhood_id": "2690",
+      "neighbourhood": "RURAL NORTH EAST SOUTH STURGEON",
+      "rows": "29"
+    },
+    {
+      "neighbourhood_id": "2691",
+      "neighbourhood": "HORSE HILL NEIGHBOURHOOD 1A",
+      "rows": "3"
+    },
+    {
+      "neighbourhood_id": "2692",
+      "neighbourhood": "QUARRY RIDGE",
+      "rows": "22"
+    },
+    {
+      "neighbourhood_id": "2700",
+      "neighbourhood": "SCHONSEE",
+      "rows": "36"
+    },
+    {
+      "neighbourhood_id": "2710",
+      "neighbourhood": "SIFTON PARK",
+      "rows": "37"
+    },
+    {
+      "neighbourhood_id": "2720",
+      "neighbourhood": "YORK",
+      "rows": "72"
+    },
+    {
+      "neighbourhood_id": "3010",
+      "neighbourhood": "ATHLONE",
+      "rows": "34"
+    },
+    {
+      "neighbourhood_id": "3020",
+      "neighbourhood": "BARANOW",
+      "rows": "45"
+    },
+    {
+      "neighbourhood_id": "3030",
+      "neighbourhood": "BATURYN",
+      "rows": "107"
+    },
+    {
+      "neighbourhood_id": "3040",
+      "neighbourhood": "BEAUMARIS",
+      "rows": "37"
+    },
+    {
+      "neighbourhood_id": "3050",
+      "neighbourhood": "BROWN INDUSTRIAL",
+      "rows": "13"
+    },
+    {
+      "neighbourhood_id": "3060",
+      "neighbourhood": "CAERNARVON",
+      "rows": "86"
+    },
+    {
+      "neighbourhood_id": "3070",
+      "neighbourhood": "CALDER",
+      "rows": "130"
+    },
+    {
+      "neighbourhood_id": "3080",
+      "neighbourhood": "CANOSSA",
+      "rows": "25"
+    },
+    {
+      "neighbourhood_id": "3090",
+      "neighbourhood": "CARLISLE",
+      "rows": "79"
+    },
+    {
+      "neighbourhood_id": "3111",
+      "neighbourhood": "GRIESBACH",
+      "rows": "62"
+    },
+    {
+      "neighbourhood_id": "3120",
+      "neighbourhood": "CHAMBERY",
+      "rows": "33"
+    },
+    {
+      "neighbourhood_id": "3140",
+      "neighbourhood": "CRESTWOOD",
+      "rows": "76"
+    },
+    {
+      "neighbourhood_id": "3150",
+      "neighbourhood": "CUMBERLAND",
+      "rows": "53"
+    },
+    {
+      "neighbourhood_id": "3160",
+      "neighbourhood": "DOMINION INDUSTRIAL",
+      "rows": "36"
+    },
+    {
+      "neighbourhood_id": "3170",
+      "neighbourhood": "DOVERCOURT",
+      "rows": "34"
+    },
+    {
+      "neighbourhood_id": "3180",
+      "neighbourhood": "DUNLUCE",
+      "rows": "138"
+    },
+    {
+      "neighbourhood_id": "3190",
+      "neighbourhood": "ELSINORE",
+      "rows": "40"
+    },
+    {
+      "neighbourhood_id": "3200",
+      "neighbourhood": "GLENORA",
+      "rows": "175"
+    },
+    {
+      "neighbourhood_id": "3210",
+      "neighbourhood": "GROVENOR",
+      "rows": "59"
+    },
+    {
+      "neighbourhood_id": "3220",
+      "neighbourhood": "HAGMANN ESTATE INDUSTRIAL",
+      "rows": "80"
+    },
+    {
+      "neighbourhood_id": "3230",
+      "neighbourhood": "HUFF BREMNER ESTATE INDUSTRIAL",
+      "rows": "45"
+    },
+    {
+      "neighbourhood_id": "3240",
+      "neighbourhood": "INGLEWOOD",
+      "rows": "142"
+    },
+    {
+      "neighbourhood_id": "3250",
+      "neighbourhood": "KENSINGTON",
+      "rows": "76"
+    },
+    {
+      "neighbourhood_id": "3260",
+      "neighbourhood": "LAUDERDALE",
+      "rows": "102"
+    },
+    {
+      "neighbourhood_id": "3270",
+      "neighbourhood": "LAURIER HEIGHTS",
+      "rows": "60"
+    },
+    {
+      "neighbourhood_id": "3280",
+      "neighbourhood": "LORELEI",
+      "rows": "10"
+    },
+    {
+      "neighbourhood_id": "3290",
+      "neighbourhood": "MCARTHUR INDUSTRIAL",
+      "rows": "38"
+    },
+    {
+      "neighbourhood_id": "3300",
+      "neighbourhood": "MCQUEEN",
+      "rows": "48"
+    },
+    {
+      "neighbourhood_id": "3310",
+      "neighbourhood": "NORTH GLENORA",
+      "rows": "45"
+    },
+    {
+      "neighbourhood_id": "3320",
+      "neighbourhood": "OXFORD",
+      "rows": "77"
+    },
+    {
+      "neighbourhood_id": "3330",
+      "neighbourhood": "PARKVIEW",
+      "rows": "95"
+    },
+    {
+      "neighbourhood_id": "3340",
+      "neighbourhood": "PEMBINA",
+      "rows": "32"
+    },
+    {
+      "neighbourhood_id": "3350",
+      "neighbourhood": "PRINCE CHARLES",
+      "rows": "26"
+    },
+    {
+      "neighbourhood_id": "3360",
+      "neighbourhood": "RAMPART INDUSTRIAL",
+      "rows": "43"
+    },
+    {
+      "neighbourhood_id": "3370",
+      "neighbourhood": "RAPPERSWILL",
+      "rows": "11"
+    },
+    {
+      "neighbourhood_id": "3380",
+      "neighbourhood": "RIVER VALLEY CAPITOL HILL",
+      "rows": "28"
+    },
+    {
+      "neighbourhood_id": "3381",
+      "neighbourhood": "RIVER VALLEY GLENORA",
+      "rows": "122"
+    },
+    {
+      "neighbourhood_id": "3382",
+      "neighbourhood": "RIVER VALLEY LAURIER",
+      "rows": "45"
+    },
+    {
+      "neighbourhood_id": "3390",
+      "neighbourhood": "ROSSLYN",
+      "rows": "74"
+    },
+    {
+      "neighbourhood_id": "3410",
+      "neighbourhood": "SHERBROOKE",
+      "rows": "52"
+    },
+    {
+      "neighbourhood_id": "3430",
+      "neighbourhood": "WELLINGTON",
+      "rows": "66"
+    },
+    {
+      "neighbourhood_id": "3440",
+      "neighbourhood": "WESTMOUNT",
+      "rows": "206"
+    },
+    {
+      "neighbourhood_id": "3450",
+      "neighbourhood": "WOODCROFT",
+      "rows": "74"
+    },
+    {
+      "neighbourhood_id": "3460",
+      "neighbourhood": "ALBANY",
+      "rows": "15"
+    },
+    {
+      "neighbourhood_id": "3470",
+      "neighbourhood": "CARLTON",
+      "rows": "39"
+    },
+    {
+      "neighbourhood_id": "3480",
+      "neighbourhood": "HUDSON",
+      "rows": "4"
+    },
+    {
+      "neighbourhood_id": "3490",
+      "neighbourhood": "GOODRIDGE CORNERS",
+      "rows": "2"
+    },
+    {
+      "neighbourhood_id": "4010",
+      "neighbourhood": "ALBERTA PARK INDUSTRIAL",
+      "rows": "13"
+    },
+    {
+      "neighbourhood_id": "4011",
+      "neighbourhood": "ANTHONY HENDAY",
+      "rows": "64"
+    },
+    {
+      "neighbourhood_id": "4012",
+      "neighbourhood": "ANTHONY HENDAY SOUTH WEST",
+      "rows": "24"
+    },
+    {
+      "neighbourhood_id": "4013",
+      "neighbourhood": "ANTHONY HENDAY TERWILLEGAR",
+      "rows": "58"
+    },
+    {
+      "neighbourhood_id": "4014",
+      "neighbourhood": "ANTHONY HENDAY SOUTH",
+      "rows": "20"
+    },
+    {
+      "neighbourhood_id": "4015",
+      "neighbourhood": "ANTHONY HENDAY MISTATIM",
+      "rows": "9"
+    },
+    {
+      "neighbourhood_id": "4017",
+      "neighbourhood": "ANTHONY HENDAY LAKE DISTRICT",
+      "rows": "2"
+    },
+    {
+      "neighbourhood_id": "4018",
+      "neighbourhood": "ANTHONY HENDAY BIG LAKE",
+      "rows": "20"
+    },
+    {
+      "neighbourhood_id": "4019",
+      "neighbourhood": "ANTHONY HENDAY ENERGY PARK",
+      "rows": "3"
+    },
+    {
+      "neighbourhood_id": "4020",
+      "neighbourhood": "ALDERGROVE",
+      "rows": "53"
+    },
+    {
+      "neighbourhood_id": "4021",
+      "neighbourhood": "ANTHONY HENDAY HORSE HILL",
+      "rows": "16"
+    },
+    {
+      "neighbourhood_id": "4022",
+      "neighbourhood": "ANTHONY HENDAY CLAREVIEW",
+      "rows": "1"
+    },
+    {
+      "neighbourhood_id": "4023",
+      "neighbourhood": "ANTHONY HENDAY RAMPART",
+      "rows": "25"
+    },
+    {
+      "neighbourhood_id": "4024",
+      "neighbourhood": "ANTHONY HENDAY SOUTH BLACKBURNE",
+      "rows": "6"
+    },
+    {
+      "neighbourhood_id": "4030",
+      "neighbourhood": "ARMSTRONG INDUSTRIAL",
+      "rows": "28"
+    },
+    {
+      "neighbourhood_id": "4040",
+      "neighbourhood": "BELMEAD",
+      "rows": "149"
+    },
+    {
+      "neighbourhood_id": "4050",
+      "neighbourhood": "BONAVENTURE INDUSTRIAL",
+      "rows": "31"
+    },
+    {
+      "neighbourhood_id": "4060",
+      "neighbourhood": "BRITANNIA YOUNGSTOWN",
+      "rows": "99"
+    },
+    {
+      "neighbourhood_id": "4070",
+      "neighbourhood": "CALLINGWOOD NORTH",
+      "rows": "79"
+    },
+    {
+      "neighbourhood_id": "4080",
+      "neighbourhood": "CALLINGWOOD SOUTH",
+      "rows": "105"
+    },
+    {
+      "neighbourhood_id": "4090",
+      "neighbourhood": "CANORA",
+      "rows": "47"
+    },
+    {
+      "neighbourhood_id": "4100",
+      "neighbourhood": "CARLETON SQUARE INDUSTRIAL",
+      "rows": "10"
+    },
+    {
+      "neighbourhood_id": "4110",
+      "neighbourhood": "DECHENE",
+      "rows": "18"
+    },
+    {
+      "neighbourhood_id": "4120",
+      "neighbourhood": "DONSDALE",
+      "rows": "9"
+    },
+    {
+      "neighbourhood_id": "4130",
+      "neighbourhood": "EDMISTON INDUSTRIAL",
+      "rows": "65"
+    },
+    {
+      "neighbourhood_id": "4140",
+      "neighbourhood": "ELMWOOD",
+      "rows": "95"
+    },
+    {
+      "neighbourhood_id": "4150",
+      "neighbourhood": "GAGNON ESTATE INDUSTRIAL",
+      "rows": "6"
+    },
+    {
+      "neighbourhood_id": "4160",
+      "neighbourhood": "GARIEPY",
+      "rows": "18"
+    },
+    {
+      "neighbourhood_id": "4170",
+      "neighbourhood": "GARSIDE INDUSTRIAL",
+      "rows": "31"
+    },
+    {
+      "neighbourhood_id": "4180",
+      "neighbourhood": "GLENWOOD",
+      "rows": "232"
+    },
+    {
+      "neighbourhood_id": "4190",
+      "neighbourhood": "HAWIN PARK ESTATE INDUSTRIAL",
+      "rows": "20"
+    },
+    {
+      "neighbourhood_id": "4200",
+      "neighbourhood": "HIGH PARK",
+      "rows": "59"
+    },
+    {
+      "neighbourhood_id": "4210",
+      "neighbourhood": "HIGH PARK INDUSTRIAL",
+      "rows": "18"
+    },
+    {
+      "neighbourhood_id": "4220",
+      "neighbourhood": "JAMIESON PLACE",
+      "rows": "35"
+    },
+    {
+      "neighbourhood_id": "4230",
+      "neighbourhood": "JASPER PARK",
+      "rows": "74"
+    },
+    {
+      "neighbourhood_id": "4240",
+      "neighbourhood": "LA PERLE",
+      "rows": "115"
+    },
+    {
+      "neighbourhood_id": "4270",
+      "neighbourhood": "LYMBURN",
+      "rows": "50"
+    },
+    {
+      "neighbourhood_id": "4280",
+      "neighbourhood": "LYNNWOOD",
+      "rows": "136"
+    },
+    {
+      "neighbourhood_id": "4290",
+      "neighbourhood": "MAYFIELD",
+      "rows": "51"
+    },
+    {
+      "neighbourhood_id": "4300",
+      "neighbourhood": "MCNAMARA INDUSTRIAL",
+      "rows": "53"
+    },
+    {
+      "neighbourhood_id": "4310",
+      "neighbourhood": "MEADOWLARK PARK",
+      "rows": "116"
+    },
+    {
+      "neighbourhood_id": "4320",
+      "neighbourhood": "MISTATIM INDUSTRIAL",
+      "rows": "159"
+    },
+    {
+      "neighbourhood_id": "4330",
+      "neighbourhood": "MITCHELL INDUSTRIAL",
+      "rows": "28"
+    },
+    {
+      "neighbourhood_id": "4340",
+      "neighbourhood": "MORIN INDUSTRIAL",
+      "rows": "21"
+    },
+    {
+      "neighbourhood_id": "4350",
+      "neighbourhood": "NORWESTER INDUSTRIAL",
+      "rows": "5"
+    },
+    {
+      "neighbourhood_id": "4360",
+      "neighbourhood": "OLESKIW",
+      "rows": "21"
+    },
+    {
+      "neighbourhood_id": "4380",
+      "neighbourhood": "ORMSBY PLACE",
+      "rows": "39"
+    },
+    {
+      "neighbourhood_id": "4390",
+      "neighbourhood": "PATRICIA HEIGHTS",
+      "rows": "37"
+    },
+    {
+      "neighbourhood_id": "4400",
+      "neighbourhood": "PLACE LARUE",
+      "rows": "244"
+    },
+    {
+      "neighbourhood_id": "4410",
+      "neighbourhood": "POUNDMAKER INDUSTRIAL",
+      "rows": "6"
+    },
+    {
+      "neighbourhood_id": "4420",
+      "neighbourhood": "QUESNELL HEIGHTS",
+      "rows": "2"
+    },
+    {
+      "neighbourhood_id": "4430",
+      "neighbourhood": "RIO TERRACE",
+      "rows": "7"
+    },
+    {
+      "neighbourhood_id": "4461",
+      "neighbourhood": "THE HAMPTONS",
+      "rows": "253"
+    },
+    {
+      "neighbourhood_id": "4462",
+      "neighbourhood": "EDGEMONT",
+      "rows": "106"
+    },
+    {
+      "neighbourhood_id": "4463",
+      "neighbourhood": "RIVERVIEW AREA",
+      "rows": "19"
+    },
+    {
+      "neighbourhood_id": "4464",
+      "neighbourhood": "THE UPLANDS",
+      "rows": "31"
+    },
+    {
+      "neighbourhood_id": "4466",
+      "neighbourhood": "CAMERON HEIGHTS",
+      "rows": "18"
+    },
+    {
+      "neighbourhood_id": "4468",
+      "neighbourhood": "STILLWATER",
+      "rows": "29"
+    },
+    {
+      "neighbourhood_id": "4469",
+      "neighbourhood": "RIVER'S EDGE",
+      "rows": "11"
+    },
+    {
+      "neighbourhood_id": "4471",
+      "neighbourhood": "TRUMPETER AREA",
+      "rows": "55"
+    },
+    {
+      "neighbourhood_id": "4473",
+      "neighbourhood": "HAWKS RIDGE",
+      "rows": "4"
+    },
+    {
+      "neighbourhood_id": "4474",
+      "neighbourhood": "STARLING",
+      "rows": "83"
+    },
+    {
+      "neighbourhood_id": "4475",
+      "neighbourhood": "KINOKAMAU PLAINS AREA",
+      "rows": "16"
+    },
+    {
+      "neighbourhood_id": "4477",
+      "neighbourhood": "KINGLET GARDENS",
+      "rows": "29"
+    },
+    {
+      "neighbourhood_id": "4478",
+      "neighbourhood": "PINTAIL LANDING",
+      "rows": "1"
+    },
+    {
+      "neighbourhood_id": "4485",
+      "neighbourhood": "LEWIS FARMS INDUSTRIAL",
+      "rows": "59"
+    },
+    {
+      "neighbourhood_id": "4486",
+      "neighbourhood": "STEWART GREENS",
+      "rows": "2"
+    },
+    {
+      "neighbourhood_id": "4487",
+      "neighbourhood": "SECORD",
+      "rows": "59"
+    },
+    {
+      "neighbourhood_id": "4490",
+      "neighbourhood": "SHEFFIELD INDUSTRIAL",
+      "rows": "26"
+    },
+    {
+      "neighbourhood_id": "4500",
+      "neighbourhood": "SHERWOOD",
+      "rows": "27"
+    },
+    {
+      "neighbourhood_id": "4510",
+      "neighbourhood": "STONE INDUSTRIAL",
+      "rows": "33"
+    },
+    {
+      "neighbourhood_id": "4520",
+      "neighbourhood": "SUMMERLEA",
+      "rows": "47"
+    },
+    {
+      "neighbourhood_id": "4530",
+      "neighbourhood": "SUNWAPTA INDUSTRIAL",
+      "rows": "12"
+    },
+    {
+      "neighbourhood_id": "4540",
+      "neighbourhood": "TERRA LOSA",
+      "rows": "26"
+    },
+    {
+      "neighbourhood_id": "4551",
+      "neighbourhood": "GRANVILLE",
+      "rows": "93"
+    },
+    {
+      "neighbourhood_id": "4560",
+      "neighbourhood": "THORNCLIFF",
+      "rows": "51"
+    },
+    {
+      "neighbourhood_id": "4570",
+      "neighbourhood": "WEDGEWOOD HEIGHTS",
+      "rows": "16"
+    },
+    {
+      "neighbourhood_id": "4580",
+      "neighbourhood": "WEST JASPER PLACE",
+      "rows": "77"
+    },
+    {
+      "neighbourhood_id": "4590",
+      "neighbourhood": "WEST MEADOWLARK PARK",
+      "rows": "125"
+    },
+    {
+      "neighbourhood_id": "4600",
+      "neighbourhood": "WEST SHEFFIELD INDUSTRIAL",
+      "rows": "18"
+    },
+    {
+      "neighbourhood_id": "4610",
+      "neighbourhood": "WESTRIDGE",
+      "rows": "9"
+    },
+    {
+      "neighbourhood_id": "4620",
+      "neighbourhood": "WESTVIEW VILLAGE",
+      "rows": "11"
+    },
+    {
+      "neighbourhood_id": "4630",
+      "neighbourhood": "WHITE INDUSTRIAL",
+      "rows": "47"
+    },
+    {
+      "neighbourhood_id": "4640",
+      "neighbourhood": "WILSON INDUSTRIAL",
+      "rows": "25"
+    },
+    {
+      "neighbourhood_id": "4650",
+      "neighbourhood": "WINTERBURN INDUSTRIAL AREA EAST",
+      "rows": "42"
+    },
+    {
+      "neighbourhood_id": "4660",
+      "neighbourhood": "YOUNGSTOWN INDUSTRIAL",
+      "rows": "27"
+    },
+    {
+      "neighbourhood_id": "4670",
+      "neighbourhood": "WINTERBURN INDUSTRIAL AREA WEST",
+      "rows": "33"
+    },
+    {
+      "neighbourhood_id": "4700",
+      "neighbourhood": "BRECKENRIDGE GREENS",
+      "rows": "30"
+    },
+    {
+      "neighbourhood_id": "4710",
+      "neighbourhood": "POTTER GREENS",
+      "rows": "41"
+    },
+    {
+      "neighbourhood_id": "4720",
+      "neighbourhood": "GLASTONBURY",
+      "rows": "66"
+    },
+    {
+      "neighbourhood_id": "4730",
+      "neighbourhood": "SUDER GREENS",
+      "rows": "113"
+    },
+    {
+      "neighbourhood_id": "4740",
+      "neighbourhood": "WEBBER GREENS",
+      "rows": "54"
+    },
+    {
+      "neighbourhood_id": "4750",
+      "neighbourhood": "ROSENTHAL",
+      "rows": "34"
+    },
+    {
+      "neighbourhood_id": "5010",
+      "neighbourhood": "ALLENDALE",
+      "rows": "58"
+    },
+    {
+      "neighbourhood_id": "5020",
+      "neighbourhood": "ASPEN GARDENS",
+      "rows": "26"
+    },
+    {
+      "neighbourhood_id": "5030",
+      "neighbourhood": "BEARSPAW",
+      "rows": "18"
+    },
+    {
+      "neighbourhood_id": "5040",
+      "neighbourhood": "BELGRAVIA",
+      "rows": "39"
+    },
+    {
+      "neighbourhood_id": "5050",
+      "neighbourhood": "BLACKMUD CREEK RAVINE",
+      "rows": "7"
+    },
+    {
+      "neighbourhood_id": "5060",
+      "neighbourhood": "BLUE QUILL",
+      "rows": "130"
+    },
+    {
+      "neighbourhood_id": "5070",
+      "neighbourhood": "BLUE QUILL ESTATES",
+      "rows": "16"
+    },
+    {
+      "neighbourhood_id": "5080",
+      "neighbourhood": "BRANDER GARDENS",
+      "rows": "32"
+    },
+    {
+      "neighbourhood_id": "5090",
+      "neighbourhood": "BROOKSIDE",
+      "rows": "76"
+    },
+    {
+      "neighbourhood_id": "5100",
+      "neighbourhood": "BULYEA HEIGHTS",
+      "rows": "77"
+    },
+    {
+      "neighbourhood_id": "5110",
+      "neighbourhood": "CALGARY TRAIL NORTH",
+      "rows": "62"
+    },
+    {
+      "neighbourhood_id": "5120",
+      "neighbourhood": "CALGARY TRAIL SOUTH",
+      "rows": "27"
+    },
+    {
+      "neighbourhood_id": "5130",
+      "neighbourhood": "CARTER CREST",
+      "rows": "21"
+    },
+    {
+      "neighbourhood_id": "5151",
+      "neighbourhood": "STRATHCONA JUNCTION",
+      "rows": "43"
+    },
+    {
+      "neighbourhood_id": "5160",
+      "neighbourhood": "DUGGAN",
+      "rows": "185"
+    },
+    {
+      "neighbourhood_id": "5170",
+      "neighbourhood": "EMPIRE PARK",
+      "rows": "53"
+    },
+    {
+      "neighbourhood_id": "5180",
+      "neighbourhood": "ERMINESKIN",
+      "rows": "158"
+    },
+    {
+      "neighbourhood_id": "5190",
+      "neighbourhood": "FALCONER HEIGHTS",
+      "rows": "8"
+    },
+    {
+      "neighbourhood_id": "5200",
+      "neighbourhood": "GARNEAU",
+      "rows": "110"
+    },
+    {
+      "neighbourhood_id": "5210",
+      "neighbourhood": "GRANDVIEW HEIGHTS",
+      "rows": "10"
+    },
+    {
+      "neighbourhood_id": "5220",
+      "neighbourhood": "GREENFIELD",
+      "rows": "99"
+    },
+    {
+      "neighbourhood_id": "5230",
+      "neighbourhood": "HENDERSON ESTATES",
+      "rows": "4"
+    },
+    {
+      "neighbourhood_id": "5250",
+      "neighbourhood": "KEHEEWIN",
+      "rows": "104"
+    },
+    {
+      "neighbourhood_id": "5260",
+      "neighbourhood": "LANSDOWNE",
+      "rows": "9"
+    },
+    {
+      "neighbourhood_id": "5270",
+      "neighbourhood": "LENDRUM PLACE",
+      "rows": "45"
+    },
+    {
+      "neighbourhood_id": "5280",
+      "neighbourhood": "MALMO PLAINS",
+      "rows": "53"
+    },
+    {
+      "neighbourhood_id": "5290",
+      "neighbourhood": "MCKERNAN",
+      "rows": "94"
+    },
+    {
+      "neighbourhood_id": "5300",
+      "neighbourhood": "OGILVIE RIDGE",
+      "rows": "5"
+    },
+    {
+      "neighbourhood_id": "5310",
+      "neighbourhood": "PARKALLEN",
+      "rows": "87"
+    },
+    {
+      "neighbourhood_id": "5320",
+      "neighbourhood": "PLEASANTVIEW",
+      "rows": "99"
+    },
+    {
+      "neighbourhood_id": "5330",
+      "neighbourhood": "QUEEN ALEXANDRA",
+      "rows": "114"
+    },
+    {
+      "neighbourhood_id": "5340",
+      "neighbourhood": "RAMSAY HEIGHTS",
+      "rows": "89"
+    },
+    {
+      "neighbourhood_id": "5350",
+      "neighbourhood": "RHATIGAN RIDGE",
+      "rows": "34"
+    },
+    {
+      "neighbourhood_id": "5360",
+      "neighbourhood": "RIDEAU PARK",
+      "rows": "90"
+    },
+    {
+      "neighbourhood_id": "5370",
+      "neighbourhood": "RIVER VALLEY MAYFAIR",
+      "rows": "9"
+    },
+    {
+      "neighbourhood_id": "5380",
+      "neighbourhood": "RIVER VALLEY TERWILLEGAR",
+      "rows": "33"
+    },
+    {
+      "neighbourhood_id": "5390",
+      "neighbourhood": "RIVER VALLEY WALTERDALE",
+      "rows": "70"
+    },
+    {
+      "neighbourhood_id": "5400",
+      "neighbourhood": "RIVER VALLEY WHITEMUD",
+      "rows": "100"
+    },
+    {
+      "neighbourhood_id": "5401",
+      "neighbourhood": "RIVER VALLEY FORT EDMONTON",
+      "rows": "8"
+    },
+    {
+      "neighbourhood_id": "5430",
+      "neighbourhood": "ROYAL GARDENS",
+      "rows": "74"
+    },
+    {
+      "neighbourhood_id": "5451",
+      "neighbourhood": "RICHFORD",
+      "rows": "15"
+    },
+    {
+      "neighbourhood_id": "5452",
+      "neighbourhood": "MACEWAN",
+      "rows": "33"
+    },
+    {
+      "neighbourhood_id": "5453",
+      "neighbourhood": "BLACKMUD CREEK",
+      "rows": "26"
+    },
+    {
+      "neighbourhood_id": "5454",
+      "neighbourhood": "RUTHERFORD",
+      "rows": "57"
+    },
+    {
+      "neighbourhood_id": "5456",
+      "neighbourhood": "HERITAGE VALLEY AREA",
+      "rows": "17"
+    },
+    {
+      "neighbourhood_id": "5457",
+      "neighbourhood": "CALLAGHAN",
+      "rows": "16"
+    },
+    {
+      "neighbourhood_id": "5458",
+      "neighbourhood": "ALLARD",
+      "rows": "18"
+    },
+    {
+      "neighbourhood_id": "5460",
+      "neighbourhood": "SKYRATTLER",
+      "rows": "11"
+    },
+    {
+      "neighbourhood_id": "5462",
+      "neighbourhood": "CHAPPELLE",
+      "rows": "51"
+    },
+    {
+      "neighbourhood_id": "5463",
+      "neighbourhood": "DESROCHERS AREA",
+      "rows": "13"
+    },
+    {
+      "neighbourhood_id": "5464",
+      "neighbourhood": "HERITAGE VALLEY TOWN CENTRE",
+      "rows": "17"
+    },
+    {
+      "neighbourhood_id": "5465",
+      "neighbourhood": "HAYS RIDGE AREA",
+      "rows": "6"
+    },
+    {
+      "neighbourhood_id": "5466",
+      "neighbourhood": "CASHMAN",
+      "rows": "15"
+    },
+    {
+      "neighbourhood_id": "5467",
+      "neighbourhood": "CAVANAGH",
+      "rows": "9"
+    },
+    {
+      "neighbourhood_id": "5468",
+      "neighbourhood": "GRAYDON HILL",
+      "rows": "1"
+    },
+    {
+      "neighbourhood_id": "5469",
+      "neighbourhood": "PAISLEY",
+      "rows": "15"
+    },
+    {
+      "neighbourhood_id": "5470",
+      "neighbourhood": "STEINHAUER",
+      "rows": "93"
+    },
+    {
+      "neighbourhood_id": "5471",
+      "neighbourhood": "CHAPPELLE",
+      "rows": "1"
+    },
+    {
+      "neighbourhood_id": "5472",
+      "neighbourhood": "HERITAGE VALLEY TOWN CENTRE",
+      "rows": "1"
+    },
+    {
+      "neighbourhood_id": "5476",
+      "neighbourhood": "MAGRATH HEIGHTS",
+      "rows": "21"
+    },
+    {
+      "neighbourhood_id": "5477",
+      "neighbourhood": "MACTAGGART",
+      "rows": "14"
+    },
+    {
+      "neighbourhood_id": "5480",
+      "neighbourhood": "STRATHCONA",
+      "rows": "212"
+    },
+    {
+      "neighbourhood_id": "5490",
+      "neighbourhood": "SWEET GRASS",
+      "rows": "47"
+    },
+    {
+      "neighbourhood_id": "5505",
+      "neighbourhood": "AMBLESIDE",
+      "rows": "216"
+    },
+    {
+      "neighbourhood_id": "5511",
+      "neighbourhood": "TWIN BROOKS",
+      "rows": "42"
+    },
+    {
+      "neighbourhood_id": "5520",
+      "neighbourhood": "UNIVERSITY OF ALBERTA",
+      "rows": "230"
+    },
+    {
+      "neighbourhood_id": "5530",
+      "neighbourhood": "UNIVERSITY OF ALBERTA FARM",
+      "rows": "52"
+    },
+    {
+      "neighbourhood_id": "5540",
+      "neighbourhood": "WESTBROOK ESTATES",
+      "rows": "6"
+    },
+    {
+      "neighbourhood_id": "5550",
+      "neighbourhood": "WHITEMUD CREEK RAVINE NORTH",
+      "rows": "26"
+    },
+    {
+      "neighbourhood_id": "5560",
+      "neighbourhood": "WHITEMUD CREEK RAVINE SOUTH",
+      "rows": "34"
+    },
+    {
+      "neighbourhood_id": "5565",
+      "neighbourhood": "WHITEMUD CREEK RAVINE TWIN BROOKS",
+      "rows": "1"
+    },
+    {
+      "neighbourhood_id": "5570",
+      "neighbourhood": "WINDERMERE",
+      "rows": "79"
+    },
+    {
+      "neighbourhood_id": "5573",
+      "neighbourhood": "KENDAL",
+      "rows": "2"
+    },
+    {
+      "neighbourhood_id": "5574",
+      "neighbourhood": "KESWICK",
+      "rows": "8"
+    },
+    {
+      "neighbourhood_id": "5575",
+      "neighbourhood": "WINDERMERE AREA",
+      "rows": "15"
+    },
+    {
+      "neighbourhood_id": "5578",
+      "neighbourhood": "GLENRIDDING HEIGHTS",
+      "rows": "9"
+    },
+    {
+      "neighbourhood_id": "5579",
+      "neighbourhood": "GLENRIDDING RAVINE",
+      "rows": "17"
+    },
+    {
+      "neighbourhood_id": "5580",
+      "neighbourhood": "WINDSOR PARK",
+      "rows": "82"
+    },
+    {
+      "neighbourhood_id": "5590",
+      "neighbourhood": "BLACKBURNE",
+      "rows": "18"
+    },
+    {
+      "neighbourhood_id": "5610",
+      "neighbourhood": "HADDOW",
+      "rows": "22"
+    },
+    {
+      "neighbourhood_id": "5620",
+      "neighbourhood": "HODGSON",
+      "rows": "25"
+    },
+    {
+      "neighbourhood_id": "5630",
+      "neighbourhood": "LEGER",
+      "rows": "47"
+    },
+    {
+      "neighbourhood_id": "5640",
+      "neighbourhood": "TERWILLEGAR TOWNE",
+      "rows": "75"
+    },
+    {
+      "neighbourhood_id": "5642",
+      "neighbourhood": "SOUTH TERWILLEGAR",
+      "rows": "66"
+    },
+    {
+      "neighbourhood_id": "6010",
+      "neighbourhood": "ARGYLL",
+      "rows": "9"
+    },
+    {
+      "neighbourhood_id": "6020",
+      "neighbourhood": "AVONMORE",
+      "rows": "100"
+    },
+    {
+      "neighbourhood_id": "6030",
+      "neighbourhood": "BISSET",
+      "rows": "15"
+    },
+    {
+      "neighbourhood_id": "6040",
+      "neighbourhood": "BONNIE DOON",
+      "rows": "108"
+    },
+    {
+      "neighbourhood_id": "6061",
+      "neighbourhood": "CAPILANO",
+      "rows": "40"
+    },
+    {
+      "neighbourhood_id": "6070",
+      "neighbourhood": "CLOVERDALE",
+      "rows": "62"
+    },
+    {
+      "neighbourhood_id": "6090",
+      "neighbourhood": "CORONET ADDITION INDUSTRIAL",
+      "rows": "39"
+    },
+    {
+      "neighbourhood_id": "6100",
+      "neighbourhood": "CORONET INDUSTRIAL",
+      "rows": "60"
+    },
+    {
+      "neighbourhood_id": "6110",
+      "neighbourhood": "CPR IRVINE",
+      "rows": "24"
+    },
+    {
+      "neighbourhood_id": "6140",
+      "neighbourhood": "CRAWFORD PLAINS",
+      "rows": "62"
+    },
+    {
+      "neighbourhood_id": "6150",
+      "neighbourhood": "DALY GROVE",
+      "rows": "30"
+    },
+    {
+      "neighbourhood_id": "6160",
+      "neighbourhood": "DAVIES INDUSTRIAL EAST",
+      "rows": "22"
+    },
+    {
+      "neighbourhood_id": "6170",
+      "neighbourhood": "DAVIES INDUSTRIAL WEST",
+      "rows": "55"
+    },
+    {
+      "neighbourhood_id": "6180",
+      "neighbourhood": "EASTGATE BUSINESS PARK",
+      "rows": "32"
+    },
+    {
+      "neighbourhood_id": "6190",
+      "neighbourhood": "EDMONTON RESEARCH AND DEVELOPMENT PARK",
+      "rows": "28"
+    },
+    {
+      "neighbourhood_id": "6195",
+      "neighbourhood": "SOUTH EDMONTON COMMON",
+      "rows": "99"
+    },
+    {
+      "neighbourhood_id": "6200",
+      "neighbourhood": "EKOTA",
+      "rows": "29"
+    },
+    {
+      "neighbourhood_id": "6211",
+      "neighbourhood": "ELLERSLIE",
+      "rows": "91"
+    },
+    {
+      "neighbourhood_id": "6213",
+      "neighbourhood": "SUMMERSIDE",
+      "rows": "192"
+    },
+    {
+      "neighbourhood_id": "6214",
+      "neighbourhood": "ELLERSLIE INDUSTRIAL",
+      "rows": "146"
+    },
+    {
+      "neighbourhood_id": "6216",
+      "neighbourhood": "THE ORCHARDS AT ELLERSLIE",
+      "rows": "54"
+    },
+    {
+      "neighbourhood_id": "6230",
+      "neighbourhood": "FOREST HEIGHTS",
+      "rows": "125"
+    },
+    {
+      "neighbourhood_id": "6240",
+      "neighbourhood": "FULTON PLACE",
+      "rows": "88"
+    },
+    {
+      "neighbourhood_id": "6250",
+      "neighbourhood": "GAINER INDUSTRIAL",
+      "rows": "2"
+    },
+    {
+      "neighbourhood_id": "6260",
+      "neighbourhood": "GIRARD INDUSTRIAL",
+      "rows": "16"
+    },
+    {
+      "neighbourhood_id": "6270",
+      "neighbourhood": "GOLD BAR",
+      "rows": "49"
+    },
+    {
+      "neighbourhood_id": "6280",
+      "neighbourhood": "GREENVIEW",
+      "rows": "51"
+    },
+    {
+      "neighbourhood_id": "6290",
+      "neighbourhood": "HAZELDEAN",
+      "rows": "54"
+    },
+    {
+      "neighbourhood_id": "6300",
+      "neighbourhood": "HILLVIEW",
+      "rows": "102"
+    },
+    {
+      "neighbourhood_id": "6310",
+      "neighbourhood": "HOLYROOD",
+      "rows": "88"
+    },
+    {
+      "neighbourhood_id": "6320",
+      "neighbourhood": "IDYLWYLDE",
+      "rows": "49"
+    },
+    {
+      "neighbourhood_id": "6330",
+      "neighbourhood": "JACKSON HEIGHTS",
+      "rows": "96"
+    },
+    {
+      "neighbourhood_id": "6340",
+      "neighbourhood": "KAMEYOSEK",
+      "rows": "20"
+    },
+    {
+      "neighbourhood_id": "6350",
+      "neighbourhood": "KENILWORTH",
+      "rows": "147"
+    },
+    {
+      "neighbourhood_id": "6360",
+      "neighbourhood": "KING EDWARD PARK",
+      "rows": "55"
+    },
+    {
+      "neighbourhood_id": "6370",
+      "neighbourhood": "KINISKI GARDENS",
+      "rows": "101"
+    },
+    {
+      "neighbourhood_id": "6380",
+      "neighbourhood": "LAMBTON INDUSTRIAL",
+      "rows": "21"
+    },
+    {
+      "neighbourhood_id": "6390",
+      "neighbourhood": "LARKSPUR",
+      "rows": "79"
+    },
+    {
+      "neighbourhood_id": "6400",
+      "neighbourhood": "LEE RIDGE",
+      "rows": "32"
+    },
+    {
+      "neighbourhood_id": "6410",
+      "neighbourhood": "MAPLE RIDGE",
+      "rows": "16"
+    },
+    {
+      "neighbourhood_id": "6420",
+      "neighbourhood": "MAPLE RIDGE INDUSTRIAL",
+      "rows": "14"
+    },
+    {
+      "neighbourhood_id": "6430",
+      "neighbourhood": "MCINTYRE INDUSTRIAL",
+      "rows": "19"
+    },
+    {
+      "neighbourhood_id": "6441",
+      "neighbourhood": "MAPLE",
+      "rows": "13"
+    },
+    {
+      "neighbourhood_id": "6442",
+      "neighbourhood": "SILVER BERRY",
+      "rows": "81"
+    },
+    {
+      "neighbourhood_id": "6443",
+      "neighbourhood": "TAMARACK",
+      "rows": "62"
+    },
+    {
+      "neighbourhood_id": "6444",
+      "neighbourhood": "LAUREL",
+      "rows": "33"
+    },
+    {
+      "neighbourhood_id": "6445",
+      "neighbourhood": "ASTER",
+      "rows": "6"
+    },
+    {
+      "neighbourhood_id": "6450",
+      "neighbourhood": "MENISA",
+      "rows": "32"
+    },
+    {
+      "neighbourhood_id": "6460",
+      "neighbourhood": "MEYOKUMIN",
+      "rows": "72"
+    },
+    {
+      "neighbourhood_id": "6470",
+      "neighbourhood": "MEYONOHK",
+      "rows": "33"
+    },
+    {
+      "neighbourhood_id": "6480",
+      "neighbourhood": "MICHAELS PARK",
+      "rows": "43"
+    },
+    {
+      "neighbourhood_id": "6491",
+      "neighbourhood": "MILL CREEK RAVINE NORTH",
+      "rows": "17"
+    },
+    {
+      "neighbourhood_id": "6492",
+      "neighbourhood": "MILL CREEK RAVINE SOUTH",
+      "rows": "3"
+    },
+    {
+      "neighbourhood_id": "6500",
+      "neighbourhood": "MILL WOODS GOLF COURSE",
+      "rows": "11"
+    },
+    {
+      "neighbourhood_id": "6510",
+      "neighbourhood": "MILL WOODS PARK",
+      "rows": "17"
+    },
+    {
+      "neighbourhood_id": "6520",
+      "neighbourhood": "MILL WOODS TOWN CENTRE",
+      "rows": "31"
+    },
+    {
+      "neighbourhood_id": "6530",
+      "neighbourhood": "MINCHAU",
+      "rows": "45"
+    },
+    {
+      "neighbourhood_id": "6540",
+      "neighbourhood": "MORRIS INDUSTRIAL",
+      "rows": "8"
+    },
+    {
+      "neighbourhood_id": "6550",
+      "neighbourhood": "OTTEWELL",
+      "rows": "202"
+    },
+    {
+      "neighbourhood_id": "6560",
+      "neighbourhood": "PAPASCHASE INDUSTRIAL",
+      "rows": "62"
+    },
+    {
+      "neighbourhood_id": "6570",
+      "neighbourhood": "PARSONS INDUSTRIAL",
+      "rows": "116"
+    },
+    {
+      "neighbourhood_id": "6580",
+      "neighbourhood": "POLLARD MEADOWS",
+      "rows": "27"
+    },
+    {
+      "neighbourhood_id": "6590",
+      "neighbourhood": "PYLYPOW INDUSTRIAL",
+      "rows": "49"
+    },
+    {
+      "neighbourhood_id": "6600",
+      "neighbourhood": "RICHFIELD",
+      "rows": "112"
+    },
+    {
+      "neighbourhood_id": "6610",
+      "neighbourhood": "RITCHIE",
+      "rows": "194"
+    },
+    {
+      "neighbourhood_id": "6620",
+      "neighbourhood": "RIVER VALLEY GOLD BAR",
+      "rows": "33"
+    },
+    {
+      "neighbourhood_id": "6630",
+      "neighbourhood": "RIVER VALLEY RIVERSIDE",
+      "rows": "11"
+    },
+    {
+      "neighbourhood_id": "6640",
+      "neighbourhood": "ROPER INDUSTRIAL",
+      "rows": "52"
+    },
+    {
+      "neighbourhood_id": "6650",
+      "neighbourhood": "ROSEDALE INDUSTRIAL",
+      "rows": "72"
+    },
+    {
+      "neighbourhood_id": "6661",
+      "neighbourhood": "CHARLESWORTH",
+      "rows": "71"
+    },
+    {
+      "neighbourhood_id": "6662",
+      "neighbourhood": "WALKER",
+      "rows": "110"
+    },
+    {
+      "neighbourhood_id": "6663",
+      "neighbourhood": "DECOTEAU",
+      "rows": "26"
+    },
+    {
+      "neighbourhood_id": "6665",
+      "neighbourhood": "ANTHONY HENDAY SOUTH EAST",
+      "rows": "43"
+    },
+    {
+      "neighbourhood_id": "6667",
+      "neighbourhood": "MATTSON",
+      "rows": "3"
+    },
+    {
+      "neighbourhood_id": "6668",
+      "neighbourhood": "MELTWATER",
+      "rows": "20"
+    },
+    {
+      "neighbourhood_id": "6669",
+      "neighbourhood": "ALCES",
+      "rows": "14"
+    },
+    {
+      "neighbourhood_id": "6670",
+      "neighbourhood": "SAKAW",
+      "rows": "11"
+    },
+    {
+      "neighbourhood_id": "6680",
+      "neighbourhood": "SATOO",
+      "rows": "34"
+    },
+    {
+      "neighbourhood_id": "6690",
+      "neighbourhood": "SOUTHEAST INDUSTRIAL",
+      "rows": "119"
+    },
+    {
+      "neighbourhood_id": "6700",
+      "neighbourhood": "STRATHCONA INDUSTRIAL PARK",
+      "rows": "132"
+    },
+    {
+      "neighbourhood_id": "6710",
+      "neighbourhood": "STRATHEARN",
+      "rows": "29"
+    },
+    {
+      "neighbourhood_id": "6720",
+      "neighbourhood": "TAWA",
+      "rows": "11"
+    },
+    {
+      "neighbourhood_id": "6730",
+      "neighbourhood": "TERRACE HEIGHTS",
+      "rows": "54"
+    },
+    {
+      "neighbourhood_id": "6750",
+      "neighbourhood": "TIPASKAN",
+      "rows": "26"
+    },
+    {
+      "neighbourhood_id": "6760",
+      "neighbourhood": "TWEDDLE PLACE",
+      "rows": "49"
+    },
+    {
+      "neighbourhood_id": "6770",
+      "neighbourhood": "WEINLOS",
+      "rows": "22"
+    },
+    {
+      "neighbourhood_id": "6780",
+      "neighbourhood": "WEIR INDUSTRIAL",
+      "rows": "40"
+    },
+    {
+      "neighbourhood_id": "6790",
+      "neighbourhood": "WILD ROSE",
+      "rows": "76"
+    },
+    {
+      "neighbourhood_id": "8885",
+      "neighbourhood": "EDMONTON SOUTH CENTRAL EAST",
+      "rows": "38"
+    },
+    {
+      "neighbourhood_id": "8886",
+      "neighbourhood": "EDMONTON SOUTH EAST",
+      "rows": "18"
+    },
+    {
+      "neighbourhood_id": "8887",
+      "neighbourhood": "EDMONTON SOUTH CENTRAL",
+      "rows": "384"
+    },
+    {
+      "neighbourhood_id": "8888",
+      "neighbourhood": "EDMONTON SOUTH WEST",
+      "rows": "73"
+    },
+    {
+      "neighbourhood_id": "8889",
+      "neighbourhood": "CROSSROADS",
+      "rows": "4"
+    },
+    {
+      "neighbourhood": "CHAPPELLE",
+      "rows": "1"
+    },
+    {
+      "neighbourhood": "HORSE HILL NEIGHBOURHOOD 1A",
+      "rows": "1"
+    },
+    {
+      "neighbourhood": "OLIVER",
+      "rows": "9"
+    },
+    {
+      "neighbourhood": "WINDERMERE AREA",
+      "rows": "2"
+    },
+    {
+      "rows": "563"
+    }
+  ]
+}

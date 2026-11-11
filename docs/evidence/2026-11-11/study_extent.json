@@ -1,0 +1,17 @@
+{
+  "retrieved_at_utc": "2026-11-11T21:26:13.185740+00:00",
+  "source_url": "https://data.edmonton.ca/resource/q7ua-agfg.json?%24select=count%28%2A%29+as+rows%2Ccount%28row_id%29+as+with_row_id%2Ccount%28distinct+row_id%29+as+distinct_row_ids%2Ccount%28neighbourhood_id%29+as+with_neighbourhood_id%2Ccount%28neighbourhood%29+as+with_neighbourhood_name%2Cmin%28date_created%29+as+earliest%2Cmax%28date_created%29+as+latest&%24where=%28service_category+%3D+%27Potholes%27+AND+service_description+IN+%28%27POTHOLE%3ARoad+Pothole%27%2C%27Road+Pothole%27%2C%27Pothole%3A+Arterial+Road%27%2C%27Pothole%3A+Residential+Road%27%2C%27Pothole%3A+Collector+Road%27%2C%27Pothole%3A+Industrial+Road%27%29%29+AND+date_created+%3E%3D+%272023-01-01T00%3A00%3A00%27+AND+date_created+%3C+%272026-01-01T00%3A00%3A00%27",
+  "response_sha256": "b27233448e418524cdfd6feb4f0c5972a74d2a2e0561251c0ebedfe18e8d2993",
+  "metadata_projection": false,
+  "data": [
+    {
+      "rows": "22947",
+      "with_row_id": "22947",
+      "distinct_row_ids": "22947",
+      "with_neighbourhood_id": "22371",
+      "with_neighbourhood_name": "22384",
+      "earliest": "2023-01-01T11:13:14.000",
+      "latest": "2025-12-31T17:13:22.000"
+    }
+  ]
+}

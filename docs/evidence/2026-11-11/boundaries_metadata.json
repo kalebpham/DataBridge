@@ -1,0 +1,96 @@
+{
+  "retrieved_at_utc": "2026-11-11T21:26:08.261420+00:00",
+  "source_url": "https://data.edmonton.ca/api/views/65fr-66s6.json",
+  "response_sha256": "bcee87710676f632e3a505b550f2bd08183ae56714997b678001602b6cfe4eb0",
+  "metadata_projection": true,
+  "data": {
+    "id": "65fr-66s6",
+    "name": "City of Edmonton - Neighbourhoods",
+    "description": "List of current neighbourhoods and their unique identifier number.  Included are both residential and industrial neighbourhoods.",
+    "attribution": "City of Edmonton",
+    "license": {
+      "name": "See Terms of Use"
+    },
+    "licenseId": "SEE_TERMS_OF_USE",
+    "rowsUpdatedAt": 1794217194,
+    "viewLastModified": 1794217192,
+    "metadata": {
+      "custom_fields": {
+        "Time Frame": {
+          "Update Frequency": "Weekly",
+          "Automated or Manual": "Automated",
+          "Date Created": "April 2013"
+        },
+        "Spatial": {
+          "Coordinate System": "LL-WGS84"
+        },
+        "General Information": {
+          "Purpose": "To provide a list of neighbourhoods for cartographic, analysis and tracking purposes.",
+          "Internal or External": "Internally Sourced Data ",
+          "Primary Dataset or View": "Primary"
+        },
+        "Quality Indicators": {
+          "Duplicates Removed": "Yes",
+          "Verified for Accuracy": "Yes"
+        }
+      },
+      "rowIdentifier": null
+    },
+    "columns": [
+      {
+        "fieldName": "name",
+        "name": "Neighbourhood Name",
+        "dataTypeName": "text",
+        "description": "Neighbourhood name"
+      },
+      {
+        "fieldName": "neighbourhood_number",
+        "name": "Neighbourhood Number",
+        "dataTypeName": "number",
+        "description": "Unique number identifier"
+      },
+      {
+        "fieldName": "descriptive_name",
+        "name": "Descriptive Name",
+        "dataTypeName": "text",
+        "description": "Formatted copy of the `name` field"
+      },
+      {
+        "fieldName": "description",
+        "name": "Description",
+        "dataTypeName": "text",
+        "description": "Description of the Neighbourhood in question, if available"
+      },
+      {
+        "fieldName": "effective_start_date",
+        "name": "Effective Start Date",
+        "dataTypeName": "calendar_date",
+        "description": ""
+      },
+      {
+        "fieldName": "effective_end_date",
+        "name": "Effective End Date",
+        "dataTypeName": "calendar_date",
+        "description": ""
+      },
+      {
+        "fieldName": "civic_ward_name",
+        "name": "Civic Ward",
+        "dataTypeName": "text",
+        "description": "Ward to which the Neighbourhood belongs"
+      },
+      {
+        "fieldName": "district",
+        "name": "Planning District",
+        "dataTypeName": "text",
+        "description": "Planning District, from the City Plan, to which the Neighbourhood belongs"
+      },
+      {
+        "fieldName": "geometry_multipolygon",
+        "name": "Geometry Multipolygon",
+        "dataTypeName": "multipolygon",
+        "description": ""
+      }
+    ]
+  }
+}
