@@ -16,18 +16,34 @@ The proposed study uses official secondary data to compare neighbourhood pothole
 
 ## 2. Licensing and source register
 
-The City's catalogue provides an [Open Government Licence page](https://data.edmonton.ca/stories/s/Open-Government-Licence-Edmonton/msh8-if28/). Its full licence text could not be extracted during this desk review. A legacy [City Open Data Terms of Use document](https://www.edmonton.ca/sites/default/files/public-files/documents/Web-version2.1-OpenDataAgreement.pdf) also appears in search results. Neither should be assumed to govern every current or archived dataset without checking the selected dataset's metadata.
+The [Open Government Licence — Edmonton](https://data.edmonton.ca/stories/s/Open-Government-Licence-Edmonton/msh8-if28/) was verified on November 11, 2026 by reading the licence embedded in the City's official page. It identifies itself as **version 1.0**. For information offered under that licence, it permits reuse, modification, and redistribution, including commercial use, subject to its terms. Acknowledge the provider using its specified attribution and link the licence where possible. If no specific statement is supplied, the licence gives this fallback:
+
+> Contains information licensed under the Open Government Licence – City of Edmonton.
+
+The licence excludes personal information and rights the provider cannot license, including certain third-party rights and official symbols. It does not authorize implied endorsement, and it disclaims warranties. This summary does not establish that a particular dataset is covered: verify the selected dataset's licence metadata, exclusions, and attribution requirements, and record the version in force at access. A legacy terms document should not be substituted for the terms attached to the selected source.
 
 Before downloading the analysis dataset, complete this register and retain the applicable terms/version. Do not treat the club's eventual code licence as a licence for external data.
 
 | Planned source | Intended use | Licence / attribution status | Required action |
 | --- | --- | --- | --- |
-| Official Edmonton 311 export and any archives | Neighbourhood-period report counts | Dataset not selected; applicable terms and attribution not yet verified. | Kaleb records dataset ID, licence link/version, permitted uses, redistribution terms, and attribution wording. |
+| Official Edmonton 311 export and any archives | Neighbourhood-period report counts | General City licence verified; applicability and specific attribution for the selected dataset remain unverified. | Kaleb records dataset ID, licence link/version, permitted uses, redistribution terms, and attribution wording. |
 | Official neighbourhood boundaries | Mapping and identifier joins | Exact layer/version not selected. | Verify licence, date, geographic coverage, and attribution. |
 | Road-length/network data, optional | Exposure-adjusted summaries | Dataset and licence not selected. | Verify lawful reuse, units, road classes, and compatibility before deriving rates. |
 | Climate or traffic data, optional | Contextual analysis | Not selected or needed for the core descriptive study. | Check source-specific terms before adding these data. |
 
 For each approved source, record its title, provider, URL, dataset identifier, access/export date, version or time range, licence URL/version, exact required attribution, and whether raw or transformed redistribution is permitted. Until checked, publish planning documents and code rather than raw datasets.
+
+### Proposed source-attribution record
+
+Use this structure when a dataset is selected. It is a record to complete, not an attribution to data we have already used:
+
+- **Source title / dataset ID:** pending source selection.
+- **Provider and stable source URL:** pending source selection.
+- **Access date and export/version:** pending download.
+- **Applicable licence URL and version:** verify against that dataset's metadata.
+- **Required provider attribution:** transcribe the dataset-specific statement, or use the verified licence fallback only if applicable.
+- **Changes made:** record filtering, aggregation, geographic joins, and other transformations.
+- **Publication decision:** record whether raw or transformed redistribution is permitted and whether the proposed output passes the privacy review.
 
 ## 3. Privacy and publication practices
 

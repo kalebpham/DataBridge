@@ -68,6 +68,8 @@ These are relative estimates, not committed dates. Both team members must agree 
 
 ## Proposal presentation outline
 
+The [presentation brief and speaking notes](proposal-speaking-notes.md) provide Estella’s speaking draft, an equal-time run of presentation, and the evidence Kaleb needs to supply. The notes are not a completed slide deck or joint approval.
+
 Split preparation and speaking time equally:
 
 - **Estella:** background and literature, proposed study design, ethics, and interpretation limits.

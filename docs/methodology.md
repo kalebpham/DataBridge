@@ -67,6 +67,18 @@ Retain unlocated requests in an audit total and report their share by month/year
 
 **Missing versus zero:** build the neighbourhood-month panel only after establishing which combinations are eligible and covered. A covered cell with no eligible requests can be zero. Unknown or incomplete coverage is missing. The primary annual comparison requires all 12 covered months for each included neighbourhood-year and a common cohort across years. Global source gaps cannot be inferred away from active neighbourhoods.
 
+### Coverage decision rules
+
+| Evidence or condition | Treatment in the proposed dataset |
+| --- | --- |
+| Source evidence supports a complete neighbourhood-month and no eligible requests occur | Record zero, retaining the supporting coverage flag. |
+| A documented source outage or incomplete export affects that month | Record missing; do not create a zero or prorate an annual total for the primary comparison. |
+| Coverage cannot be established | Mark unresolved and seek source evidence; do not infer completeness from nearby areas or a plausible total. |
+| Requests lack a usable neighbourhood identifier | Keep them in the unlocated audit total; do not redistribute them across neighbourhoods. |
+| A previously eligible neighbourhood changes boundary or identifier without a verified crosswalk | Exclude it from the common comparable cohort until the geographic issue is resolved. |
+
+Start the geographic inventory from the compatible official boundary/identifier list rather than only neighbourhoods appearing in the request export. Otherwise genuinely covered zero-report areas could disappear before ranking. Explain how the choice of cohort changes the population described. A neighbourhood with no records is not, by itself, evidence of either zero reporting or missing coverage.
+
 ## 6. Duplicate and update handling
 
 Separate duplicate export rows from separate reports about the same physical issue. Remove exact repeated records with the same validated request identity and log the number removed. If repeated identifiers carry updates, define a deterministic source-documented snapshot rule and preserve the original creation date; do not count status updates as new requests.
