@@ -4,15 +4,15 @@
 
 **Status:** Conditional draft, November 11, 2026. Incorporate Estella's literature review (#2), study design (#4), and ethics review (#6) before freezing it. Only source-feasibility summaries have been inspected; no neighbourhood outcome rankings or hypothesis tests have been run.
 
-This plan implements the proposed questions and operational definitions in the [scope draft](research-proposal.md). The [feasibility document](data-feasibility.md) identifies conditions that may require an amendment. The pilot will also test whether this planning/review approach is workable for future DataBridge teams.
+This plan implements the questions and starting operational definitions in the [approved scope](research-proposal.md). Scope approval was received through Kaleb on November 11, 2026; review of this analysis plan remains separate. The [feasibility document](data-feasibility.md) and [comparability follow-up](data-comparability.md) identify conditions that may require an amendment. The pilot will also test whether this planning/review approach is workable for future DataBridge teams.
 
 ## 1. Freeze inputs and eligibility
 
 - Proposed period: January 2023-December 2025; monthly study units.
 - Proposed outcome: distinct request IDs under the six-label road-pothole filter. Retain repeat reports with distinct IDs in the main measure.
 - Freeze extraction timestamp, query/filter version, deduplication decisions, geographic crosswalk/boundary version and cohort before computing rankings. Preserve source identifiers, retrieval provenance and a cleaning/exclusion log.
-- Resolve the six unmatched historical IDs and verify a fixed cohort with comparable geography over the study. Eligibility must not depend on whether a neighbourhood happens to have many reports. Apply one common cohort to annual/seasonal comparisons.
-- Audit category changes and the 2025 volume discontinuity. If comparability fails, restrict the question or period and document the change before examining neighbourhood results.
+- Resolve the six unmatched historical IDs and verify a fixed cohort with comparable geography over the study. The official 2021 layer contains all six, but does not establish equivalence to current polygons. Do not adopt rejected name-based substitutions (Horse Hill Neighbourhood 1A to Marquis, or Windermere Area to Windermere); verify other transitions or exclude affected definitions consistently. Eligibility must not depend on whether a neighbourhood happens to have many reports. Apply one common cohort to annual/seasonal comparisons.
+- Audit category changes and the 2025 volume discontinuity. Follow-up checks find daily all-service presence, increases in both app and phone road reports, and an increase even after removing duplicate-flagged requests. These narrow the source-quality questions but do not establish their cause. Keep year-specific results visible. If comparability fails, restrict the question or period and document the change before examining neighbourhood results.
 - Create explicit coverage flags. Do not fill unverified absent neighbourhood-months with zero. For the primary three-year comparisons require a common set of 36 defensibly observed months; otherwise revise the primary period/cohort. Missing-location requests stay outside neighbourhood counts with their volume disclosed.
 
 No raw extraction, inferential sample size or statistical power is established by the current planning evidence. The full dataset will require checks beyond the 20-row sample and aggregate audits.
@@ -30,9 +30,9 @@ Use one common legend for count maps that are intended to be compared; mark excl
 
 ## 3. Hotspot membership, ties and persistence
 
-Use the proposed positive-count top-decile rule in the scope draft: `k = ceil(0.10*N)`, inclusive ties at the kth-largest count, positive counts only. Report actual group sizes. All-zero periods have undefined hotspot membership/persistence and remain explicitly flagged. In low-volume periods where fewer than `k` neighbourhoods have positive counts, flag the result as sparse rather than padding the group with zero-report areas.
+Use the approved starting positive-count top-decile rule: `k = ceil(0.10*N)`, inclusive ties at the kth-largest count, positive counts only. Report actual group sizes. All-zero periods have undefined hotspot membership/persistence and remain explicitly flagged. In low-volume periods where fewer than `k` neighbourhoods have positive counts, flag the result as sparse rather than padding the group with zero-report areas.
 
-For every eligible neighbourhood report annual membership as 0/3, 1/3, 2/3 or 3/3. Label at least 2/3 "consistently high reporting" only after the proposed definition is reviewed. Show the actual annual counts beside that label. Report the three pairwise annual Spearman correlations using average ranks for ties; correlations are undefined if a ranking is constant.
+For every eligible neighbourhood report annual membership as 0/3, 1/3, 2/3 or 3/3. Label at least 2/3 "consistently high reporting" under the approved starting definition. Show the actual annual counts beside that label. Report the three pairwise annual Spearman correlations using average ranks for ties; correlations are undefined if a ranking is constant.
 
 For each annual pair, report intersection size and Jaccard overlap `|A intersect B| / |A union B|`, along with both set sizes. Jaccard overlap is undefined for an empty union. Compare the intersection descriptively with `|A|*|B|/N`, the expected intersection under an independent uniformly assigned-membership reference with fixed group sizes. This reference is not a valid spatial/temporal independence assumption by default and will not generate confirmatory p-values.
 

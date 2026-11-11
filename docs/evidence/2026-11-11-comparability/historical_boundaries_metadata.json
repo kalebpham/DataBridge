@@ -1,0 +1,82 @@
+{
+  "retrieved_at_utc": "2026-11-11T21:48:47.217882+00:00",
+  "source_url": "https://data.edmonton.ca/api/views/5bk4-5txu.json",
+  "response_sha256": "307272a0c977508c39658933814a88d3e69ddfc5b8a5b646eaf72b51cf421301",
+  "metadata_projection": true,
+  "data": {
+    "id": "5bk4-5txu",
+    "name": "2021 Federal Census: Neighbourhoods as of Official Census Day",
+    "description": "A historical snapshot of neighbourhood boundaries as they were on the official census day for the 28th Census of Canada (the 2021 Federal Census).\n\nThe associated datasets are at:\n- https://data.edmonton.ca/browse?tags=2021%20federal%20census",
+    "attribution": null,
+    "license": null,
+    "licenseId": null,
+    "rowsUpdatedAt": 1687556643,
+    "viewLastModified": 1688744438,
+    "metadata": {
+      "custom_fields": {
+        "Time Frame": {
+          "Update Frequency": "Not Updated (Historical Only)",
+          "Period of Coverage": "As of 2021",
+          "Automated or Manual": "Manual"
+        }
+      },
+      "rowIdentifier": null
+    },
+    "columns": [
+      {
+        "fieldName": "the_geom",
+        "name": "the_geom",
+        "dataTypeName": "multipolygon",
+        "description": ""
+      },
+      {
+        "fieldName": "name",
+        "name": "name",
+        "dataTypeName": "text",
+        "description": ""
+      },
+      {
+        "fieldName": "neighbourh",
+        "name": "neighbourh",
+        "dataTypeName": "number",
+        "description": ""
+      },
+      {
+        "fieldName": "descriptiv",
+        "name": "descriptiv",
+        "dataTypeName": "text",
+        "description": ""
+      },
+      {
+        "fieldName": "descriptio",
+        "name": "descriptio",
+        "dataTypeName": "text",
+        "description": ""
+      },
+      {
+        "fieldName": "date_effec",
+        "name": "date_effec",
+        "dataTypeName": "calendar_date",
+        "description": ""
+      },
+      {
+        "fieldName": "time_effec",
+        "name": "time_effec",
+        "dataTypeName": "text",
+        "description": ""
+      },
+      {
+        "fieldName": "date_eff_2",
+        "name": "date_eff_2",
+        "dataTypeName": "calendar_date",
+        "description": ""
+      },
+      {
+        "fieldName": "time_eff_2",
+        "name": "time_eff_2",
+        "dataTypeName": "text",
+        "description": ""
+      }
+    ]
+  }
+}

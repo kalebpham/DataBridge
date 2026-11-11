@@ -2,7 +2,7 @@
 
 **Issue:** [#3](https://github.com/kalebpham/DataBridge/issues/3). **Owner:** Kaleb Pham. **Reviewer:** Estella Li (pending).
 
-**Inspection date:** November 11, 2026. **Recommendation:** Conditional go for planning a historical neighbourhood report-volume study; resolve comparability and measurement questions before full collection and analysis.
+**Inspection date:** November 11, 2026. **Recommendation:** Conditional go for planning a historical neighbourhood report-volume study; resolve comparability and measurement questions before full collection and analysis. The [follow-up comparability review](data-comparability.md) adds historical boundaries and daily/channel/duplicate diagnostics; its recommendations should inform the study design.
 
 This document reports source inspection, not research findings. It uses metadata, a non-random 20-row sample, a current boundary index, one polygon, and server-side aggregates. No neighbourhood rankings, fitted models or hypothesis tests have been produced.
 
@@ -40,7 +40,7 @@ For the six-label filter and **2023-2025** window, the preliminary aggregates ar
 | 2025 | 13,456 | 13,199 | 12 |
 | Total | 22,947 | 22,371 | 36 |
 
-The large change in 2025 needs investigation. It could reflect reporting, operational, classification, ingestion or actual-condition changes; the aggregates do not identify the explanation. Do not interpret it as a change in road damage. Check monthly continuity, source revisions and description/channel mixes in the design stage.
+The large change in 2025 needs interpretation. Follow-up checks find increases in both app and phone reports and a larger duplicate-flagged share; requests without that flag also increase. The main road label increases within its existing definition, while overall all-service volumes are broadly similar. These checks do not establish whether reporting, operations, coding or physical conditions caused the change. See the [year-specific evidence and limits](data-comparability.md#2025-reporting-change); do not interpret this as measured road damage.
 
 **Recommendation:** Start with 36 calendar months, aggregating to complete seasons and years for persistence. Low citywide winter volumes make weekly neighbourhood comparisons a poor default for this initial scope. Presence of records in all months supports a candidate window, but is not proof of complete daily ingestion or neighbourhood coverage. Exclude partial 2026 from the main comparison.
 
@@ -53,6 +53,8 @@ The large change in 2025 needs investigation. It could reflect reporting, operat
 - The selected Kenilworth record (`6350`) returns a `MultiPolygon`, confirming actual polygon availability. Geometry validity, completeness across all polygons and historical equivalence remain unchecked.
 
 Use `neighbourhood_id` to `neighbourhood_number` as the candidate join, normalizing numeric representations to canonical integer strings. Use names for audit/display, not automatic fuzzy joins. Verify a historical crosswalk or boundary version for old/new IDs. Exclude unresolved units from spatial comparisons and disclose their counts; do not silently drop them or assign them to a nearby centre point. A fixed comparable cohort is still to be established.
+
+Follow-up inspection identifies an [official 2021 boundary snapshot](https://data.edmonton.ca/d/5bk4-5txu) containing all six unmatched historical IDs. Its `neighbourh` field serializes IDs with `.0`, requiring whole-number normalization. It offers an alternative historical reference layer; it does not prove boundary stability through 2025. Candidate crosswalks and rejected name-based substitutions are documented in the [geography follow-up](data-comparability.md#historical-neighbourhood-boundaries).
 
 The City's documentation and field descriptions identify request coordinates as **neighbourhood or ward centres**, not incident positions. Never use them for individual-pothole mapping, road-segment assignment, within-neighbourhood density or recovery of exact locations. Aggregate by recorded neighbourhood ID before joining a validated polygon layer.
 
@@ -94,6 +96,8 @@ Proposed handling:
 
 Construct a neighbourhood-month panel only after fixing the cohort and source-coverage audit. Store a separate coverage flag and reason. A period with no source records is unknown until a defensible coverage rule supports zero; dates with no pothole reports do not on their own prove outages either. Review all-service source activity and documentation as supporting checks, recognizing that these do not guarantee pothole-specific completeness. Present exclusion and missing-location totals by time.
 
+The follow-up all-service check finds source records on every calendar day in each of the 36 proposed months. This rules out wholly empty all-service days in the inspected feed, but does not prove full ingestion or pothole-specific completeness. The coverage-mask rule remains a study-design decision.
+
 No road-length dataset has been inspected, and no exposure denominator is validated. Keep rates and road-length modelling outside the core study. Polygon area and neighbourhood population must not be substituted for road length without changing the question.
 
 Both inspected dataset metadata files label the licence **See Terms of Use** (`SEE_TERMS_OF_USE`). The linked current portal page is titled **Open Government Licence - Edmonton**, Version 1.0, July 2022. Its embedded public text permits copying and adaptation subject to source acknowledgement, and excludes rights in personal information and specified third-party/official-symbol material. The retained public evidence includes attribution and a licence link in its README and manifest; this is not a transfer of the City's data rights to DataBridge. Cite the City, dataset titles, source URLs and retrieval date; do not apply a future code licence to source data or imply City endorsement. The small retained sample uses already-published fields without attempts to identify reporters or recover incident locations. Estella's broader ethics/source-use assessment (#6) remains pending, including checking any additional restrictions on future sources.
@@ -103,10 +107,10 @@ Both inspected dataset metadata files label the licence **See Terms of Use** (`S
 | Question | Current evidence | Next decision |
 | --- | --- | --- |
 | Can we start scoping a monthly study? | Candidate fields, 36 populated months and road labels exist. | Review the candidate period and filter with Estella. |
-| Are years fully comparable? | 2025 volume differs substantially. | Audit classifications, source continuity and recording changes; revise claims/window if necessary. |
-| Can we map every report? | Missing IDs and six unmatched historical IDs exist. | Obtain crosswalk/history or document exclusions and a fixed cohort. |
+| Are years fully comparable? | 2025 increase persists across channels and without duplicate flags; cause unresolved. | Show years separately, preserve sensitivity checks and document assumptions; revise claims/window if necessary. |
+| Can we map every report? | Historical 2021 polygons contain the six old IDs; some current-name substitutions are geographically invalid. | Verify actual transitions or apply consistent exclusions; approve a historical reference layer and fixed cohort. |
 | Are repeat reports important? | One third carry a duplicate-related status. | Approve report-volume interpretation and sensitivity analysis. |
-| Can absent records become zeros? | Complete ingestion and unit-level observability not established. | Agree a coverage audit/rule before building the panel. |
+| Can absent records become zeros? | All-service records exist daily; complete ingestion and unit-level observability remain unestablished. | Agree a coverage rule using this supporting evidence before building the panel. |
 | Can we report rates? | No verified denominator. | Use counts in the core study. |
 | Is source-use review complete? | Current licence text read and public evidence attributed; broader assessment pending. | Incorporate into #6 and review any added sources before redistributing the full dataset. |
 

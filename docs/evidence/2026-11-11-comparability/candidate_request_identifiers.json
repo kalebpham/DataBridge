@@ -1,0 +1,85 @@
+{
+  "retrieved_at_utc": "2026-11-11T21:48:48.369478+00:00",
+  "source_url": "https://data.edmonton.ca/resource/q7ua-agfg.json?%24select=neighbourhood_id%2Cneighbourhood%2Cmin%28date_created%29+as+earliest%2Cmax%28date_created%29+as+latest%2Ccount%28%2A%29+as+rows&%24where=%28%28service_category+%3D+%27Potholes%27+AND+service_description+IN+%28%27POTHOLE%3ARoad+Pothole%27%2C%27Road+Pothole%27%2C%27Pothole%3A+Arterial+Road%27%2C%27Pothole%3A+Residential+Road%27%2C%27Pothole%3A+Collector+Road%27%2C%27Pothole%3A+Industrial+Road%27%29%29+AND+date_created+%3E%3D+%272023-01-01T00%3A00%3A00%27+AND+date_created+%3C+%272026-01-01T00%3A00%3A00%27%29+AND+neighbourhood_id+IN+%281150%2C1151%2C2691%2C2671%2C4485%2C4260%2C4261%2C5462%2C5471%2C5464%2C5472%2C5575%2C5570%29&%24group=neighbourhood_id%2Cneighbourhood&%24order=neighbourhood_id%2Cneighbourhood&%24limit=100",
+  "response_sha256": "8e602a4b15119caef8e01206464384a8f9cb2631008bc9597fe05e94a5e8d4c0",
+  "metadata_projection": false,
+  "data": [
+    {
+      "neighbourhood_id": "1150",
+      "neighbourhood": "OLIVER",
+      "earliest": "2023-01-08T09:51:24.000",
+      "latest": "2024-10-25T13:03:09.000",
+      "rows": "127"
+    },
+    {
+      "neighbourhood_id": "1151",
+      "neighbourhood": "WÎHKWÊNTÔWIN",
+      "earliest": "2024-11-07T15:13:28.000",
+      "latest": "2025-11-22T12:22:20.000",
+      "rows": "172"
+    },
+    {
+      "neighbourhood_id": "2671",
+      "neighbourhood": "MARQUIS",
+      "earliest": "2023-05-12T11:40:02.000",
+      "latest": "2025-09-16T11:54:52.000",
+      "rows": "21"
+    },
+    {
+      "neighbourhood_id": "2691",
+      "neighbourhood": "HORSE HILL NEIGHBOURHOOD 1A",
+      "earliest": "2023-05-24T10:43:50.000",
+      "latest": "2023-09-15T08:43:37.000",
+      "rows": "3"
+    },
+    {
+      "neighbourhood_id": "4485",
+      "neighbourhood": "LEWIS FARMS INDUSTRIAL",
+      "earliest": "2023-02-07T11:48:28.000",
+      "latest": "2025-07-23T08:37:58.000",
+      "rows": "59"
+    },
+    {
+      "neighbourhood_id": "5462",
+      "neighbourhood": "CHAPPELLE",
+      "earliest": "2023-03-20T15:51:17.000",
+      "latest": "2025-10-29T18:43:12.000",
+      "rows": "51"
+    },
+    {
+      "neighbourhood_id": "5464",
+      "neighbourhood": "HERITAGE VALLEY TOWN CENTRE",
+      "earliest": "2023-05-06T22:21:47.000",
+      "latest": "2025-09-25T18:51:45.000",
+      "rows": "17"
+    },
+    {
+      "neighbourhood_id": "5471",
+      "neighbourhood": "CHAPPELLE",
+      "earliest": "2025-11-26T09:51:19.000",
+      "latest": "2025-11-26T09:51:19.000",
+      "rows": "1"
+    },
+    {
+      "neighbourhood_id": "5472",
+      "neighbourhood": "HERITAGE VALLEY TOWN CENTRE",
+      "earliest": "2025-12-12T09:08:09.000",
+      "latest": "2025-12-12T09:08:09.000",
+      "rows": "1"
+    },
+    {
+      "neighbourhood_id": "5570",
+      "neighbourhood": "WINDERMERE",
+      "earliest": "2023-02-20T17:30:35.000",
+      "latest": "2025-12-30T09:00:52.000",
+      "rows": "79"
+    },
+    {
+      "neighbourhood_id": "5575",
+      "neighbourhood": "WINDERMERE AREA",
+      "earliest": "2023-01-24T14:45:57.000",
+      "latest": "2024-07-09T07:30:55.000",
+      "rows": "15"
+    }
+  ]
+}

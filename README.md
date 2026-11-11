@@ -25,7 +25,7 @@ Our first pilot belongs to **Independent Research**. External partnerships are a
 **Status:** Planning; geographic data coverage must be verified  
 **Estimated duration:** 5–6 weeks from project kickoff
 
-Working drafts are available for the [research question and scope](docs/research-proposal.md), [data feasibility](docs/data-feasibility.md), and [analysis plan](docs/analysis-plan.md). They propose a 2023–2025 monthly study and require team review, literature and study-design input, and resolution of source-quality questions before finalization.
+The [research question and starting scope](docs/research-proposal.md) were approved through Kaleb on November 11, 2026. The [data feasibility](docs/data-feasibility.md), [comparability follow-up](docs/data-comparability.md), and [analysis plan](docs/analysis-plan.md) document the remaining review and design work. The starting window is 2023–2025 by month; finalize geographic eligibility and coverage using the feasibility evidence and study design.
 
 We plan to investigate which Edmonton neighbourhoods tend to have the most pothole reports and whether these spatial patterns persist across seasons and years. The intended outputs are neighbourhood hotspot maps, comparisons of reporting levels, and an analysis of associated factors over a defined historical study period.
 
@@ -112,7 +112,7 @@ All three research roles contribute to planning before data collection begins.
 
 ## Proposed repository structure
 
-Most of this layout remains a plan for the pilot project. The repository currently includes this README, three working planning documents in `docs/`, dated feasibility evidence in `docs/evidence/`, and the bounded inspection script `scripts/inspect_data_sources.py`. The full collection, analysis and modelling pipeline below has not been implemented.
+Most of this layout remains a plan for the pilot project. The repository currently includes this README, four planning/review documents in `docs/`, dated feasibility evidence in `docs/evidence/`, and two bounded source-inspection scripts in `scripts/`. The full collection, analysis and modelling pipeline below has not been implemented.
 
 ```text
 DataBridge/
@@ -123,6 +123,7 @@ DataBridge/
 ├── docs/
 │   ├── research-proposal.md
 │   ├── data-feasibility.md
+│   ├── data-comparability.md
 │   ├── analysis-plan.md
 │   ├── literature-review.md
 │   ├── methodology.md
@@ -133,7 +134,8 @@ DataBridge/
 ├── notebooks/
 │   └── exploratory-analysis.ipynb
 ├── scripts/
-│   └── inspect_data_sources.py    # Implemented: bounded planning inspection
+│   ├── inspect_data_sources.py    # Implemented: bounded planning inspection
+│   └── check_data_comparability.py # Implemented: follow-up diagnostics
 ├── src/
 │   ├── collect_data.py
 │   ├── clean_data.py
@@ -157,6 +159,8 @@ python scripts/inspect_data_sources.py --output docs/evidence/new-inspection
 ```
 
 Use a new output directory on each run; existing evidence is not overwritten. This makes read-only requests to the official data API, saves metadata, at most 20 request records, a boundary index, one polygon and source-quality aggregates, and does not build the full study dataset or fit models. See the [feasibility notes](docs/data-feasibility.md) for interpretation and limitations. Full collection and analysis setup instructions will be added when those implementations are available.
+
+For the additional historical-geography and monthly comparability checks, run `python scripts/check_data_comparability.py --output docs/evidence/new-comparability-inspection`. See the [follow-up notes](docs/data-comparability.md) for the diagnostics and unresolved design choices.
 
 To work with a local copy, install Git and run:
 

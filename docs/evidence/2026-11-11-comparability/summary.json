@@ -1,0 +1,208 @@
+{
+  "purpose": "Derived diagnostics; no neighbourhood rankings, approved crosswalks or causal conclusions.",
+  "annual": [
+    {
+      "year": "2023",
+      "road_reports": 4886,
+      "duplicate_flagged": 934,
+      "without_duplicate_flag": 3952,
+      "duplicate_flag_percent": 19.1158,
+      "channels": {
+        "Mobile App": 3854,
+        "Phone Call": 1030,
+        "Email": 2
+      },
+      "all_service_rows": 910380,
+      "all_service_days_with_records": 365
+    },
+    {
+      "year": "2024",
+      "road_reports": 4605,
+      "duplicate_flagged": 1024,
+      "without_duplicate_flag": 3581,
+      "duplicate_flag_percent": 22.2367,
+      "channels": {
+        "Mobile App": 3658,
+        "Phone Call": 946,
+        "Email": 1
+      },
+      "all_service_rows": 895854,
+      "all_service_days_with_records": 366
+    },
+    {
+      "year": "2025",
+      "road_reports": 13456,
+      "duplicate_flagged": 5743,
+      "without_duplicate_flag": 7713,
+      "duplicate_flag_percent": 42.6798,
+      "channels": {
+        "Mobile App": 9908,
+        "Phone Call": 3523,
+        "Email": 25
+      },
+      "all_service_rows": 900448,
+      "all_service_days_with_records": 365
+    }
+  ],
+  "months_with_incomplete_all_service_day_presence": [],
+  "historical_index_rows": 403,
+  "historical_index_distinct_ids": 403,
+  "candidate_geometry_comparisons": [
+    {
+      "historical_id": "1150",
+      "current_candidate_id": "1151",
+      "historical": {
+        "type": "MultiPolygon",
+        "point_count": 219,
+        "bbox": [
+          -113.53599361352212,
+          53.534068930176055,
+          -113.50930361048984,
+          53.549896930838656
+        ]
+      },
+      "current": {
+        "type": "MultiPolygon",
+        "point_count": 221,
+        "bbox": [
+          -113.53599361352212,
+          53.534068930176055,
+          -113.50930361048984,
+          53.549896930838656
+        ]
+      },
+      "coordinate_arrays_equal": false,
+      "interpretation": "Bounding boxes and coordinate equality do not establish geographic equivalence or approve a mapping."
+    },
+    {
+      "historical_id": "5462",
+      "current_candidate_id": "5471",
+      "historical": {
+        "type": "MultiPolygon",
+        "point_count": 2142,
+        "bbox": [
+          -113.60847677649481,
+          53.39573387977395,
+          -113.55312969984733,
+          53.41042820650501
+        ]
+      },
+      "current": {
+        "type": "MultiPolygon",
+        "point_count": 2133,
+        "bbox": [
+          -113.60847677649481,
+          53.39573387977395,
+          -113.55312969984733,
+          53.41042820650501
+        ]
+      },
+      "coordinate_arrays_equal": false,
+      "interpretation": "Bounding boxes and coordinate equality do not establish geographic equivalence or approve a mapping."
+    },
+    {
+      "historical_id": "5464",
+      "current_candidate_id": "5472",
+      "historical": {
+        "type": "MultiPolygon",
+        "point_count": 96,
+        "bbox": [
+          -113.55313149515501,
+          53.401093123744246,
+          -113.53126113817238,
+          53.41152244351228
+        ]
+      },
+      "current": {
+        "type": "MultiPolygon",
+        "point_count": 126,
+        "bbox": [
+          -113.55465354789565,
+          53.401093123744246,
+          -113.53126113817238,
+          53.41152244351228
+        ]
+      },
+      "coordinate_arrays_equal": false,
+      "interpretation": "Bounding boxes and coordinate equality do not establish geographic equivalence or approve a mapping."
+    },
+    {
+      "historical_id": "5575",
+      "current_candidate_id": "5570",
+      "historical": {
+        "type": "MultiPolygon",
+        "point_count": 194,
+        "bbox": [
+          -113.65471926030546,
+          53.39565751200326,
+          -113.61454106421415,
+          53.4104259399299
+        ]
+      },
+      "current": {
+        "type": "MultiPolygon",
+        "point_count": 532,
+        "bbox": [
+          -113.64911693522565,
+          53.4211204011484,
+          -113.60425884605323,
+          53.45629288562369
+        ]
+      },
+      "coordinate_arrays_equal": false,
+      "interpretation": "Bounding boxes and coordinate equality do not establish geographic equivalence or approve a mapping."
+    },
+    {
+      "historical_id": "4485",
+      "current_candidate_id": "4260",
+      "historical": {
+        "type": "MultiPolygon",
+        "point_count": 139,
+        "bbox": [
+          -113.68905502161257,
+          53.52593039586365,
+          -113.66179036184938,
+          53.5411905638281
+        ]
+      },
+      "current": {
+        "type": "MultiPolygon",
+        "point_count": 31,
+        "bbox": [
+          -113.66437907260297,
+          53.52593039586365,
+          -113.66179036184938,
+          53.53393531945635
+        ]
+      },
+      "coordinate_arrays_equal": false,
+      "interpretation": "Bounding boxes and coordinate equality do not establish geographic equivalence or approve a mapping."
+    },
+    {
+      "historical_id": "2691",
+      "current_candidate_id": "2671",
+      "historical": {
+        "type": "MultiPolygon",
+        "point_count": 127,
+        "bbox": [
+          -113.34436098072449,
+          53.61401409906942,
+          -113.3257079481798,
+          53.63096959155392
+        ]
+      },
+      "current": {
+        "type": "MultiPolygon",
+        "point_count": 980,
+        "bbox": [
+          -113.36679392867153,
+          53.63240629682517,
+          -113.2867293451089,
+          53.66876503548025
+        ]
+      },
+      "coordinate_arrays_equal": false,
+      "interpretation": "Bounding boxes and coordinate equality do not establish geographic equivalence or approve a mapping."
+    }
+  ]
+}

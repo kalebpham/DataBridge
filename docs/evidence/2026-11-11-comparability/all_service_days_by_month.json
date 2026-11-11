@@ -1,0 +1,188 @@
+{
+  "retrieved_at_utc": "2026-11-11T21:48:51.731758+00:00",
+  "source_url": "https://data.edmonton.ca/resource/q7ua-agfg.json?%24select=date_trunc_ym%28date_created%29+as+month%2Ccount%28%2A%29+as+rows%2Ccount%28distinct+date_trunc_ymd%28date_created%29%29+as+days_with_records&%24where=date_created+%3E%3D+%272023-01-01T00%3A00%3A00%27+AND+date_created+%3C+%272026-01-01T00%3A00%3A00%27&%24group=month&%24order=month&%24limit=100",
+  "response_sha256": "2cb7398204e9d861ffb5fefac268c8a746f7680f61db2f5bc6ff48db64a8b910",
+  "metadata_projection": false,
+  "data": [
+    {
+      "month": "2023-01-01T00:00:00.000",
+      "rows": "76574",
+      "days_with_records": "31"
+    },
+    {
+      "month": "2023-02-01T00:00:00.000",
+      "rows": "59147",
+      "days_with_records": "28"
+    },
+    {
+      "month": "2023-03-01T00:00:00.000",
+      "rows": "70602",
+      "days_with_records": "31"
+    },
+    {
+      "month": "2023-04-01T00:00:00.000",
+      "rows": "68790",
+      "days_with_records": "30"
+    },
+    {
+      "month": "2023-05-01T00:00:00.000",
+      "rows": "92392",
+      "days_with_records": "31"
+    },
+    {
+      "month": "2023-06-01T00:00:00.000",
+      "rows": "103222",
+      "days_with_records": "30"
+    },
+    {
+      "month": "2023-07-01T00:00:00.000",
+      "rows": "85722",
+      "days_with_records": "31"
+    },
+    {
+      "month": "2023-08-01T00:00:00.000",
+      "rows": "87156",
+      "days_with_records": "31"
+    },
+    {
+      "month": "2023-09-01T00:00:00.000",
+      "rows": "76154",
+      "days_with_records": "30"
+    },
+    {
+      "month": "2023-10-01T00:00:00.000",
+      "rows": "70608",
+      "days_with_records": "31"
+    },
+    {
+      "month": "2023-11-01T00:00:00.000",
+      "rows": "63558",
+      "days_with_records": "30"
+    },
+    {
+      "month": "2023-12-01T00:00:00.000",
+      "rows": "56455",
+      "days_with_records": "31"
+    },
+    {
+      "month": "2024-01-01T00:00:00.000",
+      "rows": "65134",
+      "days_with_records": "31"
+    },
+    {
+      "month": "2024-02-01T00:00:00.000",
+      "rows": "58013",
+      "days_with_records": "29"
+    },
+    {
+      "month": "2024-03-01T00:00:00.000",
+      "rows": "64683",
+      "days_with_records": "31"
+    },
+    {
+      "month": "2024-04-01T00:00:00.000",
+      "rows": "73554",
+      "days_with_records": "30"
+    },
+    {
+      "month": "2024-05-01T00:00:00.000",
+      "rows": "85429",
+      "days_with_records": "31"
+    },
+    {
+      "month": "2024-06-01T00:00:00.000",
+      "rows": "98009",
+      "days_with_records": "30"
+    },
+    {
+      "month": "2024-07-01T00:00:00.000",
+      "rows": "90149",
+      "days_with_records": "31"
+    },
+    {
+      "month": "2024-08-01T00:00:00.000",
+      "rows": "85808",
+      "days_with_records": "31"
+    },
+    {
+      "month": "2024-09-01T00:00:00.000",
+      "rows": "74449",
+      "days_with_records": "30"
+    },
+    {
+      "month": "2024-10-01T00:00:00.000",
+      "rows": "73757",
+      "days_with_records": "31"
+    },
+    {
+      "month": "2024-11-01T00:00:00.000",
+      "rows": "65051",
+      "days_with_records": "30"
+    },
+    {
+      "month": "2024-12-01T00:00:00.000",
+      "rows": "61818",
+      "days_with_records": "31"
+    },
+    {
+      "month": "2025-01-01T00:00:00.000",
+      "rows": "72079",
+      "days_with_records": "31"
+    },
+    {
+      "month": "2025-02-01T00:00:00.000",
+      "rows": "64545",
+      "days_with_records": "28"
+    },
+    {
+      "month": "2025-03-01T00:00:00.000",
+      "rows": "69078",
+      "days_with_records": "31"
+    },
+    {
+      "month": "2025-04-01T00:00:00.000",
+      "rows": "71289",
+      "days_with_records": "30"
+    },
+    {
+      "month": "2025-05-01T00:00:00.000",
+      "rows": "87643",
+      "days_with_records": "31"
+    },
+    {
+      "month": "2025-06-01T00:00:00.000",
+      "rows": "97172",
+      "days_with_records": "30"
+    },
+    {
+      "month": "2025-07-01T00:00:00.000",
+      "rows": "88146",
+      "days_with_records": "31"
+    },
+    {
+      "month": "2025-08-01T00:00:00.000",
+      "rows": "80101",
+      "days_with_records": "31"
+    },
+    {
+      "month": "2025-09-01T00:00:00.000",
+      "rows": "75664",
+      "days_with_records": "30"
+    },
+    {
+      "month": "2025-10-01T00:00:00.000",
+      "rows": "73295",
+      "days_with_records": "31"
+    },
+    {
+      "month": "2025-11-01T00:00:00.000",
+      "rows": "57228",
+      "days_with_records": "30"
+    },
+    {
+      "month": "2025-12-01T00:00:00.000",
+      "rows": "64208",
+      "days_with_records": "31"
+    }
+  ]
+}

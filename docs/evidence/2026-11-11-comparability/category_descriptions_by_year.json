@@ -1,0 +1,163 @@
+{
+  "retrieved_at_utc": "2026-11-11T21:48:49.158747+00:00",
+  "source_url": "https://data.edmonton.ca/resource/q7ua-agfg.json?%24select=date_extract_y%28date_created%29+as+year%2Cservice_description%2Ccount%28%2A%29+as+rows&%24where=%28date_created+%3E%3D+%272023-01-01T00%3A00%3A00%27+AND+date_created+%3C+%272026-01-01T00%3A00%3A00%27%29+AND+service_category+%3D+%27Potholes%27&%24group=year%2Cservice_description&%24order=year%2Cservice_description&%24limit=100",
+  "response_sha256": "0abc47a0ea3ed9f26b10470592b62b2b6aa60af000e3a8727ac50c50309a19ae",
+  "metadata_projection": false,
+  "data": [
+    {
+      "year": "2023",
+      "service_description": "ETS Pothole",
+      "rows": "1"
+    },
+    {
+      "year": "2023",
+      "service_description": "Info Asphalt  and  Potholes",
+      "rows": "228"
+    },
+    {
+      "year": "2023",
+      "service_description": "Info Pothole Repair Timeline",
+      "rows": "3"
+    },
+    {
+      "year": "2023",
+      "service_description": "POTHOLE:Alley Pothole",
+      "rows": "1057"
+    },
+    {
+      "year": "2023",
+      "service_description": "Pothole: Arterial Road",
+      "rows": "99"
+    },
+    {
+      "year": "2023",
+      "service_description": "Pothole: Collector Road",
+      "rows": "51"
+    },
+    {
+      "year": "2023",
+      "service_description": "Pothole: Industrial Road",
+      "rows": "17"
+    },
+    {
+      "year": "2023",
+      "service_description": "Pothole: Residential Road",
+      "rows": "157"
+    },
+    {
+      "year": "2023",
+      "service_description": "POTHOLE:Road Pothole",
+      "rows": "4561"
+    },
+    {
+      "year": "2023",
+      "service_description": "Road Pothole",
+      "rows": "1"
+    },
+    {
+      "year": "2023",
+      "service_description": "VLSE-ETS Pothole",
+      "rows": "1"
+    },
+    {
+      "year": "2024",
+      "service_description": "ETS Pothole",
+      "rows": "2"
+    },
+    {
+      "year": "2024",
+      "service_description": "Info Asphalt  and  Potholes",
+      "rows": "161"
+    },
+    {
+      "year": "2024",
+      "service_description": "Info Pothole Repair Timeline",
+      "rows": "2"
+    },
+    {
+      "year": "2024",
+      "service_description": "POTHOLE:Alley Pothole",
+      "rows": "823"
+    },
+    {
+      "year": "2024",
+      "service_description": "Pothole: Arterial Road",
+      "rows": "82"
+    },
+    {
+      "year": "2024",
+      "service_description": "Pothole: Collector Road",
+      "rows": "51"
+    },
+    {
+      "year": "2024",
+      "service_description": "Pothole: Industrial Road",
+      "rows": "16"
+    },
+    {
+      "year": "2024",
+      "service_description": "Pothole: Residential Road",
+      "rows": "110"
+    },
+    {
+      "year": "2024",
+      "service_description": "POTHOLE:Road Pothole",
+      "rows": "4326"
+    },
+    {
+      "year": "2024",
+      "service_description": "Road Pothole",
+      "rows": "20"
+    },
+    {
+      "year": "2025",
+      "service_description": "ETS Pothole",
+      "rows": "2"
+    },
+    {
+      "year": "2025",
+      "service_description": "Info Asphalt  and  Potholes",
+      "rows": "320"
+    },
+    {
+      "year": "2025",
+      "service_description": "Info Pothole Repair Timeline",
+      "rows": "3"
+    },
+    {
+      "year": "2025",
+      "service_description": "POTHOLE:Alley Pothole",
+      "rows": "907"
+    },
+    {
+      "year": "2025",
+      "service_description": "Pothole: Arterial Road",
+      "rows": "1172"
+    },
+    {
+      "year": "2025",
+      "service_description": "Pothole: Collector Road",
+      "rows": "346"
+    },
+    {
+      "year": "2025",
+      "service_description": "Pothole: Industrial Road",
+      "rows": "71"
+    },
+    {
+      "year": "2025",
+      "service_description": "Pothole: Residential Road",
+      "rows": "415"
+    },
+    {
+      "year": "2025",
+      "service_description": "POTHOLE:Road Pothole",
+      "rows": "11310"
+    },
+    {
+      "year": "2025",
+      "service_description": "Road Pothole",
+      "rows": "142"
+    }
+  ]
+}

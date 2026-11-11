@@ -1,10 +1,10 @@
 # Pilot 01: Edmonton neighbourhood road-pothole reporting patterns
 
-**Status:** Working scope draft for [issue #1](https://github.com/kalebpham/DataBridge/issues/1); not an agreed or complete proposal.
+**Status:** Scope and operational definitions approved for [issue #1](https://github.com/kalebpham/DataBridge/issues/1), as reported by Kaleb in conversation on November 11, 2026. Geographic eligibility and coverage remain subject to the data-feasibility and study-design checks. The complete proposal is still in preparation.
 
 **Prepared:** November 11, 2026.
 
-**Task owner:** Kaleb Pham. **Required reviewer:** Estella Li; review has not occurred.
+**Task owner:** Kaleb Pham. **Reviewer:** Estella Li. Team approval received through Kaleb on November 11, 2026.
 
 **Related work:** [Data feasibility](data-feasibility.md), [draft analysis plan](analysis-plan.md), and [shared proposal issue #7](https://github.com/kalebpham/DataBridge/issues/7).
 
@@ -12,13 +12,13 @@
 
 Use published Edmonton 311 records to describe the geographic persistence of road-pothole reporting. The audience is students and readers interested in how public service-request data can be analyzed responsibly. There is no City partnership or operational maintenance use established.
 
-**Proposed primary question:** Among Edmonton neighbourhoods that can be compared on a consistent geographic basis, which have the highest volumes of published road-pothole reports during 2023-2025, and which remain high reporting across years and complete seasons?
+**Approved primary question:** Among Edmonton neighbourhoods that can be compared on a consistent geographic basis, which have the highest volumes of published road-pothole reports during 2023-2025, and which remain high reporting across years and complete seasons?
 
 The outcome is **published request activity**, not the number of unique physical potholes, road condition, or maintenance quality. Multiple requests can concern the same defect; a request can also be unconfirmed. A neighbourhood with few requests is not necessarily in good condition.
 
-## Proposed scope
+## Approved starting scope
 
-| Decision | Starting proposal | Condition before finalizing |
+| Decision | Approved starting choice | Condition before finalizing |
 | --- | --- | --- |
 | Study period | January 1, 2023 through December 31, 2025; API upper bound January 1, 2026 exclusive. | All 36 months appear in the feasibility query. Audit source continuity and changes in classification before interpreting trends. |
 | Unit | One eligible neighbourhood in one calendar month. | Confirm missing/zero rules and geographic comparability in Estella's study design (#4). |
@@ -40,7 +40,7 @@ Require `service_category = 'Potholes'` and one of these exact `service_descript
 - `Pothole: Collector Road`
 - `Pothole: Industrial Road`
 
-These labels were observed in the official feed. Treat them as a proposed grouping, not proof that their definitions have remained constant. Exclude information-only labels, alley reports, gravel/washboard categories, and the ambiguous ETS-specific labels from the main analysis. Record their counts and reasons in the eventual collection log. An alley-inclusive analysis could be a separately labelled sensitivity check. Discovering an unclassified label requires a documented amendment, not silent inclusion.
+These labels were observed in the official feed and form the approved starting grouping; their definitions have not been proven constant over time. Exclude information-only labels, alley reports, gravel/washboard categories, and the ambiguous ETS-specific labels from the main analysis. Record their counts and reasons in the eventual collection log. An alley-inclusive analysis could be a separately labelled sensitivity check. Discovering an unclassified label requires a documented amendment, not silent inclusion.
 
 Do not restrict to closed requests: closure is not confirmation that a pothole was repaired. Keep separate request IDs marked `Duplicate Request Exists` in the main report-volume measure, and assess their exclusion as a sensitivity analysis. This preserves the distinction between duplicate data rows and repeat reports about an incident.
 
@@ -50,7 +50,7 @@ Do not restrict to closed requests: closure is not confirmation that a pothole w
 
 **Most reports:** Rank annual totals within the same eligible cohort and common observed months. The 36-month mean count per observed month is a companion summary; with equal coverage it gives the same overall order as total counts. Unequal observed months must not be hidden by comparing unadjusted totals.
 
-**Reporting hotspot:** A descriptive high-volume group, not a statistically significant spatial cluster. For a period with `N` comparable neighbourhoods, let `k = ceil(0.10 * N)`. Use the kth-largest count as the cutoff, include all positive counts tied at that cutoff, and exclude zero counts. If fewer than `k` neighbourhoods have positive counts, include only the positive ones and flag the period as sparse. If every count is zero, no hotspot is defined and the period does not contribute to persistence. Ties can make the group larger than 10%; report its actual size. These choices are proposals for review.
+**Reporting hotspot:** A descriptive high-volume group, not a statistically significant spatial cluster. For a period with `N` comparable neighbourhoods, let `k = ceil(0.10 * N)`. Use the kth-largest count as the cutoff, include all positive counts tied at that cutoff, and exclude zero counts. If fewer than `k` neighbourhoods have positive counts, include only the positive ones and flag the period as sparse. If every count is zero, no hotspot is defined and the period does not contribute to persistence. Ties can make the group larger than 10%; report its actual size. This starting definition is approved; any later change requires a recorded amendment.
 
 **Consistently high reporting:** Membership in the annual hotspot group in at least **two of the three complete study years**, using one fixed eligible cohort. Also report the exact membership frequency (0/3 through 3/3), so the binary label does not conceal variation. A changed study period requires a new, agreed frequency rule.
 
@@ -82,12 +82,13 @@ Forecasting is outside the core scope. Any forecasting extension needs its own t
 
 ## Decisions and review still needed
 
-- [ ] Kaleb and Estella agree on the period, road-only filter, fixed cohort and proposed hotspot/consistency definitions (#1).
+- [x] Kaleb reported team approval of the question, 2023-2025 monthly starting period, road-only filter, hotspot rule and consistency definition (#1), November 11, 2026.
+- [ ] Finalize the actual geographic cohort and coverage mask using #3 and #4; approval of the scope does not establish historical boundary compatibility.
 - [ ] Review feasibility evidence: coverage, 2025 volume change, duplicate statuses, missing IDs and historical/current geography mismatches (#3).
 - [ ] Estella supplies literature implications (#2), the observational design (#4), and ethics/limitations assessment (#6).
 - [ ] Agree on which analyses are descriptive, exploratory or confirmatory and how dependence will be handled (#5).
 - [ ] Both assemble and review the complete proposal, resources, responsibilities, timeline and short presentation (#7).
 
-**Approval record:** No team approval, reviewer sign-off or Phase 2 authorization is recorded by this draft. No issue should be closed solely because this file exists.
+**Approval record:** Team approval received through Kaleb in conversation on November 11, 2026. It covers the starting research scope and definitions. The literature review, observational design, ethics assessment, analysis-plan review and complete proposal remain separate tasks. Finalize geographic eligibility and coverage using issue #3's findings and the study design before moving to full analysis.
 
 The SCI 201 phases are a starting framework for this pilot. DataBridge's club research process is being developed through the pilot and will be revised from experience; no course affiliation or endorsement is implied.

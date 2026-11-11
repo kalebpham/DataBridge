@@ -1,0 +1,518 @@
+{
+  "retrieved_at_utc": "2026-11-11T21:48:48.752796+00:00",
+  "source_url": "https://data.edmonton.ca/resource/q7ua-agfg.json?%24select=date_trunc_ym%28date_created%29+as+month%2Cinteraction_channel%2Ccount%28%2A%29+as+rows%2Ccount%28neighbourhood_id%29+as+with_neighbourhood_id&%24where=%28service_category+%3D+%27Potholes%27+AND+service_description+IN+%28%27POTHOLE%3ARoad+Pothole%27%2C%27Road+Pothole%27%2C%27Pothole%3A+Arterial+Road%27%2C%27Pothole%3A+Residential+Road%27%2C%27Pothole%3A+Collector+Road%27%2C%27Pothole%3A+Industrial+Road%27%29%29+AND+date_created+%3E%3D+%272023-01-01T00%3A00%3A00%27+AND+date_created+%3C+%272026-01-01T00%3A00%3A00%27&%24group=month%2Cinteraction_channel&%24order=month%2Cinteraction_channel&%24limit=1000",
+  "response_sha256": "52b81790e073c1ca24bb367ce29f8b3e847f7f046673004c45074b81968d6c4a",
+  "metadata_projection": false,
+  "data": [
+    {
+      "month": "2023-01-01T00:00:00.000",
+      "interaction_channel": "Mobile App",
+      "rows": "135",
+      "with_neighbourhood_id": "132"
+    },
+    {
+      "month": "2023-01-01T00:00:00.000",
+      "interaction_channel": "Phone Call",
+      "rows": "38",
+      "with_neighbourhood_id": "37"
+    },
+    {
+      "month": "2023-02-01T00:00:00.000",
+      "interaction_channel": "Mobile App",
+      "rows": "245",
+      "with_neighbourhood_id": "243"
+    },
+    {
+      "month": "2023-02-01T00:00:00.000",
+      "interaction_channel": "Phone Call",
+      "rows": "77",
+      "with_neighbourhood_id": "77"
+    },
+    {
+      "month": "2023-03-01T00:00:00.000",
+      "interaction_channel": "Mobile App",
+      "rows": "351",
+      "with_neighbourhood_id": "349"
+    },
+    {
+      "month": "2023-03-01T00:00:00.000",
+      "interaction_channel": "Phone Call",
+      "rows": "79",
+      "with_neighbourhood_id": "79"
+    },
+    {
+      "month": "2023-04-01T00:00:00.000",
+      "interaction_channel": "Email",
+      "rows": "1",
+      "with_neighbourhood_id": "1"
+    },
+    {
+      "month": "2023-04-01T00:00:00.000",
+      "interaction_channel": "Mobile App",
+      "rows": "638",
+      "with_neighbourhood_id": "615"
+    },
+    {
+      "month": "2023-04-01T00:00:00.000",
+      "interaction_channel": "Phone Call",
+      "rows": "166",
+      "with_neighbourhood_id": "158"
+    },
+    {
+      "month": "2023-05-01T00:00:00.000",
+      "interaction_channel": "Mobile App",
+      "rows": "518",
+      "with_neighbourhood_id": "438"
+    },
+    {
+      "month": "2023-05-01T00:00:00.000",
+      "interaction_channel": "Phone Call",
+      "rows": "115",
+      "with_neighbourhood_id": "93"
+    },
+    {
+      "month": "2023-06-01T00:00:00.000",
+      "interaction_channel": "Email",
+      "rows": "1",
+      "with_neighbourhood_id": "1"
+    },
+    {
+      "month": "2023-06-01T00:00:00.000",
+      "interaction_channel": "Mobile App",
+      "rows": "526",
+      "with_neighbourhood_id": "509"
+    },
+    {
+      "month": "2023-06-01T00:00:00.000",
+      "interaction_channel": "Phone Call",
+      "rows": "175",
+      "with_neighbourhood_id": "171"
+    },
+    {
+      "month": "2023-07-01T00:00:00.000",
+      "interaction_channel": "Mobile App",
+      "rows": "369",
+      "with_neighbourhood_id": "359"
+    },
+    {
+      "month": "2023-07-01T00:00:00.000",
+      "interaction_channel": "Phone Call",
+      "rows": "107",
+      "with_neighbourhood_id": "100"
+    },
+    {
+      "month": "2023-08-01T00:00:00.000",
+      "interaction_channel": "Mobile App",
+      "rows": "359",
+      "with_neighbourhood_id": "350"
+    },
+    {
+      "month": "2023-08-01T00:00:00.000",
+      "interaction_channel": "Phone Call",
+      "rows": "115",
+      "with_neighbourhood_id": "110"
+    },
+    {
+      "month": "2023-09-01T00:00:00.000",
+      "interaction_channel": "Mobile App",
+      "rows": "283",
+      "with_neighbourhood_id": "279"
+    },
+    {
+      "month": "2023-09-01T00:00:00.000",
+      "interaction_channel": "Phone Call",
+      "rows": "68",
+      "with_neighbourhood_id": "64"
+    },
+    {
+      "month": "2023-10-01T00:00:00.000",
+      "interaction_channel": "Mobile App",
+      "rows": "198",
+      "with_neighbourhood_id": "193"
+    },
+    {
+      "month": "2023-10-01T00:00:00.000",
+      "interaction_channel": "Phone Call",
+      "rows": "42",
+      "with_neighbourhood_id": "42"
+    },
+    {
+      "month": "2023-11-01T00:00:00.000",
+      "interaction_channel": "Mobile App",
+      "rows": "138",
+      "with_neighbourhood_id": "136"
+    },
+    {
+      "month": "2023-11-01T00:00:00.000",
+      "interaction_channel": "Phone Call",
+      "rows": "37",
+      "with_neighbourhood_id": "35"
+    },
+    {
+      "month": "2023-12-01T00:00:00.000",
+      "interaction_channel": "Mobile App",
+      "rows": "94",
+      "with_neighbourhood_id": "94"
+    },
+    {
+      "month": "2023-12-01T00:00:00.000",
+      "interaction_channel": "Phone Call",
+      "rows": "11",
+      "with_neighbourhood_id": "11"
+    },
+    {
+      "month": "2024-01-01T00:00:00.000",
+      "interaction_channel": "Mobile App",
+      "rows": "45",
+      "with_neighbourhood_id": "45"
+    },
+    {
+      "month": "2024-01-01T00:00:00.000",
+      "interaction_channel": "Phone Call",
+      "rows": "15",
+      "with_neighbourhood_id": "14"
+    },
+    {
+      "month": "2024-02-01T00:00:00.000",
+      "interaction_channel": "Mobile App",
+      "rows": "97",
+      "with_neighbourhood_id": "97"
+    },
+    {
+      "month": "2024-02-01T00:00:00.000",
+      "interaction_channel": "Phone Call",
+      "rows": "20",
+      "with_neighbourhood_id": "20"
+    },
+    {
+      "month": "2024-03-01T00:00:00.000",
+      "interaction_channel": "Mobile App",
+      "rows": "302",
+      "with_neighbourhood_id": "296"
+    },
+    {
+      "month": "2024-03-01T00:00:00.000",
+      "interaction_channel": "Phone Call",
+      "rows": "115",
+      "with_neighbourhood_id": "106"
+    },
+    {
+      "month": "2024-04-01T00:00:00.000",
+      "interaction_channel": "Mobile App",
+      "rows": "514",
+      "with_neighbourhood_id": "512"
+    },
+    {
+      "month": "2024-04-01T00:00:00.000",
+      "interaction_channel": "Phone Call",
+      "rows": "105",
+      "with_neighbourhood_id": "95"
+    },
+    {
+      "month": "2024-05-01T00:00:00.000",
+      "interaction_channel": "Mobile App",
+      "rows": "749",
+      "with_neighbourhood_id": "736"
+    },
+    {
+      "month": "2024-05-01T00:00:00.000",
+      "interaction_channel": "Phone Call",
+      "rows": "217",
+      "with_neighbourhood_id": "213"
+    },
+    {
+      "month": "2024-06-01T00:00:00.000",
+      "interaction_channel": "Mobile App",
+      "rows": "560",
+      "with_neighbourhood_id": "554"
+    },
+    {
+      "month": "2024-06-01T00:00:00.000",
+      "interaction_channel": "Phone Call",
+      "rows": "156",
+      "with_neighbourhood_id": "144"
+    },
+    {
+      "month": "2024-07-01T00:00:00.000",
+      "interaction_channel": "Email",
+      "rows": "1",
+      "with_neighbourhood_id": "1"
+    },
+    {
+      "month": "2024-07-01T00:00:00.000",
+      "interaction_channel": "Mobile App",
+      "rows": "407",
+      "with_neighbourhood_id": "397"
+    },
+    {
+      "month": "2024-07-01T00:00:00.000",
+      "interaction_channel": "Phone Call",
+      "rows": "105",
+      "with_neighbourhood_id": "100"
+    },
+    {
+      "month": "2024-08-01T00:00:00.000",
+      "interaction_channel": "Mobile App",
+      "rows": "325",
+      "with_neighbourhood_id": "311"
+    },
+    {
+      "month": "2024-08-01T00:00:00.000",
+      "interaction_channel": "Phone Call",
+      "rows": "57",
+      "with_neighbourhood_id": "54"
+    },
+    {
+      "month": "2024-09-01T00:00:00.000",
+      "interaction_channel": "Mobile App",
+      "rows": "266",
+      "with_neighbourhood_id": "261"
+    },
+    {
+      "month": "2024-09-01T00:00:00.000",
+      "interaction_channel": "Phone Call",
+      "rows": "50",
+      "with_neighbourhood_id": "47"
+    },
+    {
+      "month": "2024-10-01T00:00:00.000",
+      "interaction_channel": "Mobile App",
+      "rows": "198",
+      "with_neighbourhood_id": "197"
+    },
+    {
+      "month": "2024-10-01T00:00:00.000",
+      "interaction_channel": "Phone Call",
+      "rows": "57",
+      "with_neighbourhood_id": "53"
+    },
+    {
+      "month": "2024-11-01T00:00:00.000",
+      "interaction_channel": "Mobile App",
+      "rows": "100",
+      "with_neighbourhood_id": "100"
+    },
+    {
+      "month": "2024-11-01T00:00:00.000",
+      "interaction_channel": "Phone Call",
+      "rows": "17",
+      "with_neighbourhood_id": "17"
+    },
+    {
+      "month": "2024-12-01T00:00:00.000",
+      "interaction_channel": "Mobile App",
+      "rows": "95",
+      "with_neighbourhood_id": "95"
+    },
+    {
+      "month": "2024-12-01T00:00:00.000",
+      "interaction_channel": "Phone Call",
+      "rows": "32",
+      "with_neighbourhood_id": "31"
+    },
+    {
+      "month": "2025-01-01T00:00:00.000",
+      "interaction_channel": "Mobile App",
+      "rows": "801",
+      "with_neighbourhood_id": "794"
+    },
+    {
+      "month": "2025-01-01T00:00:00.000",
+      "interaction_channel": "Phone Call",
+      "rows": "372",
+      "with_neighbourhood_id": "362"
+    },
+    {
+      "month": "2025-02-01T00:00:00.000",
+      "interaction_channel": "Email",
+      "rows": "3",
+      "with_neighbourhood_id": "3"
+    },
+    {
+      "month": "2025-02-01T00:00:00.000",
+      "interaction_channel": "Mobile App",
+      "rows": "1099",
+      "with_neighbourhood_id": "1082"
+    },
+    {
+      "month": "2025-02-01T00:00:00.000",
+      "interaction_channel": "Phone Call",
+      "rows": "493",
+      "with_neighbourhood_id": "464"
+    },
+    {
+      "month": "2025-03-01T00:00:00.000",
+      "interaction_channel": "Email",
+      "rows": "3",
+      "with_neighbourhood_id": "3"
+    },
+    {
+      "month": "2025-03-01T00:00:00.000",
+      "interaction_channel": "Mobile App",
+      "rows": "2040",
+      "with_neighbourhood_id": "2010"
+    },
+    {
+      "month": "2025-03-01T00:00:00.000",
+      "interaction_channel": "Phone Call",
+      "rows": "750",
+      "with_neighbourhood_id": "734"
+    },
+    {
+      "month": "2025-04-01T00:00:00.000",
+      "interaction_channel": "Email",
+      "rows": "6",
+      "with_neighbourhood_id": "6"
+    },
+    {
+      "month": "2025-04-01T00:00:00.000",
+      "interaction_channel": "Mobile App",
+      "rows": "1983",
+      "with_neighbourhood_id": "1954"
+    },
+    {
+      "month": "2025-04-01T00:00:00.000",
+      "interaction_channel": "Phone Call",
+      "rows": "830",
+      "with_neighbourhood_id": "799"
+    },
+    {
+      "month": "2025-05-01T00:00:00.000",
+      "interaction_channel": "Email",
+      "rows": "4",
+      "with_neighbourhood_id": "4"
+    },
+    {
+      "month": "2025-05-01T00:00:00.000",
+      "interaction_channel": "Mobile App",
+      "rows": "1054",
+      "with_neighbourhood_id": "1039"
+    },
+    {
+      "month": "2025-05-01T00:00:00.000",
+      "interaction_channel": "Phone Call",
+      "rows": "406",
+      "with_neighbourhood_id": "395"
+    },
+    {
+      "month": "2025-06-01T00:00:00.000",
+      "interaction_channel": "Email",
+      "rows": "1",
+      "with_neighbourhood_id": "1"
+    },
+    {
+      "month": "2025-06-01T00:00:00.000",
+      "interaction_channel": "Mobile App",
+      "rows": "810",
+      "with_neighbourhood_id": "798"
+    },
+    {
+      "month": "2025-06-01T00:00:00.000",
+      "interaction_channel": "Phone Call",
+      "rows": "242",
+      "with_neighbourhood_id": "237"
+    },
+    {
+      "month": "2025-07-01T00:00:00.000",
+      "interaction_channel": "Email",
+      "rows": "2",
+      "with_neighbourhood_id": "2"
+    },
+    {
+      "month": "2025-07-01T00:00:00.000",
+      "interaction_channel": "Mobile App",
+      "rows": "677",
+      "with_neighbourhood_id": "671"
+    },
+    {
+      "month": "2025-07-01T00:00:00.000",
+      "interaction_channel": "Phone Call",
+      "rows": "165",
+      "with_neighbourhood_id": "160"
+    },
+    {
+      "month": "2025-08-01T00:00:00.000",
+      "interaction_channel": "Email",
+      "rows": "2",
+      "with_neighbourhood_id": "2"
+    },
+    {
+      "month": "2025-08-01T00:00:00.000",
+      "interaction_channel": "Mobile App",
+      "rows": "540",
+      "with_neighbourhood_id": "531"
+    },
+    {
+      "month": "2025-08-01T00:00:00.000",
+      "interaction_channel": "Phone Call",
+      "rows": "118",
+      "with_neighbourhood_id": "113"
+    },
+    {
+      "month": "2025-09-01T00:00:00.000",
+      "interaction_channel": "Email",
+      "rows": "2",
+      "with_neighbourhood_id": "2"
+    },
+    {
+      "month": "2025-09-01T00:00:00.000",
+      "interaction_channel": "Mobile App",
+      "rows": "389",
+      "with_neighbourhood_id": "383"
+    },
+    {
+      "month": "2025-09-01T00:00:00.000",
+      "interaction_channel": "Phone Call",
+      "rows": "60",
+      "with_neighbourhood_id": "59"
+    },
+    {
+      "month": "2025-10-01T00:00:00.000",
+      "interaction_channel": "Email",
+      "rows": "1",
+      "with_neighbourhood_id": "1"
+    },
+    {
+      "month": "2025-10-01T00:00:00.000",
+      "interaction_channel": "Mobile App",
+      "rows": "293",
+      "with_neighbourhood_id": "285"
+    },
+    {
+      "month": "2025-10-01T00:00:00.000",
+      "interaction_channel": "Phone Call",
+      "rows": "47",
+      "with_neighbourhood_id": "47"
+    },
+    {
+      "month": "2025-11-01T00:00:00.000",
+      "interaction_channel": "Mobile App",
+      "rows": "168",
+      "with_neighbourhood_id": "165"
+    },
+    {
+      "month": "2025-11-01T00:00:00.000",
+      "interaction_channel": "Phone Call",
+      "rows": "25",
+      "with_neighbourhood_id": "25"
+    },
+    {
+      "month": "2025-12-01T00:00:00.000",
+      "interaction_channel": "Email",
+      "rows": "1",
+      "with_neighbourhood_id": "1"
+    },
+    {
+      "month": "2025-12-01T00:00:00.000",
+      "interaction_channel": "Mobile App",
+      "rows": "54",
+      "with_neighbourhood_id": "52"
+    },
+    {
+      "month": "2025-12-01T00:00:00.000",
+      "interaction_channel": "Phone Call",
+      "rows": "15",
+      "with_neighbourhood_id": "15"
+    }
+  ]
+}
