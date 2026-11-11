@@ -108,9 +108,18 @@ Each project is led by a **Project Coordinator**, who manages timelines, assigns
 
 All three research roles contribute to planning before data collection begins.
 
+## Phase 1 planning documents
+
+These drafts are prepared for team review, with unresolved data and design decisions recorded explicitly:
+
+- [Literature review](docs/literature-review.md) — P1-002.
+- [Proposed study design](docs/methodology.md) — P1-004.
+- [Ethics and limitations](docs/ethics-and-limitations.md) — P1-006.
+- [Working research proposal](docs/research-proposal.md) — P1-007; technical sections and joint approval pending.
+
 ## Proposed repository structure
 
-This layout is a plan for the pilot project. The files and folders below have not yet been implemented; this repository currently provides the project README.
+This layout is a plan for the pilot project. The repository currently contains this README and the Phase 1 planning drafts linked below; collection scripts, datasets, and analysis outputs have not yet been implemented.
 
 ```text
 DataBridge/
@@ -122,6 +131,7 @@ DataBridge/
 │   ├── research-proposal.md
 │   ├── literature-review.md
 │   ├── methodology.md
+│   ├── ethics-and-limitations.md
 │   └── data-dictionary.md
 ├── data/
 │   ├── raw/
