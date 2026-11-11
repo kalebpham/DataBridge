@@ -5,7 +5,7 @@
 **Status:** Estella's speaking draft prepared; Kaleb's technical evidence, joint decisions, and rehearsal pending  
 **Prepared:** November 11, 2026, with AI drafting assistance
 
-Use these notes for the Phase 1 proposal discussion. They are not a completed slide deck or a report of findings. The proposed eight-minute split gives each person approximately four minutes, including the shared conclusion. Adjust after a joint rehearsal.
+Use these notes for the Phase 1 proposal discussion. The accompanying [PowerPoint discussion draft](../reports/proposal-presentation.pptx) turns the proposal into 11 editable slides with embedded notes. Both documents remain subject to technical completion and joint review; neither reports findings. The proposed eight-minute split gives each person approximately four minutes, including the shared conclusion. Adjust after a joint rehearsal.
 
 ## Run of presentation
 
@@ -116,7 +116,8 @@ Confirm these jointly rather than treating the proposal estimates as commitments
 - [ ] Estella reads her sections aloud and revises them into her own speaking style.
 - [ ] Kaleb fills the technical sections with linked evidence from P1-001, P1-003, and P1-005.
 - [ ] Both agree on the design and any decisions that remain open.
-- [ ] Both prepare any slides from the finalized content with readable citations.
+- [x] Prepare an editable discussion deck with readable citations and speaker notes.
+- [ ] Both update the deck after technical decisions are finalized and review the content.
 - [ ] Rehearse together, verify an approximately equal speaking split, and record feedback.
 
 No dataset statistics, maps, coefficients, significance results, or model performance values are available to insert at this stage.

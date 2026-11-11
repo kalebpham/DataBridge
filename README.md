@@ -117,6 +117,7 @@ These drafts are prepared for team review, with unresolved data and design decis
 - [Ethics and limitations](docs/ethics-and-limitations.md) — P1-006.
 - [Working research proposal](docs/research-proposal.md) — P1-007; technical sections and joint approval pending.
 - [Proposal presentation brief and speaking notes](docs/proposal-speaking-notes.md) — Estella’s draft and shared preparation checklist.
+- [Proposal presentation (PowerPoint)](reports/proposal-presentation.pptx) — discussion draft with sources and speaker notes.
 
 ## Proposed repository structure
 
@@ -147,6 +148,7 @@ DataBridge/
 │   ├── train_model.py
 │   └── evaluate_model.py
 ├── reports/
+│   ├── proposal-presentation.pptx
 │   ├── final-report.qmd
 │   └── figures/
 ├── tests/

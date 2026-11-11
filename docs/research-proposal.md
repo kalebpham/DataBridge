@@ -68,6 +68,8 @@ These are relative estimates, not committed dates. Both team members must agree 
 
 ## Proposal presentation outline
 
+An [11-slide PowerPoint discussion draft](../reports/proposal-presentation.pptx) is available with source references and embedded speaker notes. Its study window and definitions remain proposed; verified technical evidence and joint review are still required.
+
 The [presentation brief and speaking notes](proposal-speaking-notes.md) provide Estella’s speaking draft, an equal-time run of presentation, and the evidence Kaleb needs to supply. The notes are not a completed slide deck or joint approval.
 
 Split preparation and speaking time equally:
