@@ -32,7 +32,7 @@ We follow SCI 201's four research phases, followed by a project review:
 1. **Plan and prepare:** agree on the question, review sources, and check the study design and ethics.
 2. **Collect data:** obtain and clean the records, documenting missing information.
 3. **Analyze and interpret:** compare weather-based forecasts with the seasonal baseline and explain accuracy and limitations.
-4. **Write and share:** complete the report and choose how to share the findings.
+4. **Write and share:** communicate findings through formats such as a LaTeX report, dashboard, club website post, or research poster.
 5. **Project review:** check research quality, finalize deliverables, and record improvements for future projects.
 
 The first four phases are based on the supplied SCI 201 Fall 2026 syllabus, pp. 1 and 5. Project review is an additional DataBridge step. DataBridge is an independent club project.
