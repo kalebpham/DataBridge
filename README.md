@@ -27,14 +27,39 @@ We will combine [Edmonton's 311 data](https://data.edmonton.ca/d/q7ua-agfg) with
 
 ## Research Process
 
-We follow the four phases described in **SCI 201 — Scientific Process**:
+Our workflow follows SCI 201's scientific process and adds a final project review step.
 
-1. **Plan and prepare:** agree on the question, review sources, and check the study design and ethics.
-2. **Collect data:** obtain and clean the records, documenting missing information.
-3. **Analyze and interpret:** compare weather-based forecasts with the seasonal baseline and explain accuracy and limitations.
-4. **Write and share:** complete the report and choose how to share the findings.
+### 1. Research Planning
 
-This framework is based on the supplied SCI 201 Fall 2026 syllabus, pp. 1 and 5. DataBridge is an independent club project.
+- Identify the research problem, questions, and objectives.
+- Review background information and existing literature.
+- Define the methodology, data sources, and project scope.
+
+### 2. Data Collection & Preparation
+
+- Collect data from relevant sources and APIs.
+- Clean, validate, and combine datasets.
+- Develop reproducible data-processing steps.
+
+### 3. Data Analysis & Modelling
+
+- Conduct exploratory data analysis (EDA).
+- Apply suitable statistical methods.
+- Develop and evaluate predictive models where applicable.
+
+### 4. Research Reporting & Visualization
+
+- Create clear visualizations and optional interactive dashboards.
+- Prepare research reports explaining findings, conclusions, and limitations.
+- Present and publish reviewed research outcomes.
+
+### 5. Project Review & Completion
+
+- Review research quality and validate findings.
+- Finalize and document the agreed deliverables.
+- Evaluate the process and record improvements for future projects.
+
+The first four phases draw on the supplied SCI 201 Fall 2026 syllabus, pp. 1 and 5. The fifth phase is DataBridge's additional project review step. DataBridge is an independent club project.
 
 ## Working Together
 
