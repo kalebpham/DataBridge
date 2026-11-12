@@ -19,16 +19,16 @@ Both streams are planned; our first pilot is an independent research project.
 
 ### Executive Team
 
-| Title | Main responsibility |
-| --- | --- |
-| **Co-Presidents — Estella Li and Kaleb Pham** | Lead the club and oversee project teams. |
-| **VP Finance** | Manage budgets, funding, and expenses. |
-| **VP Marketing** | Manage outreach, promotion, and club communications. |
-| **VP Events** | Organize workshops, events, and member activities. |
+- **Co-Presidents:** Estella Li and Kaleb Pham.
+- **Planned VP positions:** Finance, Marketing, and Events.
 
-Estella and Kaleb are the current team. The VP positions are planned and have not yet been filled.
+### Research Team Roles
 
-Each project will have a **Project Coordinator** to organize tasks and timelines, with members contributing to **data collection, research analysis, and reporting**.
+- **Data Collection Specialist:** collect, clean, validate, and document the data.
+- **Research Analyst:** analyze the data, build models, and interpret results.
+- **Reporting Specialist:** prepare reports, visualizations, and public summaries.
+
+A **Project Coordinator** organizes tasks and timelines. For the pilot, Estella and Kaleb share the research responsibilities.
 
 ## Pilot Project 1: Can We Forecast Edmonton's Worst Pothole Weeks?
 
