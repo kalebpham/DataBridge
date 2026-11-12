@@ -35,13 +35,17 @@ Use the same comparable neighbourhoods and complete periods for the main compari
 
 The first project focuses on counts, rankings, and clear explanations. Statistical modelling and forecasting are not part of this plan.
 
-## 4. Write and present
+## 4. Write and share
 
-The final output should include:
+**Main deliverable:** one short **LaTeX research report**, exported as a PDF. Include the question, data, method, results, limitations, and references. Put useful tables and maps inside it.
 
-- A short report: question, data, method, results, limitations, and references.
-- A table of yearly leaders and repeated appearances, plus a map where feasible.
-- A short presentation and research poster.
+**Optional sharing formats:**
+
+- **Club website post:** a short, plain-language summary.
+- **Research poster:** a visual summary of the same work.
+- **Dashboard:** a simple way to explore the results, if useful.
+
+Choose only the formats we want to use. A separate final presentation is not required.
 
 ## Essential limitations and data use
 
@@ -54,7 +58,7 @@ Use neighbourhood summaries. Avoid publishing personal details or unnecessary re
 | Person | Next action |
 | --- | --- |
 | **Kaleb** | Confirm the usable years, report-type filter, and neighbourhood matching; plan the count table and map. |
-| **Estella** | Review the sources, check this plan and its limitations, and prepare the proposal presentation. |
+| **Estella** | Review the sources, check this plan and its limitations, and help write the report. |
 | **Together** | Review the plan in PR #8, agree on the remaining data decisions, and choose a realistic schedule. |
 
 Do not mark the proposal approved until both people have reviewed it. Follow the four SCI 201 phases above, then hold a short club retrospective after the project.
