@@ -6,7 +6,29 @@ DataBridge is a proposed student-led club at the **University of Alberta** for s
 
 The club is in development and has not yet received official student group recognition.
 
-**Co-Presidents:** Estella Li and Kaleb Pham.
+## Club Structure
+
+### Two Project Streams
+
+| Stream | Focus |
+| --- | --- |
+| **Independent Research** | Students develop research questions, analyze data, and share their findings. |
+| **External Partner Projects** | Teams work with nonprofits, researchers, university departments, and community organizations on practical data problems. |
+
+Both streams are planned; our first pilot is an independent research project.
+
+### Executive Team
+
+| Title | Main responsibility |
+| --- | --- |
+| **Co-Presidents — Estella Li and Kaleb Pham** | Lead the club and oversee project teams. |
+| **VP Finance** | Manage budgets, funding, and expenses. |
+| **VP Marketing** | Manage outreach, promotion, and club communications. |
+| **VP Events** | Organize workshops, events, and member activities. |
+
+Estella and Kaleb are the current team. The VP positions are planned and have not yet been filled.
+
+Each project will have a **Project Coordinator** to organize tasks and timelines, with members contributing to **data collection, research analysis, and reporting**.
 
 ## Pilot Project 1: Can We Forecast Edmonton's Worst Pothole Weeks?
 
