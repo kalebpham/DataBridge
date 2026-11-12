@@ -67,8 +67,8 @@ Any high-volume-week breakdown is exploratory; report its threshold and
 number of weeks. Treat previous-week weather availability as a backtest
 assumption because downloaded observations may include later revisions.
 
-Full details: [P1-004 forecast comparison](https://github.com/kalebpham/DataBridge/blob/8dcfcfad306d182599668ab7529099f1c4c3cf4e/docs/forecast-comparison.md).
-This summary matches its reviewed revision; PR #12 is still awaiting merge.
+Full details: [P1-004 forecast comparison](https://github.com/kalebpham/DataBridge/blob/fded0f64318c214c2f3a55292c4ee2c3d4239d03/docs/forecast-comparison.md).
+This summary matches the accepted P1-004 plan, merged in [PR #12](https://github.com/kalebpham/DataBridge/pull/12).
 
 ## 4. Write and share
 
