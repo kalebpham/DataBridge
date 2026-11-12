@@ -1,7 +1,7 @@
 # P1-003: Short Research Plan
 
 **Owner:** Estella · **Reviewer:** Kaleb  
-**Status:** Draft — forecast comparison details await P1-004.
+**Status:** Ready for Kaleb’s review — updated to match P1-004.
 
 ## 1. Plan and prepare
 
@@ -33,17 +33,41 @@ weather will improve our forecasts.
 
 ## 3. Analyze and interpret
 
-Compare a seasonal baseline with a forecast that also uses previous-week
-weather. Use only information available before the forecast week.
+Compare two forecasts on the same eligible weeks:
 
-Train on earlier weeks and compare both approaches on the same eligible later
-weeks, using mean absolute error (the average size of forecast errors).
-Build the baseline from training data only. Report whether weather improves
-accuracy, even if the answer is no.
+- **Seasonal baseline:** Average training-week report counts for the forecast
+  month's calendar month. Assign each week to the month of its Monday.
+- **Weather model:** Poisson regression with a log link, using the same month
+  categories plus previous-week mean temperature, freeze–thaw-day count, and
+  total precipitation. A freeze–thaw day has minimum air temperature below
+  0°C and maximum above 0°C; this is an air-temperature indicator.
 
-**Pending P1-004:** Kaleb's proposed baseline, model, temperature summaries,
-freeze–thaw definition, and chronological training/test dates. Review these
-together before modelling; this draft does not finalize them.
+| Stage | Full target weeks |
+| --- | --- |
+| Training | January 9–December 31, 2023 |
+| Validation | January 1–December 29, 2024 |
+| Final test | January 6–December 28, 2025 |
+
+Use 2024 to check the methods. Then refit both on eligible 2023–2024 weeks
+and freeze the specification and fitted values before evaluating 2025.
+Only use weather from before each target week. Omit the target week
+December 30, 2024–January 5, 2025 because it crosses the evaluation boundary;
+its weather can still supply the January 6 forecast.
+
+Apply the same missing-data exclusions to both approaches in fitting and
+scoring. Compare unrounded forecasts using **mean absolute error (MAE)**,
+the average size of forecast errors. Report both MAEs, their difference,
+the number of evaluated weeks, and a plot of actual counts and forecasts.
+Lower MAE is better; report the result even if weather does not help.
+
+Check model convergence, dispersion, and residuals during implementation.
+Use validation results for changes before examining the final test results.
+Any high-volume-week breakdown is exploratory; report its threshold and
+number of weeks. Treat previous-week weather availability as a backtest
+assumption because downloaded observations may include later revisions.
+
+Full details: [P1-004 forecast comparison](https://github.com/kalebpham/DataBridge/blob/8dcfcfad306d182599668ab7529099f1c4c3cf4e/docs/forecast-comparison.md).
+This summary matches its reviewed revision; PR #12 is still awaiting merge.
 
 ## 4. Write and share
 
