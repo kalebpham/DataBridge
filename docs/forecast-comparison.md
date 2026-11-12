@@ -38,7 +38,7 @@ After validation, agree the specification and refit both approaches using eligib
 
 Use **mean absolute error (MAE)**, the average of `abs(actual reports - predicted reports)` over exactly the same final-test weeks. If actual reports are 50 and a forecast is 42, its absolute error is 8 reports. Lower MAE indicates better forecast accuracy.
 
-Report both MAEs, the number of evaluated weeks, and `baseline MAE - weather-model MAE`. A positive difference favours the weather model. Report percentage improvement only when baseline MAE is greater than zero. Plot actual counts and both forecasts over the test weeks and show how their absolute errors vary by season and high-volume weeks.
+Report both MAEs, the number of evaluated weeks, and `baseline MAE - weather-model MAE`. A positive difference favours the weather model. Report percentage improvement only when baseline MAE is greater than zero. Plot actual counts and both forecasts over the test weeks and show how their absolute errors vary by season. Label any breakdown for high-volume weeks as exploratory, and report its count threshold and the number of weeks included.
 
 Interpret the result for this held-out year and this baseline. Three years provide limited seasonal history, and reporting volumes can shift. Adding weather may help or may reduce accuracy. Keep the full test-period comparison and its limitations visible in the research report.
 
