@@ -63,10 +63,11 @@ The first four phases are based on the supplied SCI 201 Fall 2026 syllabus, pp. 
 
 Estella and Kaleb share the research work and review each other's contributions. Tasks and priorities are tracked in [GitHub Issues](https://github.com/kalebpham/DataBridge/issues).
 
-**Current work branch:** [`phase-1-planning`](https://github.com/kalebpham/DataBridge/tree/phase-1-planning).
+**Workflow: one issue → one branch → one pull request.**
 
-- Both of us work on this branch for the Phase 1 issues. Commit small changes and get the latest updates before editing; coordinate when changing the same file.
-- When the phase is ready, open one pull request into `main` and review it together.
-- After merging, create the next phase branch from the updated `main`.
+1. Start each issue branch from the latest `main`, using a name such as `p1-001-background-research`.
+2. Commit only that issue's work to its branch.
+3. Open a pull request into `main`, include the issue number, and have the other person review the changes.
+4. Address feedback, merge when ready, and close the completed issue. Start the next task from the updated `main`.
 
-`main` holds the accepted project version. Older drafts are preserved in the [archive tags](https://github.com/kalebpham/DataBridge/tags).
+Use phase labels and milestones to group related issues. `main` holds the accepted project version. Earlier drafts are preserved in the [archive tags](https://github.com/kalebpham/DataBridge/tags).
