@@ -24,6 +24,12 @@ pothole-related 311 reports compared with historical seasonal patterns?
 - The study used repair records as a measure of pothole activity.
   These are different from residents’ 311 reports.
 
+**Limitation — repair data resolution:** For the road-segment prediction
+analysis, repair records covered roughly 10-mile sections. This was too
+coarse to confirm or reject the finer-scale predictions. These findings
+should therefore be treated as preliminary, rather than validated forecasts
+of individual potholes. See [Section 3.4.4 and the Executive Summary](https://rosap.ntl.bts.gov/view/dot/31565/dot_31565_DS1.pdf#page=24).
+
 **What this means for our project:** Temperature and freeze–thaw
 cycles are reasonable variables to test. This study does not prove
 that they will improve Edmonton’s weekly forecasts.
