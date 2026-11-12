@@ -14,6 +14,12 @@ We will compare neighbourhood reporting counts across several years and identify
 
 **Status:** Planning. Initial source checks are complete; the final dataset, neighbourhood matching, and team review are still pending. We have no research findings yet.
 
+## Final Deliverables
+
+**Main deliverable:** one short research report, written in **LaTeX** and exported as a PDF. Tables and maps belong inside the report.
+
+**Optional ways to share the same findings:** a club website post, a research poster, or a simple dashboard. Choose what is useful; we do not need to produce all three.
+
 ## What we will do
 
 1. Confirm usable Edmonton 311 data, aiming to compare **2023–2025**.
@@ -34,12 +40,6 @@ The date range and top-10 comparison are proposed choices to confirm before anal
 | **4. Write and share** | Write the research report and choose how to share the findings. |
 
 This framework follows the supplied SCI 201 Fall 2026 syllabus, pp. 1 and 5. DataBridge is an independent club project.
-
-## Deliverables
-
-**Main deliverable:** one short research report, written in **LaTeX** and exported as a PDF. Tables and maps belong inside the report.
-
-**Optional ways to share the same findings:** a club website post, a research poster, or a simple dashboard. Choose what is useful; we do not need to produce all three.
 
 ## Who is doing what?
 
