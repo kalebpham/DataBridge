@@ -49,7 +49,8 @@ Compare two forecasts on the same eligible weeks:
 | Final test | January 6–December 28, 2025 |
 
 Use 2024 to check the methods. Then refit both on eligible 2023–2024 weeks
-and freeze the specification and fitted values before evaluating 2025.
+and freeze the specification, coefficients, and baseline monthly averages
+before evaluating 2025.
 Only use weather from before each target week. Omit the target week
 December 30, 2024–January 5, 2025 because it crosses the evaluation boundary;
 its weather can still supply the January 6 forecast.
