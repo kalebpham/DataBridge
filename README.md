@@ -8,20 +8,22 @@ The club is in development and has not yet received official student group recog
 
 **Co-Presidents:** Estella Li and Kaleb Pham.
 
-## Pilot Project 1: Edmonton Pothole Reports
+## Pilot Project 1: Can We Forecast Edmonton's Worst Pothole Weeks?
 
-**Research question:** Which Edmonton neighbourhoods consistently have the most pothole reports?
+**Research question:** Can recent weather conditions improve forecasts of Edmonton's weekly pothole-related 311 reports compared with historical seasonal patterns?
 
-We will use [Edmonton's official 311 data](https://data.edmonton.ca/d/q7ua-agfg) to compare yearly neighbourhood counts and identify areas that repeatedly appear among the highest-reporting neighbourhoods.
+**Objective:** Test whether adding temperature, freeze–thaw cycles, and precipitation improves weekly forecast accuracy over a simple seasonal baseline.
 
-**Status:** Planning. Data coverage and neighbourhood matching still need confirmation. No final research findings are available yet.
+We will combine [Edmonton's 311 data](https://data.edmonton.ca/d/q7ua-agfg) with [historical weather observations](https://climate.weather.gc.ca/). Forecasts will use only information available before the week being predicted and will be evaluated on later weeks.
+
+**Status:** Planning. Data coverage and the study period still need confirmation. No research findings are available yet.
 
 ### Final Deliverables
 
-- **Main deliverable:** one short research report, written in **LaTeX** and exported as a **PDF**. Useful tables and maps will go inside the report.
+- **Main deliverable:** one short research report, written in **LaTeX** and exported as a **PDF**. Key figures and forecast comparisons will go inside the report.
 - **Optional ways to share the findings:** a club website post, a research poster, or a simple dashboard. We will choose what is useful; we do not need to produce all three.
 
-**Important limitation:** reports reflect what people submit to 311. They do not count every physical pothole or directly measure road safety.
+**What “worst weeks” means:** weeks with unusually high numbers of pothole reports. Reports reflect what people submit to 311, not every physical pothole.
 
 ## Research Process
 
@@ -29,7 +31,7 @@ We follow the four phases described in **SCI 201 — Scientific Process**:
 
 1. **Plan and prepare:** agree on the question, review sources, and check the study design and ethics.
 2. **Collect data:** obtain and clean the records, documenting missing information.
-3. **Analyze and interpret:** compare neighbourhood counts and explain the results and limitations.
+3. **Analyze and interpret:** compare weather-based forecasts with the seasonal baseline and explain accuracy and limitations.
 4. **Write and share:** complete the report and choose how to share the findings.
 
 This framework is based on the supplied SCI 201 Fall 2026 syllabus, pp. 1 and 5. DataBridge is an independent club project.
