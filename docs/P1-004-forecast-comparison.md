@@ -4,7 +4,7 @@
 
 **Status:** Draft for P1-004 review, November 12, 2026.
 
-We will test whether previous-week weather improves forecasts of citywide weekly pothole-related 311 requests. Follow the accepted [data check](data-check.md) for sources, report categories and missing observations.
+We will test whether previous-week weather improves forecasts of citywide weekly pothole-related 311 requests. Follow the accepted [data check](P1-002-data-check.md) for sources, report categories and missing observations.
 
 ## Two forecasts
 

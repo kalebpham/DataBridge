@@ -11,13 +11,13 @@
 weekly pothole-related 311 reports compared with historical seasonal patterns?
 
 **Objective:** Test whether adding recent temperature, freeze–thaw conditions,
-and precipitation improves forecast accuracy. The [background notes](background-notes.md)
+and precipitation improves forecast accuracy. The [background notes](P1-001-background-notes.md)
 explain why these variables are worth testing; they do not establish that
 weather will improve our forecasts.
 
 ## 2. Collect and prepare data
 
-- **Study period:** 2023–2025, as recommended in the merged [data check](data-check.md).
+- **Study period:** 2023–2025, as recommended in the merged [data check](P1-002-data-check.md).
 - **Sources:** [Edmonton 311 requests](https://data.edmonton.ca/d/q7ua-agfg)
   and [ECCC historical weather](https://climate.weather.gc.ca/), using
   EDMONTON INTL A (station 50149).
