@@ -1,0 +1,44 @@
+{
+  "station_id": 50149,
+  "station_name": "EDMONTON INTL A",
+  "climate_id": "3012216",
+  "sources": [
+    {
+      "year": 2023,
+      "url": "https://climate.weather.gc.ca/climate_data/bulk_data_e.html?format=csv&stationID=50149&Year=2023&Month=1&Day=1&timeframe=2",
+      "downloaded_at_utc": "2026-11-16T04:19:57.385120+00:00",
+      "sha256": "feb3adbd949e72a659da0857a6c404729d30f68690d61d7ae71a4a0bb9689a92",
+      "calendar_rows": 365
+    },
+    {
+      "year": 2024,
+      "url": "https://climate.weather.gc.ca/climate_data/bulk_data_e.html?format=csv&stationID=50149&Year=2024&Month=1&Day=1&timeframe=2",
+      "downloaded_at_utc": "2026-11-16T04:19:57.957584+00:00",
+      "sha256": "ccc76f72da4e60553a38c773d2a3a39c17219d30dfd890565ac7f33e889153fb",
+      "calendar_rows": 366
+    },
+    {
+      "year": 2025,
+      "url": "https://climate.weather.gc.ca/climate_data/bulk_data_e.html?format=csv&stationID=50149&Year=2025&Month=1&Day=1&timeframe=2",
+      "downloaded_at_utc": "2026-11-16T04:19:58.466121+00:00",
+      "sha256": "707f85b08b139b7e567d8da314223d4b34c4328982bfaf8f79d0590ebea85349",
+      "calendar_rows": 365
+    }
+  ],
+  "audit": {
+    "daily_rows": 1096,
+    "expected_daily_rows": 1096,
+    "full_weeks": 156,
+    "complete_weeks": 155,
+    "incomplete_weeks": [
+      "2024-08-12"
+    ],
+    "partial_boundary_dates": [
+      "2023-01-01",
+      "2025-12-29",
+      "2025-12-30",
+      "2025-12-31"
+    ]
+  },
+  "output_sha256": "cc902ae00d69d3d4216e98928584ac8c1de89ae5cccf7bb29b354407b810e15e"
+}
