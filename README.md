@@ -59,6 +59,13 @@ We follow SCI 201's four research phases, followed by a project review:
 
 The first four phases are based on the supplied SCI 201 Fall 2026 syllabus, pp. 1 and 5. Project review is an additional DataBridge step. DataBridge is an independent club project.
 
+## Data Preparation
+
+P2-002's [weather data instructions and source notes](data/README.md) explain how
+to download the 2023–2025 ECCC inputs and rebuild the weekly weather table with
+Python's standard library. Raw downloads stay local; the small weekly summary
+and download provenance are included for review.
+
 ## Working Together
 
 Estella and Kaleb share the research work and review each other's contributions. Tasks and priorities are tracked in [GitHub Issues](https://github.com/kalebpham/DataBridge/issues).
